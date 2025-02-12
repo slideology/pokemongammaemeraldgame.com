@@ -4,7 +4,7 @@
         <div class="flex items-center justify-between h-16 sm:h-20">
             <!-- Logo -->
             <a href="/" class="flex-shrink-0">
-                <span class="text-xl sm:text-2xl font-bold bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-500 bg-clip-text text-transparent">Sprunkr Online</span>
+                <span class="text-xl sm:text-2xl font-bold bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-500 bg-clip-text text-transparent">Bear Clicker</span>
             </a>
 
             <!-- Mobile menu button -->
@@ -27,39 +27,7 @@
                     {{ translations.get('nav', {}).get('home', 'Home') }}
                 </a>
                 
-                <!-- Games Dropdown -->
-                <div class="relative" x-data="{ open: false }">
-                    <button @click="open = !open" @click.away="open = false" class="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white px-3 py-2 text-sm font-medium flex items-center">
-                        {{ translations.get('nav', {}).get('games', 'Games') }}
-                        <svg class="ml-1 h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
-                        </svg>
-                    </button>
-                    <div x-show="open" 
-                         class="absolute left-0 mt-2 w-48 rounded-md shadow-lg bg-white dark:bg-gray-800 ring-1 ring-black ring-opacity-5"
-                         x-transition:enter="transition ease-out duration-100"
-                         x-transition:enter-start="transform opacity-0 scale-95"
-                         x-transition:enter-end="transform opacity-100 scale-100"
-                         x-transition:leave="transition ease-in duration-75"
-                         x-transition:leave-start="transform opacity-100 scale-100"
-                         x-transition:leave-end="transform opacity-0 scale-95">
-                        <div class="py-1">
-                            <a href="/sprunki-retake-but-human" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-300 dark:hover:bg-gray-700">Sprunki Retake But Human</a>
-                            <a href="/sprunki-lily" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-300 dark:hover:bg-gray-700">Sprunki Lily</a>
-                            <a href="/sprunki-agents" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-300 dark:hover:bg-gray-700">Sprunki Agents</a>
-                            <a href="/sprunki-sprunksters" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-300 dark:hover:bg-gray-700">Sprunki Sprunksters</a>
-                            <a href="/sprunki-megalovania" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-300 dark:hover:bg-gray-700">Sprunki Megalovania</a>
-                            <a href="/sprunki-spruted" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-300 dark:hover:bg-gray-700">Sprunki Spruted</a>
-                            <a href="/sprunki-banana" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-300 dark:hover:bg-gray-700">Sprunki Banana</a>
-                            <a href="/sprunki-garnold" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-300 dark:hover:bg-gray-700">Sprunki Garnold</a>
-                            <a href="/sprunki-ketchup" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-300 dark:hover:bg-gray-700">Sprunki Ketchup</a>
-                            <a href="/sprunki-parodybox" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-300 dark:hover:bg-gray-700">Sprunki Parodybox</a>
-                            <a href="/sprunki-pyramixed" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-300 dark:hover:bg-gray-700">Sprunki Pyramixed</a>
-                            <a href="/sprunki-fiddlebops" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-300 dark:hover:bg-gray-700">Sprunki Fiddlebops</a>
-                        
-                        </div>
-                    </div>
-                </div>
+                
             </div>
         </div>
 
@@ -77,29 +45,7 @@
                     {{ translations.get('nav', {}).get('home', 'Home') }}
                 </a>
                 
-                <!-- Mobile Games Menu -->
-                <div x-data="{ open: false }" class="relative">
-                    <button @click="open = !open" class="w-full text-left px-3 py-2 text-base font-medium text-gray-600 hover:text-gray-900 hover:bg-gray-50 dark:text-gray-300 dark:hover:text-white dark:hover:bg-gray-800 rounded-md flex justify-between items-center">
-                        {{ translations.get('nav', {}).get('games', 'Games') }}
-                        <svg class="h-4 w-4" :class="{ 'transform rotate-180': open }" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
-                        </svg>
-                    </button>
-                    <div x-show="open" class="pl-4">
-                        <a href="/sprunki-retake-but-human" class="block px-3 py-2 text-base font-medium text-gray-600 hover:text-gray-900 hover:bg-gray-50 dark:text-gray-300 dark:hover:text-white dark:hover:bg-gray-800 rounded-md">Sprunki Retake But Human</a>
-                        <a href="/sprunki-lily" class="block px-3 py-2 text-base font-medium text-gray-600 hover:text-gray-900 hover:bg-gray-50 dark:text-gray-300 dark:hover:text-white dark:hover:bg-gray-800 rounded-md">Sprunki Lily</a>
-                        <a href="/sprunki-sprunksters" class="block px-3 py-2 text-base font-medium text-gray-600 hover:text-gray-900 hover:bg-gray-50 dark:text-gray-300 dark:hover:text-white dark:hover:bg-gray-800 rounded-md">Sprunki Sprunksters</a>
-                        <a href="/sprunki-agents" class="block px-3 py-2 text-base font-medium text-gray-600 hover:text-gray-900 hover:bg-gray-50 dark:text-gray-300 dark:hover:text-white dark:hover:bg-gray-800 rounded-md">Sprunki Agents</a>
-                        <a href="/sprunki-fiddlebops" class="block px-3 py-2 text-base font-medium text-gray-600 hover:text-gray-900 hover:bg-gray-50 dark:text-gray-300 dark:hover:text-white dark:hover:bg-gray-800 rounded-md">Sprunki FiddleBops</a>
-                        <a href="/sprunki-megalovania" class="block px-3 py-2 text-base font-medium text-gray-600 hover:text-gray-900 hover:bg-gray-50 dark:text-gray-300 dark:hover:text-white dark:hover:bg-gray-800 rounded-md">Sprunki Megalovania</a>
-                        <a href="/sprunki-spruted" class="block px-3 py-2 text-base font-medium text-gray-600 hover:text-gray-900 hover:bg-gray-50 dark:text-gray-300 dark:hover:text-white dark:hover:bg-gray-800 rounded-md">Sprunki Spruted</a>
-                        <a href="/sprunki-banana" class="block px-3 py-2 text-base font-medium text-gray-600 hover:text-gray-900 hover:bg-gray-50 dark:text-gray-300 dark:hover:text-white dark:hover:bg-gray-800 rounded-md">Sprunki Banana</a>
-                        <a href="/sprunki-garnold" class="block px-3 py-2 text-base font-medium text-gray-600 hover:text-gray-900 hover:bg-gray-50 dark:text-gray-300 dark:hover:text-white dark:hover:bg-gray-800 rounded-md">Sprunki Garnold</a>
-                        <a href="/sprunki-ketchup" class="block px-3 py-2 text-base font-medium text-gray-600 hover:text-gray-900 hover:bg-gray-50 dark:text-gray-300 dark:hover:text-white dark:hover:bg-gray-800 rounded-md">Sprunki Ketchup</a>
-                        <a href="/sprunki-parodybox" class="block px-3 py-2 text-base font-medium text-gray-600 hover:text-gray-900 hover:bg-gray-50 dark:text-gray-300 dark:hover:text-white dark:hover:bg-gray-800 rounded-md">Sprunki Parodybox</a>
-                        <a href="/sprunki-pyramixed" class="block px-3 py-2 text-base font-medium text-gray-600 hover:text-gray-900 hover:bg-gray-50 dark:text-gray-300 dark:hover:text-white dark:hover:bg-gray-800 rounded-md">Sprunki Pyramixed</a>
-                    </div>
-                </div>
+                
 
                 <a href="/faq" class="block px-3 py-2 text-base font-medium text-gray-600 hover:text-gray-900 hover:bg-gray-50 dark:text-gray-300 dark:hover:text-white dark:hover:bg-gray-800 rounded-md">
                     {{ translations.get('nav', {}).get('faq', 'FAQ') }}
