@@ -10,7 +10,7 @@ import logging
 load_dotenv()
 
 app = Flask(__name__)
-app.secret_key = os.getenv('SECRET_KEY', 'sprunkr-secret-key-2023')
+app.secret_key = os.getenv('SECRET_KEY', 'bearclicker-secret-key-2024')
 
 # 导入日志配置
 from config.logging_config import setup_logging
@@ -40,18 +40,18 @@ def get_translations():
             "hero": {
                 "title_highlight": "Create Music",
                 "title_regular": "Like Never Before",
-                "description": "Transform your musical ideas into reality with Sprunkr. Mix beats, create melodies, and share your music with the world."
+                "description": "Transform your musical ideas into reality with Bear Clicker. Mix beats, create melodies, and share your music with the world."
             },
             "game": {
-                "title": "Sprunkr",
-                "subtitle": "Sprunki Online Horror Music Game",
+                "title": "Bear Clicker",
+                "subtitle": "The Ultimate Bear Clicker Game",
                 "description": "Unleash haunting melodies with our special glitch music system. Stack sounds, witness their digital distortion transformation. Embrace Horror Aesthetics."
             },
             "trending": {
                 "title": "Trending Games",
-                "sprunki_lily": "Sprunki - Lily",
-                "sprunki_megalovania": "Sprunki - Megalovania",
-                "sprunki_spruted": "Sprunki - Spruted"
+                "bear_lily": "Bear - Lily",
+                "bear_megalovania": "Bear - Megalovania",
+                "bear_spruted": "Bear - Spruted"
             }
         }
 
@@ -440,72 +440,92 @@ def get_faqs_for_page(page_name):
         'sprunkr': {
             'faqs': [
                 {
-                    'question': 'What is Sprunkr?',
-                    'answer': 'Sprunkr is the main platform for all Sprunki mods and games, offering a unique horror-themed music creation experience.'
+                    'question': 'What is Bear Clicker?',
+                    'answer': 'Bear Clicker is the main platform for all Bear Clicker mods and games, offering a unique horror-themed music creation experience.'
                 },
                 {
-                    'question': 'What can I do on Sprunkr?',
-                    'answer': 'On Sprunkr, you can play various Sprunki mods, create music, share your creations, and join a community of music enthusiasts.'
+                    'question': 'What can I do on Bear Clicker?',
+                    'answer': 'On Bear Clicker, you can play various Bear Clicker mods, create music, share your creations, and join a community of music enthusiasts.'
                 },
                 {
-                    "question": "What is Sprunkr But Sprunki Mod?",
-                    "answer": "Sprunkr But Sprunki Mod is a creative twist on the original Sprunkr mod. It replaces existing characters with Sprunki figures, retains Sprunkr's gameplay charm, and introduces Sprunki-inspired designs, bridging two popular worlds with vibrant visuals and dynamic soundscapes."
+                    "question": "What is Bear Clicker But Sprunki Mod?",
+                    "answer": "Bear Clicker But Sprunki Mod is a creative twist on the original Bear Clicker mod. It replaces existing characters with Sprunki figures, retains Bear Clicker's gameplay charm, and introduces Sprunki-inspired designs, bridging two popular worlds with vibrant visuals and dynamic soundscapes."
                 },
                 {
-                    "question": "What are the features of Sprunki But Sprunkr Game?",
-                    "answer": "The features include Sprunki Characters that replace the original Sprunkr ones, each with unique sound loops and animations; Dynamic Soundscapes with rhythmic beats and melodies of a distinct Sprunki flair; Bright Visuals enhanced by Sprunki-themed designs and animations; and Engaging Gameplay that combines Sprunkr's mechanics with Sprunki characters' creativity."
+                    "question": "What are the features of Bear Clicki But Sprunkr Game?",
+                    "answer": "The features include Sprunki Characters that replace the original Bear Clicker ones, each with unique sound loops and animations; Dynamic Soundscapes with rhythmic beats and melodies of a distinct Sprunki flair; Bright Visuals enhanced by Sprunki-themed designs and animations; and Engaging Gameplay that combines Bear Clicker's mechanics with Sprunki characters' creativity."
                 },
                 {
-                    "question": "How do you play Sprunkr But Sprunki Mod?",
-                    "answer": "To play, first select characters from the Sprunki-themed roster, each offering unique sounds and animations. Then drag and drop them on the stage to layer beats, melodies, and effects into cohesive compositions. After that, experiment and refine by mixing loops creatively and exploring new combinations. Finally, save and share your tracks with the Sprunki community."
+                    "question": "How do you play Bear Clicker But Sprunki Mod?",
+                    "answer": "To play, first select characters from the Sprunki-themed roster, each offering unique sounds and animations. Then drag and drop them on the stage to layer beats, melodies, and effects into cohesive compositions. After that, experiment and refine by mixing loops creatively and exploring new combinations. Finally, save and share your tracks with the Bear Clicker community."
                 },
                 {
-                    "question": "Why is Sprunkr But Sprunki Mod appealing?",
+                    "question": "Why is Bear Clicker But Sprunki Mod appealing?",
                     "answer": "It's appealing because it's a delightful crossover that adds a refreshing twist to the original gameplay, allowing players to experience the best of both worlds."
                 }
             ],
-            'conclusion': 'Join Sprunkr today and become part of our growing community of music creators!'
+            'conclusion': 'Join Bear Clicker today and become part of our growing community of music creators!'
         },
         'index': {
             'faqs': [
                 {
-    "question": "What is Sprunki Sprunkr Game?",
-    "answer": "Sprunki Sprunkr Game is a fan-made expansion of the popular Incredibox music-mixing game, introducing Sprunki Sprunkr mods, Sprunki Sprunkr phases, and unique gameplay elements. It offers endless opportunities to craft personal tracks and is a creative journey into rhythm and sound, playable for free."
+    "question": "What makes Bear Clicker special?",
+    "answer": "Bear Clicker is special as it combines casual gameplay with strategic depth. It has a diverse bear collection of over 500 unique bears, strategic progression balancing active tapping and idle honey production, social features like global leaderboards, regular monthly updates, and cross - platform play across mobile and web browsers."
 },
 {
-    "question": "What are the key features of Sprunki Sprunkr Game?",
-    "answer": "The key features include Sprunki Sprunkr Mods which are fan-made modifications with custom characters, beats, and animations; Sprunki Sprunkr Phases like themed expansions for enhanced gameplay; Interactive Gameplay with drag-and-drop controls for creating soundtracks; and Creative Freedom to combine sounds, experiment with visuals, and share creations with the community."
+    "question": "How do you get started with Bear Clicker?",
+    "answer": "To get started, first master the basics: tap to generate honey, unlock auto - production, evolve your bears using the merge system, and complete daily quests. Then, for advanced strategies, optimize your collection by focusing on high honey - producing bears, participate in events for limited - edition bears, join a guild for bonus rewards, and customize your sanctuary."
 },
 {
-    "question": "Who is the creator of the original Sprunki Sprunkr Mod and what's their background?",
-    "answer": "The creator is NyankoBfLol. They are 15 years old from Thailand, have been active on the Scratch platform for over 2 years, enjoy creating fun and imaginative content, and are currently focusing on the Sprunki Sprunkr mod. Their YouTube Channel is https://www.youtube.com/@nyankobflol8390 and they also have other profiles like Cocrea Profile and Scratch Profile."
+    "question": "What are the latest features in Bear Clicker for 2025?",
+    "answer": "The latest features include enhanced graphics for all animations, cloud saves for seamless progress syncing across accounts, weekly challenges for exclusive rewards, and community - driven events in the game universe."
 },
 {
-    "question": "How do you play Incredibox Sprunki Sprunkr Game?",
-    "answer": "To play, start the game by visiting platforms like bearclicker.net or spranki.art and hitting the play button. Then choose your characters from the Sprunki Sprunkr game crew, create your mix by dragging and dropping sound icons onto the characters, unlock special features by combining certain sounds, and finally save and share your mix with friends or the community."
+    "question": "Is Bear Clicker free to play?",
+    "answer": "Yes, Bear Clicker is completely free to download and play. Optional in - app purchases are available but not required to enjoy the full experience."
 },
 {
-    "question": "What are some tips for success in playing Sprunki Sprunkr Incredibox Game?",
-    "answer": "Tips include experimenting with sound combinations, following the beat for a more harmonious track, exploring tutorials on YouTube, and engaging with the community by sharing mixes, joining contests, and collaborating with other players."
+    "question": "How often does Bear Clicker update?",
+    "answer": "Bear Clicker receives monthly updates with new content such as fresh bear varieties, seasonal events, gameplay improvements, and community - requested features."
 },
 {
-    "question": "What are Sprunki Sprunkr Mods and their types?",
-    "answer": "Sprunki Sprunkr Mods are fan-made modifications of the original Incredibox Sprunki Sprunkr game, adding unique twists like new character designs, custom soundtracks, and thematic changes. Popular types include Original-Style Mods, Sprunki Sprunkr Horror, Thematic Mod, Crossover Sprunki Sprunkr Games, Sprunki Sprunkr Funny or Parody Mods, Advanced/Complex Mods, Gender-Based Mods, Reskin Mods, Sprunki Sprunkr Phase-Based Mods, Custom Sound Mods etc."
+    "question": "Can you play Bear Clicker offline?",
+    "answer": "Yes, while some features need an internet connection, the core gameplay mechanics work offline, allowing you to accumulate honey and progress."
 },
 {
-    "question": "What are some of the top trending Sprunki Mods?",
-    "answer": "Some of the top trending Sprunki Mods are Sprunki Retake Mod, Sprunki Mustard Mod, Sprunki  Remastered, Sprunki Swapped Mod, Sprunki Parasite Mod."
+    "question": "What is Bear Clicker?",
+    "answer": "Bear Clicker is a charming idle clicker game. It combines addictive tapping with strategic resource management. Players collect bears by tapping to generate honey, invest in upgrades, use merge mechanics to create rare hybrids, and participate in seasonal events and daily challenges. It has community features, vibrant visuals, and an offline progression system."
 },
 {
-    "question": "What are the FAQs about Sprunki Sprunkr Incredibox?",
-    "answer": "FAQs cover aspects like what Sprunki Sprunkr Mod is (a fan-made adaptation of Incredibox with unique features), how to download Sprunki Sprunkr Incredibox (from official sites or as APK for Android), where to play Sprunki Sprunkr Mod online (on various platforms), what makes Sprunki Sprunkr Mods unique (creative twists etc.), what Sprunki Sprunkr Phases are (themed expansions), and more questions related to aspects like horror-themed mods, main characters, differences from Incredibox, collaboration possibilities, submitting fan games, and creating custom characters."
+    "question": "How do you play Bear Clicker?",
+    "answer": "Start by tapping the central bear to generate honey, unlock power - ups like the “Golden Paw”. Use honey to upgrade bears, such as buying auto - tappers, honey multipliers, and evolution chambers. Merge identical bears to create evolved species. Complete daily quests and seasonal events. Optimize your strategy by prioritizing auto - tappers, saving gems for permanent boosts, and joining guilds."
 },
 {
-    "question": "What's the conclusion about Sprunki Sprunkr Incredibox game?",
-    "answer": "Sprunki Sprunkr Incredibox game offers an immersive and creative musical experience where you can mix beats, experiment with sounds, and share creations with a thriving community. Sprunki Sprunkr and players can enjoy various versions and creations within the Sprunki Sprunkr world."
+    "question": "What are the features of Bear Clicker?",
+    "answer": "There are 500+ bears to collect, a balance of idle and active play, customization options for habitats and bear accessories, social competition through leaderboards and guilds, merge mechanics to create over 50 hybrids, offline progression, and regular monthly updates with new events, bears, and challenges."
+},
+{
+    "question": "How do you merge bears in Bear Clicker?",
+    "answer": "Drag two identical bears into the Evolution Chamber. Merging common bears unlocks rare species, and merging rares creates legendaries."
+},
+{
+    "question": "What's the best way to earn gems in Bear Clicker?",
+    "answer": "The best ways are to complete daily quests, watch ads, or rank high on leaderboards. Gems can be used to buy permanent upgrades and exclusive bears."
+},
+{
+    "question": "Are there ads in Bear Clicker?",
+    "answer": "There are optional rewarded ads that can double rewards or unlock bonus honey. Ads can be disabled via a one - time purchase."
+},
+{
+    "question": "Can you sync progress across devices in Bear Clicker?",
+    "answer": "Yes, you can link your account to Google Play, Apple ID, or Facebook to save and sync progress across devices."
+},
+{
+    "question": "How often are new bears added in Bear Clicker?",
+    "answer": "New bears are added monthly, with seasonal variants during holidays like Halloween and Christmas."
 } 
     ],
-    'conclusion': "Sprunki Sprunkr Incredibox game offers an immersive and creative musical experience where you can mix beats, experiment with sounds, and share creations with a thriving community. Sprunki Sprunkr and players can enjoy various versions and creations within the Sprunki Sprunkr world."
+    'conclusion': "BearClicker, A New Bear Clicker Game Online, Create unique bear compositions, experience fun sound effects, and immerse yourself on bearclicker net"
 },
         'spruted': {
             'faqs': [
@@ -544,9 +564,9 @@ def home():
     translations_data = get_translations()
     faq_data = get_faqs_for_page('index')  # 使用sprunkr的FAQ数据作为主页FAQ
     return render_template('index.html',
-                         page_title='Sprunki Sprunkr',
-                         title='Sprunkr - Interactive Music Experience',
-                         description='Create amazing music with Sprunkr! Mix beats, compose tunes, and share your musical creations.',
+                         page_title='Bear Clicker',
+                         title='Bear Clicker - Interactive Music Experience',
+                         description='Create amazing music with Bear Clicker! Mix beats, compose tunes, and share your musical creations.',
                          translations=translations_data,
                          dynamic_faqs=faq_data['faqs'],
                          conclusion=faq_data['conclusion'])
@@ -556,18 +576,18 @@ def about():
     try:
         trans = get_translations()
         return render_template('about.html', 
-                         title='About Sprunkr',
+                         title='About Bear Clicker',
                          translations=trans)
     except Exception as e:
         app.logger.error(f"Error in about route: {e}")
         return render_template('about.html',
-                         title='About Sprunkr',
+                         title='About Bear Clicker',
                          translations={
                              "nav": {"home": "Home", "faq": "FAQ"},
                              "hero": {
                                  "title_highlight": "Create Music",
                                  "title_regular": "Like Never Before",
-                                 "description": "Transform your musical ideas into reality with Sprunkr. Mix beats, create melodies, and share your music with the world."
+                                 "description": "Transform your musical ideas into reality with Bear Clicker. Mix beats, create melodies, and share your music with the world."
                              }
                          })
 
@@ -576,18 +596,18 @@ def game():
     try:
         trans = get_translations()
         return render_template('game.html',
-                         title='Play Sprunkr',
+                         title='Play Bear Clicker',
                          translations=trans)
     except Exception as e:
         app.logger.error(f"Error in game route: {e}")
         return render_template('game.html',
-                         title='Play Sprunkr',
+                         title='Play Bear Clicker',
                          translations={
                              "nav": {"home": "Home", "faq": "FAQ"},
                              "hero": {
                                  "title_highlight": "Create Music",
                                  "title_regular": "Like Never Before",
-                                 "description": "Transform your musical ideas into reality with Sprunkr. Mix beats, create melodies, and share your music with the world."
+                                 "description": "Transform your musical ideas into reality with Bear Clicker. Mix beats, create melodies, and share your music with the world."
                              }
                          })
 
@@ -596,18 +616,18 @@ def introduction():
     try:
         trans = get_translations()
         return render_template('introduction.html',
-                         title='Game Guide - Sprunkr',
+                         title='Game Guide - Bear Clicker',
                          translations=trans)
     except Exception as e:
         app.logger.error(f"Error in introduction route: {e}")
         return render_template('introduction.html',
-                         title='Game Guide - Sprunkr',
+                         title='Game Guide - Bear Clicker',
                          translations={
                              "nav": {"home": "Home", "faq": "FAQ"},
                              "hero": {
                                  "title_highlight": "Create Music",
                                  "title_regular": "Like Never Before",
-                                 "description": "Transform your musical ideas into reality with Sprunkr. Mix beats, create melodies, and share your music with the world."
+                                 "description": "Transform your musical ideas into reality with Bear Clicker. Mix beats, create melodies, and share your music with the world."
                              }
                          })
 
@@ -618,18 +638,18 @@ def contact():
         if request.method == 'POST':
             return send_message()
         return render_template('contact.html',
-                         title='Contact Sprunkr',
+                         title='Contact Bear Clicker',
                          translations=trans)
     except Exception as e:
         app.logger.error(f"Error in contact route: {e}")
         return render_template('contact.html',
-                         title='Contact Sprunkr',
+                         title='Contact Bear Clicker',
                          translations={
                              "nav": {"home": "Home", "faq": "FAQ"},
                              "hero": {
                                  "title_highlight": "Create Music",
                                  "title_regular": "Like Never Before",
-                                 "description": "Transform your musical ideas into reality with Sprunkr. Mix beats, create melodies, and share your music with the world."
+                                 "description": "Transform your musical ideas into reality with Bear Clicker. Mix beats, create melodies, and share your music with the world."
                              }
                          })
 
@@ -638,18 +658,18 @@ def faq():
     try:
         trans = get_translations()
         return render_template('faq.html',
-                         title='FAQ - Sprunkr',
+                         title='FAQ - Bear Clicker',
                          translations=trans)
     except Exception as e:
         app.logger.error(f"Error in faq route: {e}")
         return render_template('faq.html',
-                         title='FAQ - Sprunkr',
+                         title='FAQ - Bear Clicker',
                          translations={
                              "nav": {"home": "Home", "faq": "FAQ"},
                              "hero": {
                                  "title_highlight": "Create Music",
                                  "title_regular": "Like Never Before",
-                                 "description": "Transform your musical ideas into reality with Sprunkr. Mix beats, create melodies, and share your music with the world."
+                                 "description": "Transform your musical ideas into reality with Bear Clicker. Mix beats, create melodies, and share your music with the world."
                              }
                          })
 
@@ -696,7 +716,7 @@ def sprunki_megalovania():
 def sprunki_sprunkr():
     faq_data = get_faqs_for_page('sprunkr')
     return render_template('sprunki-sprunkr.html',
-                         page_title='Sprunkr',
+                         page_title='Bear Clicker',
                          dynamic_faqs=faq_data['faqs'],
                          conclusion=faq_data['conclusion'],
                          translations=get_translations())
@@ -787,6 +807,13 @@ def sprunki_pyramixed():
                          dynamic_faqs=faq_data['faqs'],
                          conclusion=faq_data['conclusion'],
                          translations=get_translations())
+
+@app.route('/paper')
+def paper():
+    # 读取文档数据
+    with open('static/data/paper.json', 'r', encoding='utf-8') as f:
+        paper_data = json.load(f)
+    return render_template('paper.html', paper=paper_data)
 
 @app.route('/privacy-policy')
 def privacy_policy():

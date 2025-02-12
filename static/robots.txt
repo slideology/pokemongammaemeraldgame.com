@@ -2,20 +2,14 @@ User-agent: *
 Allow: /
 
 # 主要游戏页面
-Allow: /sprunki-lily
-Allow: /sprunki-fiddlebops
-Allow: /sprunki-megalovania
-Allow: /sprunki-sprunkr
-Allow: /sprunki-spruted
-Allow: /sprunki-banana
-Allow: /sprunki-garnold
-Allow: /sprunki-ketchup
-Allow: /sprunki-retake-but-human
-Allow: /sprunki-parodybox
-Allow: /sprunki-pyramixed
-Allow: /sprunki-sprunksters
-Allow: /sprunki-agents
-Allow: /sprunki-banana-porridge
+Allow: /game
+Allow: /about
+Allow: /faq
+Allow: /contact
+Allow: /introduction
+
+# 静态资源
+Allow: /static/
 
 # 禁止访问的目录
 Disallow: /api/

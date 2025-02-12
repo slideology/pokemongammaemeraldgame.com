@@ -1,0 +1,64 @@
+<!-- 游戏文档组件 -->
+<div class="bg-white dark:bg-gray-800 py-12">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <!-- 标题区域 -->
+        <div class="text-center mb-12">
+            <h1 class="text-4xl font-bold text-gray-900 dark:text-white mb-4" id="paper-title">
+                {{ paper.title }}
+            </h1>
+            <p class="text-xl text-gray-600 dark:text-gray-300" id="paper-description">
+                {{ paper.description }}
+            </p>
+        </div>
+
+        <!-- 内容区域 -->
+        <div class="grid gap-8 md:gap-12">
+            {% for section in paper.sections %}
+            <section class="prose dark:prose-invert max-w-none" id="{{ section.id }}">
+                <h2 class="text-2xl font-bold text-gray-900 dark:text-white mb-4">
+                    {{ section.title }}
+                </h2>
+                <div class="text-gray-600 dark:text-gray-300 whitespace-pre-line">
+                    {{ section.content }}
+                </div>
+            </section>
+            {% endfor %}
+        </div>
+
+        <!-- 元数据区域 -->
+        <div class="mt-12 pt-8 border-t border-gray-200 dark:border-gray-700">
+            <div class="flex flex-wrap gap-2">
+                {% for keyword in paper.metadata.keywords %}
+                <span class="px-3 py-1 bg-gray-100 dark:bg-gray-700 text-gray-600 dark:text-gray-300 rounded-full text-sm">
+                    {{ keyword }}
+                </span>
+                {% endfor %}
+            </div>
+            <div class="mt-4 text-sm text-gray-500 dark:text-gray-400">
+                <p>作者: {{ paper.metadata.author }} | 最后更新: {{ paper.metadata.lastUpdated }} | 版本: {{ paper.metadata.version }}</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- 结构化数据 for SEO -->
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "{{ paper.title }}",
+    "description": "{{ paper.description }}",
+    "author": {
+        "@type": "Organization",
+        "name": "{{ paper.metadata.author }}"
+    },
+    "dateModified": "{{ paper.metadata.lastUpdated }}",
+    "version": "{{ paper.metadata.version }}",
+    "keywords": {{ paper.metadata.keywords|tojson }},
+    "publisher": {
+        "@type": "Organization",
+        "name": "Bear Clicker",
+        "url": "https://bearclicker.net"
+    }
+}
+</script>

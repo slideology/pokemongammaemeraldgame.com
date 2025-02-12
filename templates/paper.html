@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block title %}{{ paper.title }} - Bear Clicker{% endblock %}
+
+{% block meta_description %}
+<meta name="description" content="{{ paper.description }}">
+<meta name="keywords" content="{{ paper.metadata.keywords|join(', ') }}">
+<meta name="author" content="{{ paper.metadata.author }}">
+{% endblock %}
+
+{% block og_title %}{{ paper.title }} - Bear Clicker{% endblock %}
+{% block og_description %}{{ paper.description }}{% endblock %}
+
+{% block content %}
+{% include 'components/paper.html' %}
+{% endblock %}

@@ -2,111 +2,50 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
         <loc>https://bearclicker.net/</loc>
-        <lastmod>2025-01-24</lastmod>
+        <lastmod>2025-02-12</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>https://bearclicker.net/faq</loc>
-        <lastmod>2025-01-16</lastmod>
+        <loc>https://bearclicker.net/game</loc>
+        <lastmod>2025-02-12</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://bearclicker.net/about</loc>
+        <lastmod>2025-02-12</lastmod>
         <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://bearclicker.net/faq</loc>
+        <lastmod>2025-02-12</lastmod>
+        <changefreq>weekly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
+        <loc>https://bearclicker.net/contact</loc>
+        <lastmod>2025-02-12</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://bearclicker.net/introduction</loc>
+        <lastmod>2025-02-12</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
         <loc>https://bearclicker.net/privacy-policy</loc>
-        <lastmod>2025-01-16</lastmod>
+        <lastmod>2025-02-12</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
         <loc>https://bearclicker.net/terms-of-service</loc>
-        <lastmod>2025-01-16</lastmod>
+        <lastmod>2025-02-12</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
-    <url>
-        <loc>https://bearclicker.net/sprunki-lily</loc>
-        <lastmod>2025-02-10</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>1.0</priority>
-    </url>
-    <url>
-        <loc>https://bearclicker.net/sprunki-megalovania</loc>
-        <lastmod>2025-01-16</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>1.0</priority>
-    </url>
-    <url>
-        <loc>https://bearclicker.net/sprunki-spruted</loc>
-        <lastmod>2025-01-16</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>1.0</priority>
-    </url>
-    <url>
-        <loc>https://bearclicker.net/sprunki-sprunkr</loc>
-        <lastmod>2025-01-16</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>1.0</priority>
-    </url>
-    <url>
-        <loc>https://bearclicker.net/sprunki-banana</loc>
-        <lastmod>2025-01-16</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>1.0</priority>
-    </url>
-    <url>
-        <loc>https://bearclicker.net/sprunki-ketchup</loc>
-        <lastmod>2025-01-16</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>1.0</priority>
-    </url>
-     <url>
-        <loc>https://bearclicker.net/sprunki-retake-but-human</loc>
-        <lastmod>2025-01-24</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>1.0</priority>
-    </url>
-     <url>
-        <loc>https://bearclicker.net/sprunki-parodybox</loc>
-        <lastmod>2025-01-16</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>1.0</priority>
-    </url>
-    <url>
-        <loc>https://bearclicker.net/sprunki-pyramixed</loc>
-        <lastmod>2025-01-16</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>1.0</priority>
-    </url>
-    <url>
-        <loc>https://bearclicker.net/sprunki-garnold</loc>
-        <lastmod>2025-01-16</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>1.0</priority>
-    </url>
-    <url>
-        <loc>https://bearclicker.net/sprunki-fiddlebops</loc>
-        <lastmod>2025-01-22</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>1.0</priority>
-    </url>
-    <url>
-        <loc>https://bearclicker.net/sprunki-agents</loc>
-        <lastmod>2025-01-24</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>1.0</priority>
-    </url>
-    <url>
-        <loc>https://bearclicker.net/sprunki-sprunksters</loc>
-        <lastmod>2025-01-24</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>1.0</priority>
-    </url>
-    <url>
-        <loc>https://bearclicker.net/sprunki-banana-porridge</loc>
-        <lastmod>2025-02-05</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>1.0</priority>
-    </url>
-
 </urlset>
