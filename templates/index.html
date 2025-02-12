@@ -1,13 +1,13 @@
 {% extends "base.html" %}
 
-{% block title %}Sprunki Retake Sprunkr Oc Mod Play On Sprunkr.Online{% endblock %}
+{% block title %}Sprunki Retake BearClicker Oc Mod Play On BearClicker.Net{% endblock %}
 
 {% block meta_description %}
-<meta name="description" content="Sprunkr, A New Sprunki Horror Mod Online, Create unique horror compositions, experience spine-chilling sound effects, and immerse yourself on sprunkr online">
+<meta name="description" content="BearClicker, A New Bear Clicker Game Online, Create unique bear compositions, experience fun sound effects, and immerse yourself on bearclicker net">
 {% endblock %}
 
-{% block og_title %}Sprunki Retake Sprunkr Oc Mod Play On Sprunkr.Online{% endblock %}
-{% block og_description %}Sprunkr, A New Sprunki Horror Mod Online, Create unique horror compositions, experience spine-chilling sound effects, and immerse yourself on sprunkr online{% endblock %}
+{% block og_title %}Sprunki Retake BearClicker Oc Mod Play On BearClicker.Net{% endblock %}
+{% block og_description %}BearClicker, A New Bear Clicker Game Online, Create unique bear compositions, experience fun sound effects, and immerse yourself on bearclicker net{% endblock %}
 
 {% block content %}
 <div class="relative overflow-hidden">
@@ -16,10 +16,10 @@
         blob_gradient_1="from-red-900 to-red-700",
         blob_gradient_2="from-red-700 to-black",
         title_gradient="from-red-600 via-red-500 to-black",
-        game_url="https://wowtbc.net/sprunkin/sprunkr-retake/index.html",
-        title=translations.get('game', {}).get('title', 'Sprunkr'),
-        subtitle=translations.get('game', {}).get('subtitle', 'Sprunki New Horror Music Mod Game'),
-        description="Sprunkr, A New Sprunki Horror Mod Online, Create unique horror compositions, experience spine-chilling sound effects, and immerse yourself on sprunkr online"
+        game_url="https://www.dormausvalley.com/bluesquirrel/game/bear/bear.html",
+        title=translations.get('game', {}).get('title', 'BearClicker'),
+        subtitle=translations.get('game', {}).get('subtitle', 'Sprunki New Bear Clicker Music Mod Game'),
+        description="BearClicker, A New Bear Clicker Game Online, Create unique bear compositions, experience fun sound effects, and immerse yourself on bearclicker net"
     %}
         {% include 'components/hero.html' %}
     {% endwith %}
@@ -31,11 +31,7 @@
     </div>
     -->
 
-    <!-- Trending Games Section -->
-    {% with current_page='sprunkr' %}
-    {% include 'components/trending_games.html' %}
-    {% endwith %}
-
+    
    <!-- FAQ Section -->
 {% include 'components/faq_section.html' %}
 </div>

@@ -26,7 +26,7 @@
             ],
             "status": 301,
             "headers": { 
-                "Location": "https://sprunkr.online/$1"
+                "Location": "https://bearclicker.net/$1"
             }
         },
         {
@@ -34,12 +34,12 @@
             "has": [
                 {
                     "type": "host",
-                    "value": "www.sprunkr.online"
+                    "value": "www.bearclicker.net"
                 }
             ],
             "status": 301,
             "headers": { 
-                "Location": "https://sprunkr.online/$1"
+                "Location": "https://bearclicker.net/$1"
             }
         },
         {

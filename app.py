@@ -482,7 +482,7 @@ def get_faqs_for_page(page_name):
 },
 {
     "question": "How do you play Incredibox Sprunki Sprunkr Game?",
-    "answer": "To play, start the game by visiting platforms like sprunkr.online or spranki.art and hitting the play button. Then choose your characters from the Sprunki Sprunkr game crew, create your mix by dragging and dropping sound icons onto the characters, unlock special features by combining certain sounds, and finally save and share your mix with friends or the community."
+    "answer": "To play, start the game by visiting platforms like bearclicker.net or spranki.art and hitting the play button. Then choose your characters from the Sprunki Sprunkr game crew, create your mix by dragging and dropping sound icons onto the characters, unlock special features by combining certain sounds, and finally save and share your mix with friends or the community."
 },
 {
     "question": "What are some tips for success in playing Sprunki Sprunkr Incredibox Game?",

@@ -28,4 +28,4 @@ Disallow: /_next/static/
 Crawl-delay: 1
 
 # 站点地图
-Sitemap: https://sprunkr.online/sitemap.xml
+Sitemap: https://bearclicker.net/sitemap.xml
