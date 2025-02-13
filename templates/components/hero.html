@@ -15,7 +15,7 @@
                     <!-- 游戏区域 -->
                     <div class="relative rounded-[32px] overflow-hidden shadow-2xl bg-gradient-to-br from-pink-500 via-purple-500 to-blue-500">
                         <div class="absolute inset-0 backdrop-blur-3xl mix-blend-overlay opacity-30"></div>
-                        <div class="game-container relative w-full aspect-[16/9]" style="min-height: 300px; max-height: 635px;">
+                        <div class="game-container relative w-full aspect-square lg:aspect-square xl:aspect-square" style="min-height: 250px; max-height: 600px;">
                             <!-- 游戏封面图 -->
                             <div class="absolute inset-0 bg-cover bg-center transition-all duration-500" 
                                  style="background-image: url('{{ url_for('static', filename='images/games/' + title|lower|replace(' ', '-') + '-preview.png') }}');">
