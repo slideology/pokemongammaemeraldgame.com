@@ -527,6 +527,43 @@ def get_faqs_for_page(page_name):
     ],
     'conclusion': "BearClicker, A New Bear Clicker Game Online, Create unique bear compositions, experience fun sound effects, and immerse yourself on bearclicker net"
 },
+'stimulation-clicker': {
+            'faqs': [
+                {
+    "question": "What is the Stimulation Clicker game?",
+    "answer": "Stimulation Clicker is a fast-paced clicker game where players click a button to accumulate 'stimulation' points. These points can be used for automating point collection, unlocking upgrades and achievements. It intentionally overloads players with visual and auditory stimuli to mirror the chaotic nature of the modern internet."
+},
+{
+    "question": "Who created the Stimulation Clicker game?",
+    "answer": "The Stimulation Clicker game is created by Neal Agarwal, who is known for creative web games like Infinite Craft, The Password Game, and Spend Bill Gate's Money. His work combines art, programming, and humor, often involving playful concept explorations, data visualization, and interactive storytelling."
+},
+{
+    "question": "What is the core gameplay of Stimulation Clicker?",
+    "answer": "The core gameplay involves clicking the 'Click Me' button to accumulate 'stimulation' points. Players can then spend these points to automate stimulation collection, enhance gameplay speed, and unlock achievements. As the game progresses, features like automatic stimulation generation are unlocked, leading to an increasingly overwhelming experience."
+},
+{
+    "question": "What are the features and overstimulation elements in Stimulation Clicker?",
+    "answer": "The game features a mix of visual and auditory stimuli including bouncing DVD logos, a hydraulic press simulation, subway surfer wormhole, mukbang videos, slime ASMR, lofi beats, true crime podcast parodies, Duolingo notifications, red notification bubbles, and cryptocurrency and stock market trading, which mimic the overstimulation of daily online life."
+},
+{
+    "question": "What happens at the end of the Stimulation Clicker game?",
+    "answer": "After achieving a high level of stimulation clicker, players can purchase the final upgrade 'Go to the Ocean'. This results in a calming video of ocean waves, peaceful background music, and credits, providing a stark contrast to the overstimulation of the gameplay."
+},
+{
+    "question": "What are the player reactions to Stimulation Clicker?",
+    "answer": "Some players find it overwhelming, while others consider it an accurate simulation of the modern internet experience. It has been described as a dark reflection of the internet, a commentary on daily life absurdities, a simulation of ADHD, a 'Black Mirror level hellscape', a modern version of Koyaanisqatsi, and a form of digital art. Many players also find it addictive and compare it to other clicker games, while noting its unique commentary on the attention economy."
+},
+{
+    "question": "How can you 'cheat' in the Stimulation Clicker game?",
+    "answer": "You can 'cheat' in the Stimulation Clicker game by resizing the window to increase the rate of DVD bounces or by using scripts or browser console commands to automate clicking."
+},
+{
+    "question": "What makes the Stimulation Clicker game worthwhile despite its simple design?",
+    "answer": "Despite its simple design, the Stimulation Clicker game provides a deep and engaging experience with a clear end. It serves as a satirical critique of the digital age, blending chaos and calm, which makes players ponder their online habits, thus making it a worthwhile experience."
+} 
+    ],
+    'conclusion': "Stimulation Clicker, crafted by Neal Agarwal, is a fast - paced game where you click to gather stimulation points."
+},
         'spruted': {
             'faqs': [
                 {
@@ -711,6 +748,15 @@ def sprunki_megalovania():
                          dynamic_faqs=faq_data['faqs'],
                          conclusion=faq_data['conclusion'],
                          translations=get_translations())
+
+@app.route('/stimulation-clicker')
+def stimulation_clicker():
+    faq_data = get_faqs_for_page('stimulation-clicker')
+    return render_template('stimulation-clicker.html',
+                         page_title='Stimulation Clicker',
+                         dynamic_faqs=faq_data['faqs'],
+                         conclusion=faq_data['conclusion'],
+                         translations=get_translations())                      
 
 @app.route('/sprunki-sprunkr')
 def sprunki_sprunkr():
@@ -899,4 +945,4 @@ def not_found_error(error):
                          translations=get_translations()), 404
 
 if __name__ == '__main__':
-    app.run(debug=True, port=5001)
+    app.run(debug=True, port=5002)
