@@ -1,0 +1,58 @@
+{% extends "base.html" %}
+
+{% block title %}Capybara Clicker - Play Capybara Clicker On Bear Clicker Game{% endblock %}
+
+{% block meta_description %}
+<meta name="description" content="Capybara Clicker: Simple clicks, instant joy of growing a capybara family! ">
+{% endblock %}
+
+{% block og_title %}Capybara Clicker - Play Capybara Clicker On Bear Clicker Game{% endblock %}
+{% block og_description %}Capybara Clicker: Simple clicks, instant joy of growing a capybara family! {% endblock %}
+
+{% block favicon %}
+<link rel="icon" type="image/png" href="{{ url_for('static', filename='images/favicon/capybara-clicker-favicon.png') }}">
+<link rel="apple-touch-icon" sizes="180x180" href="{{ url_for('static', filename='images/favicon/capybara-clicker-apple-touch-icon.png') }}">
+{% endblock %}
+
+{% block content %}
+<div class="relative overflow-hidden">
+    {% with 
+        gradient_colors="from-red-900 via-red-700 to-black",
+        blob_gradient_1="from-red-900 to-red-700",
+        blob_gradient_2="from-red-700 to-black",
+        title_gradient="from-red-600 via-red-500 to-black",
+        game_url="https://stimulationclicker.com/capybara-clicker.embed",
+        title="Capybara Clicker",
+        description="Capybara Clicker: Simple clicks, instant joy of growing a capybara family! "
+    %}
+        {% include 'components/hero.html' %}
+    {% endwith %}
+
+    {% with videos=[
+        {'video_id': 'IYVD4uNfQc4'},
+        {'video_id': 'HoYN60Cj2BY'},
+        {'video_id': 'ewRR3ZrcLAA'},
+        {'video_id': 'MOU2XjPPW90'}
+    ] %}
+    {% include 'components/trending_videos.html' %}
+    {% endwith %}
+
+    
+
+    <!-- Adsterra Native Banner Ad -->
+    <div class="container mx-auto px-4 py-8">
+        <script async="async" data-cfasync="false" src="//pl25843851.effectiveratecpm.com/0c2452b9123869125fc90f3dbe988f65/invoke.js"></script>
+<div id="container-0c2452b9123869125fc90f3dbe988f65"></div>
+    </div>
+
+    <!-- Trending Games Section -->
+    {% with current_page='capybara-clicker' %}
+    {% include 'components/trending_games.html' %}
+    {% endwith %}
+    
+
+    
+   <!-- FAQ Section -->
+{% include 'components/faq_section.html' %}
+</div>
+{% endblock %}

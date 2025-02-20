@@ -564,6 +564,56 @@ def get_faqs_for_page(page_name):
     ],
     'conclusion': "Stimulation Clicker, crafted by Neal Agarwal, is a fast - paced game where you click to gather stimulation points."
 },
+'chill-girl-clicker': {
+            'faqs': [
+                {
+    "question": "What is Chill Girl Clicker?",
+    "answer": "Chill Girl Clicker is a casual idle game where the player's goal is to collect and upgrade charming chill girls, each with unique animations and styles. By clicking, players earn points, level up characters, and unlock new stages with a serene atmosphere. It's suitable for gamers of all ages and stands out in the idle clicker genre due to its simplicity and charm."
+},
+{
+    "question": "What are the key features of Chill Girl Clicker?",
+    "answer": "The key features include relaxing visuals with beautiful animations, soothing backgrounds, and vibrant characters for a peaceful gaming experience. It has idle mechanics allowing players to earn rewards even when away. There are upgradable characters to boost abilities and increase point generation and unlock special features. Also, it offers daily rewards for logging in to help with faster progress."
+},
+{
+    "question": "How do you play Chill Girl Clicker on PC?",
+    "answer": "On PC, use the left mouse button to click and earn points. Activate special abilities or upgrades using keyboard hotkeys like “1” to “5”. As you progress, unlock automated clickers to earn points hands-free."
+},
+{
+    "question": "What are some tips for success in Chill Girl Clicker?",
+    "answer": "Some tips for success are to focus on upgrading your chill girls to get better rewards, use auto-clickers to maintain progress when idle, and remember to claim daily rewards to boost your progress in the game."
+},
+{
+    "question": "Who is Chill Girl Clicker suitable for?",
+    "answer": "Chill Girl Clicker is suitable for gamers of all ages who are looking for a fun, relaxing, and addictive idle clicker game that offers a stress-free experience."
+}  
+    ],
+    'conclusion': "Dive into Chill Girl Clicker, a laid - back idle game! Collect & upgrade irresistibly charming chill girls, each boasting unique animations and styles."
+},
+'capybara-clicker': {
+            'faqs': [
+                {
+    "question": "What is Capybara Clicker?",
+    "answer": "Capybara Clicker is an engaging and addictive clicker game where players multiply the Capybara population through simple clicks. They can unlock various upgrades and features to boost the population further, creating a cycle of exponential growth."
+},
+{
+    "question": "What is the gameplay overview of Capybara Clicker?",
+    "answer": "The primary goal in Capybara Clicker is to click to increase the Capybara population. As the population grows, players can buy upgrades that improve clicking efficiency or unlock new features like changing the weather and customizing capybaras with different skins. The exponential growth of the population is a key addictive and rewarding aspect of the game."
+},
+{
+    "question": "What is the 'ascend' feature in Capybara Clicker and what does it offer?",
+    "answer": "The 'ascend' feature in Capybara Clicker allows players to start over and try a new strategy. It resets the player's progress but rewards them with a permanent buff that helps in the next playthrough. This feature encourages replayability and strategic thinking."
+},
+{
+    "question": "What customization options are available in Capybara Clicker?",
+    "answer": "In Capybara Clicker, players can unlock new outfits for their capybaras by reaching specific population milestones or weather conditions. This provides a fun, aesthetic layer to the gameplay as players aim to collect all the available skins to make their Capybara herd unique."
+},
+{
+    "question": "What makes Capybara Clicker addictive?",
+    "answer": "Capybara Clicker is addictive due to its exponential growth mechanic, where players see their Capybara population explode as they make strategic upgrades. The 'ascend' feature also adds to the addiction by encouraging replayability and strategic thinking, and the customization options of unlocking capybara skins give players an additional goal to strive for."
+}   
+    ],
+    'conclusion': "Capybara Clicker: Simple clicks, instant joy of growing a capybara family!"
+},
         'spruted': {
             'faqs': [
                 {
@@ -731,24 +781,14 @@ def sprunki_lily():
                          conclusion=faq_data['conclusion'],
                          translations=get_translations())
 
-@app.route('/sprunki-fiddlebops')
-def sprunki_fiddlebops():
-    faq_data = get_faqs_for_page('fiddlebops')
-    return render_template('sprunki-fiddlebops.html',
-                         page_title='Sprunki Fiddlebops',
+@app.route('/capybara-clicker')
+def capybara_clicker():
+    faq_data = get_faqs_for_page('capybara-clicker')
+    return render_template('capybara-clicker.html',
+                         page_title='Capybara Clicker',
                          dynamic_faqs=faq_data['faqs'],
                          conclusion=faq_data['conclusion'],
                          translations=get_translations())
-
-@app.route('/sprunki-megalovania')
-def sprunki_megalovania():
-    faq_data = get_faqs_for_page('megalovania')
-    return render_template('sprunki-megalovania.html',
-                         page_title='Sprunki Megalovania',
-                         dynamic_faqs=faq_data['faqs'],
-                         conclusion=faq_data['conclusion'],
-                         translations=get_translations())
-
 @app.route('/stimulation-clicker')
 def stimulation_clicker():
     faq_data = get_faqs_for_page('stimulation-clicker')
@@ -756,7 +796,16 @@ def stimulation_clicker():
                          page_title='Stimulation Clicker',
                          dynamic_faqs=faq_data['faqs'],
                          conclusion=faq_data['conclusion'],
-                         translations=get_translations())                      
+                         translations=get_translations()) 
+
+@app.route('/chill-girl-clicker')
+def chill_girl_clicker():
+    faq_data = get_faqs_for_page('chill-girl-clicker')
+    return render_template('chill-girl-clicker.html',
+                         page_title='Chill Girl Clicker',
+                         dynamic_faqs=faq_data['faqs'],
+                         conclusion=faq_data['conclusion'],
+                         translations=get_translations())                     
 
 @app.route('/sprunki-sprunkr')
 def sprunki_sprunkr():

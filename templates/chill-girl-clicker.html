@@ -1,0 +1,56 @@
+{% extends "base.html" %}
+
+{% block title %}Chill Girl Clicker - Play Chill Girl Clicker On Bear Clicker Game{% endblock %}
+
+{% block meta_description %}
+<meta name="description" content="Dive into Chill Girl Clicker, a laid - back idle game! Collect & upgrade irresistibly charming chill girls, each boasting unique animations and styles.">
+{% endblock %}
+
+{% block og_title %}Chill Girl Clicker - Play Chill Girl Clicker On Bear Clicker Game{% endblock %}
+{% block og_description %}Dive into Chill Girl Clicker, a laid - back idle game! Collect & upgrade irresistibly charming chill girls, each boasting unique animations and styles.{% endblock %}
+
+{% block favicon %}
+<link rel="icon" type="image/png" href="{{ url_for('static', filename='images/favicon/chill-girl-clicker-favicon.png') }}">
+<link rel="apple-touch-icon" sizes="180x180" href="{{ url_for('static', filename='images/favicon/chill-girl-clicker-apple-touch-icon.png') }}">
+{% endblock %}
+
+{% block content %}
+<div class="relative overflow-hidden">
+    {% with 
+        gradient_colors="from-red-900 via-red-700 to-black",
+        blob_gradient_1="from-red-900 to-red-700",
+        blob_gradient_2="from-red-700 to-black",
+        title_gradient="from-red-600 via-red-500 to-black",
+        game_url="https://stimulationclicker.com/chill-girl-clicker.embed",
+        title="Chill Girl Clicker",
+        description="Dive into Chill Girl Clicker, a laid - back idle game! Collect & upgrade irresistibly charming chill girls, each boasting unique animations and styles."
+    %}
+        {% include 'components/hero.html' %}
+    {% endwith %}
+
+    {% with videos=[
+        {'video_id': 'B4wPEwb-0kU'},
+        {'video_id': 'MQhhS_Fp8jE'}
+    ] %}
+    {% include 'components/trending_videos.html' %}
+    {% endwith %}
+
+    
+
+    <!-- Adsterra Native Banner Ad -->
+    <div class="container mx-auto px-4 py-8">
+        <script async="async" data-cfasync="false" src="//pl25843851.effectiveratecpm.com/0c2452b9123869125fc90f3dbe988f65/invoke.js"></script>
+<div id="container-0c2452b9123869125fc90f3dbe988f65"></div>
+    </div>
+
+    <!-- Trending Games Section -->
+    {% with current_page='chill-girl-clicker' %}
+    {% include 'components/trending_games.html' %}
+    {% endwith %}
+    
+
+    
+   <!-- FAQ Section -->
+{% include 'components/faq_section.html' %}
+</div>
+{% endblock %}
