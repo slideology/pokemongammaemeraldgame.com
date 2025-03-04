@@ -55,33 +55,43 @@ def get_translations():
             }
         }
 
-def get_faqs_for_page(page_name):
-    """Get FAQs for a specific page from the JSON file."""
+def load_faqs():
+    """
+    从JSON文件加载FAQ数据
+    
+    Returns:
+        dict: FAQ数据字典
+    """
     try:
         faqs_path = os.path.join(app.static_folder, 'data', 'faqs.json')
-        print(f"Reading FAQs from: {faqs_path}")
+        
         with open(faqs_path, 'r', encoding='utf-8') as f:
-            faqs_data = json.load(f)
-            print(f"Available pages in faqs.json: {list(faqs_data.keys())}")
-            # 如果找到页面对应的FAQ数据，则返回
-            if page_name in faqs_data:
-                print(f"Found FAQ data for page: {page_name}")
-                return faqs_data[page_name]
-            # 如果没有找到，则返回默认的FAQ数据
-            app.logger.warning(f"No FAQ data found for page: {page_name}, using default")
-            print(f"No FAQ data found for page: {page_name}")
-            return {
-                'faqs': [],
-                'conclusion': "No FAQ data available for this page."
-            }
+            return json.load(f)
     except Exception as e:
-        app.logger.error(f"Error getting FAQs: {e}")
-        print(f"Error getting FAQs: {e}")
-        # 如果出现异常，返回一个空的FAQ数据结构
+        app.logger.error(f"Error loading FAQs: {e}")
+        # 返回空字典作为默认值
+        return {}
+
+def get_faqs_for_page(page_name):
+    """
+    获取特定页面的FAQ数据
+    
+    Args:
+        page_name (str): 页面名称
+        
+    Returns:
+        dict: 包含FAQ问答和结论的字典
+    """
+    faqs_data = load_faqs()
+    
+    # 如果找不到对应页面的FAQ，返回默认值
+    if page_name not in faqs_data:
         return {
             'faqs': [],
-            'conclusion': "Unable to load FAQ data at this time."
+            'conclusion': ''
         }
+    
+    return faqs_data[page_name]
 
 @app.route('/')
 def home():
@@ -248,9 +258,15 @@ def chill_girl_clicker():
                          page_title='Chill Girl Clicker',
                          dynamic_faqs=faq_data['faqs'],
                          conclusion=faq_data['conclusion'],
+                         translations=get_translations()) 
+@app.route('/chill-clicker')
+def chill_clicker():
+    faq_data = get_faqs_for_page('chill-clicker')
+    return render_template('chill-clicker.html',
+                         page_title='Chill Clicker',
+                         dynamic_faqs=faq_data['faqs'],
+                         conclusion=faq_data['conclusion'],
                          translations=get_translations())                     
-
-
 @app.route('/paper')
 def paper():
     # 读取文档数据

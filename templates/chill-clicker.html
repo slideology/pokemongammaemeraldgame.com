@@ -1,17 +1,17 @@
 {% extends "base.html" %}
 
-{% block title %}Chill Girl Clicker - Play Chill Girl Clicker On Bear Clicker Game{% endblock %}
+{% block title %}Chill Clicker - Play Chill Clicker On Bear Clicker Game{% endblock %}
 
 {% block meta_description %}
-<meta name="description" content="Dive into Chill Girl Clicker, a laid - back idle game! Collect & upgrade irresistibly charming chill girls, each boasting unique animations and styles.">
+<meta name="description" content="Chill Clicker: A calming capybara clicker adventure blending cute animal interactions with meditative gameplay for relaxed entertainment.">
 {% endblock %}
 
-{% block og_title %}Chill Girl Clicker - Play Chill Girl Clicker On Bear Clicker Game{% endblock %}
-{% block og_description %}Dive into Chill Girl Clicker, a laid - back idle game! Collect & upgrade irresistibly charming chill girls, each boasting unique animations and styles.{% endblock %}
+{% block og_title %}Chill Clicker - Play Chill Clicker On Bear Clicker Game{% endblock %}
+{% block og_description %}Chill Clicker: A calming capybara clicker adventure blending cute animal interactions with meditative gameplay for relaxed entertainment.{% endblock %}
 
 {% block favicon %}
-<link rel="icon" type="image/png" href="{{ url_for('static', filename='images/favicon/chill-girl-clicker-favicon.png') }}">
-<link rel="apple-touch-icon" sizes="180x180" href="{{ url_for('static', filename='images/favicon/chill-girl-clicker-apple-touch-icon.png') }}">
+<link rel="icon" type="image/png" href="{{ url_for('static', filename='images/favicon/chill-clicker-favicon.png') }}">
+<link rel="apple-touch-icon" sizes="180x180" href="{{ url_for('static', filename='images/favicon/chill-clicker-apple-touch-icon.png') }}">
 {% endblock %}
 
 {% block content %}
@@ -21,21 +21,12 @@
         blob_gradient_1="from-red-900 to-red-700",
         blob_gradient_2="from-red-700 to-black",
         title_gradient="from-red-600 via-red-500 to-black",
-        game_url="https://stimulationclicker.com/chill-girl-clicker.embed",
-        title="Chill Girl Clicker",
-        description="Dive into Chill Girl Clicker, a laid - back idle game! Collect & upgrade irresistibly charming chill girls, each boasting unique animations and styles."
+        game_url="https://stimulationclicker.com/chill-clicker.embed",
+        title="Chill Clicker",
+        description="Chill Clicker: A calming capybara clicker adventure blending cute animal interactions with meditative gameplay for relaxed entertainment."
     %}
         {% include 'components/hero.html' %}
     {% endwith %}
-
-    {% with videos=[
-        {'video_id': 'B4wPEwb-0kU'},
-        {'video_id': 'MQhhS_Fp8jE'}
-    ] %}
-    {% include 'components/trending_videos.html' %}
-    {% endwith %}
-
-    
 
     <!-- Adsterra Native Banner Ad -->
     <div class="container mx-auto px-4 py-8">
@@ -44,7 +35,7 @@
     </div>
 
     <!-- Trending Games Section -->
-    {% with current_page='chill-girl-clicker' %}
+    {% with current_page='chill-clicker' %}
     {% include 'components/trending_games.html' %}
     {% endwith %}
     
