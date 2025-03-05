@@ -177,6 +177,40 @@
     ],
     "conclusion": "Unchill Guy Clicker is a quirky clicker game featuring Chill Guy, a grumpy anti-fun protagonist. Enjoy addictive gameplay with a unique twist on casual entertainment mechanics."
   },
+  "cookie-clicker": {
+    "faqs": [
+      {
+        "question": "What is Cookie Clicker?",
+        "answer": "Cookie Clicker is an addictive clicker game where the player's goal is to become the ultimate Cookie King by building a vast cookie empire made up of delicious cookies."
+    },
+    {
+        "question": "How do you play Cookie Clicker?",
+        "answer": "In Cookie Clicker, the game starts with a single click that generates cookies. Each click earns a small amount of cookies, and as you accumulate them, you can use the cookies to buy upgrades and unlock cookie-producing assets. As you progress, you'll unlock new cookie varieties, buildings, and special abilities that boost your production rate and clicking power, helping you move towards becoming the Cookie King."
+    },
+    {
+        "question": "What are the upgrades in Cookie Clicker?",
+        "answer": "In Cookie Clicker, there is a wide range of upgrades available for purchase. These upgrades include automated cookie factories and mysterious golden cookies that provide special rewards. They help automate cookie production, allowing players to earn cookies even when they're not actively clicking."
+    },
+    {
+        "question": "What are the achievements in Cookie Clicker and what do they do?",
+        "answer": "In Cookie Clicker, as you progress, you unlock achievements. These achievements grant bonuses and enhance your cookie production. Each milestone reached through achievements brings you closer to becoming the ruler of the cookie world."
+    },
+    {
+        "question": "How does the cookie kingdom expand in Cookie Clicker?",
+        "answer": "In Cookie Clicker, the cookie kingdom expands as you unlock new buildings and features. The visual progression of the kingdom, along with the rapid growth of cookie production, gives a sense of accomplishment. Every new upgrade and expansion brings new strategies and challenges."
+    },
+    {
+        "question": "What is the ultimate goal in Cookie Clicker?",
+        "answer": "The ultimate goal in Cookie Clicker is to claim the throne and become the Cookie King. With each level and achievement, you get closer to this coveted title, and as you play more, your empire grows, and it becomes more satisfying to see your cookie empire flourish."
+    },
+    {
+        "question": "Why is Cookie Clicker considered addictive?",
+        "answer": "Cookie Clicker is considered addictive because of its simple yet engaging gameplay. The continuous cycle of clicking to earn cookies, using them for upgrades, and watching the rapid growth of the cookie empire and kingdom provides a satisfying sense of accomplishment. The variety of upgrades and achievements also gives players something to constantly strive for, making it hard to stop playing."
+    }  
+    ],
+    "conclusion": "Cookie Clicker is an addictive browser-based clicker game where players strategically click a giant cookie to generate massive cookie production through incremental upgrades."
+  }
+,
   "chill-clicker": {
     "faqs": [
         {
@@ -205,6 +239,30 @@
         } 
     ],
     "conclusion": "Chill Clicker: A calming capybara clicker adventure blending cute animal interactions with meditative gameplay for relaxed entertainment."
-  }
-
+  },
+  "kiwi-clicker": {
+    "faqs": [
+      {
+        "question": "What is Kiwi Clicker?",
+        "answer": "Kiwi Clicker is an exciting and addictive idle clicker game that enables players to build their own Kiwi bird production empire. It offers a blend of simple mechanics and strategic depth, appealing to both casual gamers and idle game enthusiasts."
+    },
+    {
+        "question": "What is the gameplay overview of Kiwi Clicker?",
+        "answer": "In Kiwi Clicker, the basic gameplay involves tapping or clicking the big kiwi on the screen to produce more kiwis. These kiwis are bagged and sold to earn in-game currency called 'koins'. With growing profits, players can reinvest koins into the business to buy various upgrades that enhance production speed, efficiency, and the growth of the Kiwi empire."
+    },
+    {
+        "question": "What are the unique challenges in Kiwi Clicker?",
+        "answer": "In Kiwi Clicker, although the gameplay starts simply, there's a unique twist. Every time a player levels up, the King and his minions attack the workplace. To protect the business, players must quickly tap the attackers, and they earn bonus points for successfully repelling the assault, adding an action element to the idle gameplay."
+    },
+    {
+        "question": "What is the strategic depth in Kiwi Clicker?",
+        "answer": "In Kiwi Clicker, a rewarding aspect is the strategic planning needed to maximize production. As players progress, they have to decide how to allocate resources and which upgrades to prioritize. The key is to balance expanding production and defending against the King's attacks to ensure the steady growth of the Kiwi empire."
+    },
+    {
+        "question": "Why should one play Kiwi Clicker?",
+        "answer": "One should play Kiwi Clicker if they enjoy idle clicker games that are both relaxing and challenging. Its simple yet engaging mechanics make it easy to start playing, and the presence of upgrades and strategic elements gives players something to strive for continuously."
+    }  
+  ],
+  "conclusion": "Kiwi Clicker lets you grow a whimsical bird paradise through effortless tapping—ideal for casual gamers and idle-clicker enthusiasts seeking relaxing yet rewarding gameplay."
+}
 }

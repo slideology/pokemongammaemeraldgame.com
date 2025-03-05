@@ -267,6 +267,22 @@ def chill_clicker():
                          dynamic_faqs=faq_data['faqs'],
                          conclusion=faq_data['conclusion'],
                          translations=get_translations())                     
+@app.route('/kiwi-clicker')
+def kiwi_clicker():
+    faq_data = get_faqs_for_page('kiwi-clicker')
+    return render_template('kiwi-clicker.html',
+                         page_title='Kiwi Clicker',
+                         dynamic_faqs=faq_data['faqs'],
+                         conclusion=faq_data['conclusion'],
+                         translations=get_translations())                     
+@app.route('/cookie-clicker')
+def cookie_clicker():
+    faq_data = get_faqs_for_page('cookie-clicker')
+    return render_template('cookie-clicker.html',
+                         page_title='Cookie Clicker',
+                         dynamic_faqs=faq_data['faqs'],
+                         conclusion=faq_data['conclusion'],
+                         translations=get_translations())                     
 @app.route('/paper')
 def paper():
     # 读取文档数据
