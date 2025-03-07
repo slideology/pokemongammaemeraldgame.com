@@ -275,6 +275,25 @@ def kiwi_clicker():
                          dynamic_faqs=faq_data['faqs'],
                          conclusion=faq_data['conclusion'],
                          translations=get_translations())                     
+
+@app.route('/muscle-clicker')
+def muscle_clicker():
+    faq_data = get_faqs_for_page('muscle-clicker')
+    return render_template('muscle-clicker.html',
+                         page_title='Muscle Clicker',
+                         dynamic_faqs=faq_data['faqs'],
+                         conclusion=faq_data['conclusion'],
+                         translations=get_translations())
+
+@app.route('/sprunki-clicker')
+def sprunki_clicker():
+    faq_data = get_faqs_for_page('sprunki-clicker')
+    return render_template('sprunki-clicker.html',
+                         page_title='Sprunki Clicker',
+                         dynamic_faqs=faq_data['faqs'],
+                         conclusion=faq_data['conclusion'],
+                         translations=get_translations())
+
 @app.route('/cookie-clicker')
 def cookie_clicker():
     faq_data = get_faqs_for_page('cookie-clicker')

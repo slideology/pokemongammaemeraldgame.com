@@ -209,8 +209,7 @@
     }  
     ],
     "conclusion": "Cookie Clicker is an addictive browser-based clicker game where players strategically click a giant cookie to generate massive cookie production through incremental upgrades."
-  }
-,
+  },
   "chill-clicker": {
     "faqs": [
         {
@@ -239,6 +238,64 @@
         } 
     ],
     "conclusion": "Chill Clicker: A calming capybara clicker adventure blending cute animal interactions with meditative gameplay for relaxed entertainment."
+  },
+  "sprunki-clicker": {
+    "faqs": [
+      {
+        "question": "What is Sprunki Clicker?",
+        "answer": "Sprunki Clicker is an addictive and engaging game that puts a fresh spin on the clicker genre, inspired by the popular Incredibox Sprunki. It allows players to combine rhythm, creativity, and strategy as they click through 20 exciting levels, collecting coins and unlocking new musical features."
+    },
+    {
+        "question": "What are the gameplay mechanics of Sprunki Clicker?",
+        "answer": "The core gameplay of Sprunki Clicker involves clicking on the quirky protagonist, Sprunki, to earn coins. Each click helps with progression and unlocks new opportunities and features. The game is easy to start but has enough depth to keep players engaged as they strive to complete all 20 levels."
+    },
+    {
+        "question": "How can you unlock creativity in Sprunki Clicker?",
+        "answer": "In Sprunki Clicker, you can unlock creativity by collecting coins and investing them in valuable upgrades. One of the initial upgrades is an automatic clicker that helps earn coins faster and level up more efficiently. Strategic use of earnings is crucial for progressing, as it allows you to unlock new sound options and masks for Sprunki."
+    },
+    {
+        "question": "What makes Sprunki Clicker a musical game?",
+        "answer": "Sprunki Clicker is a musical game because as you unlock new sounds, each one adds a unique layer. Players can create original and entertaining melodies while progressing. The ability to combine sounds and experiment with different musical options turns it into a creative experience where players can make their own beats and rhythms."
+    },
+    {
+        "question": "Why does Sprunki Clicker offer replayability?",
+        "answer": "Sprunki Clicker offers replayability because even after unlocking everything, there is endless clicking and multiple ways to customize the character. Players can aim for the highest level, experiment with new sounds, or simply enjoy the rhythm, providing continuous engagement and reasons to come back to the game."
+    },
+    {
+        "question": "What is the role of upgrades in Sprunki Clicker?",
+        "answer": "In Sprunki Clicker, upgrades play a significant role. They are purchased with the coins collected during gameplay. Upgrades like the automatic clicker help earn coins faster and level up more efficiently. Additionally, they allow players to unlock new sound options and masks for Sprunki, which are essential for progressing through the game and enhancing the creative and musical aspects of the gameplay."
+    } 
+    ],
+    "conclusion": "Sprunki Clicker revitalizes the clicker genre with addictive gameplay and creative twists inspired by the viral hit Incredibox Sprunki."
+  },
+  "muscle-clicker": {
+    "faqs": [
+      {
+        "question": "What is Muscle Clicker?",
+        "answer": "Muscle Clicker is an exciting gym simulation game where players start as a small beginner and work to turn their virtual character into a muscular legend through clicking and strategic effort. It's a game focused on bodybuilding, where hard work and dedication lead to achieving bodybuilding glory."
+    },
+    {
+        "question": "How does the gameplay start in Muscle Clicker?",
+        "answer": "In Muscle Clicker, the gameplay starts with a weak character who struggles with light weights and exhausting cardio. The player's mission is to transform this character into a ripped bodybuilder by performing exercises and clicking to build strength. Each click represents the player's effort, and the more clicks, the stronger the character becomes."
+    },
+    {
+        "question": "Why is stamina management important in Muscle Clicker?",
+        "answer": "Stamina management is important in Muscle Clicker because overworking the character can lead to exhaustion. Balancing effort with rest is a key strategy in the game, adding excitement and challenge as players need to think about the best way to progress without exhausting their character."
+    },
+    {
+        "question": "What can you do with the money earned in Muscle Clicker?",
+        "answer": "In Muscle Clicker, when you earn money by training hard, you can invest it in various upgrades. These upgrades include new gym equipment, hiring personal trainers, and unlocking advanced exercises. These tools help accelerate the character's progress and enable reaching new milestones faster."
+    },
+    {
+        "question": "What makes Muscle Clicker a motivating and fun game?",
+        "answer": "Muscle Clicker is motivating and fun because it's not just about clicking. Players feel motivated as they see their virtual bodybuilder grow stronger and more muscular. The game has easy-to-learn mechanics, a fun progression system, and a rewarding sense of achievement, making it a unique experience for both fitness lovers and clicker game enthusiasts, with each click bringing them closer to becoming the ultimate muscle champion."
+    },
+    {
+        "question": "What are the key elements of the gameplay in Muscle Clicker?",
+        "answer": "The key elements of the gameplay in Muscle Clicker are clicking to build strength, managing stamina to avoid exhaustion, earning money through training to invest in upgrades like new gym equipment and trainers, and witnessing the character's transformation from a beginner to a muscle master."
+    } 
+    ],
+    "conclusion": "Muscle Clicker: Transform from scrawny to brawny in this addictive gym simulator. Tap, train, and upgrade your way to bodybuilding glory through strategic workouts."
   },
   "kiwi-clicker": {
     "faqs": [
