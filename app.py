@@ -285,6 +285,15 @@ def muscle_clicker():
                          conclusion=faq_data['conclusion'],
                          translations=get_translations())
 
+@app.route('/money-clicker')
+def money_clicker():
+    faq_data = get_faqs_for_page('money-clicker')
+    return render_template('money-clicker.html',
+                         page_title='Money Clicker',
+                         dynamic_faqs=faq_data['faqs'],
+                         conclusion=faq_data['conclusion'],
+                         translations=get_translations())
+
 @app.route('/sprunki-clicker')
 def sprunki_clicker():
     faq_data = get_faqs_for_page('sprunki-clicker')
