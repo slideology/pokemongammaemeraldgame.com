@@ -267,6 +267,15 @@ def chill_clicker():
                          dynamic_faqs=faq_data['faqs'],
                          conclusion=faq_data['conclusion'],
                          translations=get_translations())                     
+@app.route('/titans-clicker')
+def titans_clicker():
+    faq_data = get_faqs_for_page('titans-clicker')
+    return render_template('titans-clicker.html',
+                         page_title='Titans Clicker',
+                         dynamic_faqs=faq_data['faqs'],
+                         conclusion=faq_data['conclusion'],
+                         translations=get_translations())                      
+
 @app.route('/kiwi-clicker')
 def kiwi_clicker():
     faq_data = get_faqs_for_page('kiwi-clicker')
