@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+
+{% block title %}Cat Clicker - Play Cat Clicker On Bear Clicker Game{% endblock %}
+
+{% block meta_description %}
+<meta name="description" content="Cat Clicker combines adorable felines with addictive idle-clicking mechanics. Tap to collect cats, upgrade their cuteness, and unlock endless incremental rewards in this charming casual game.">
+{% endblock %}
+
+{% block og_title %}Cat Clicker - Play Cat Clicker On Bear Clicker Game{% endblock %}
+{% block og_description %}Cat Clicker combines adorable felines with addictive idle-clicking mechanics. Tap to collect cats, upgrade their cuteness, and unlock endless incremental rewards in this charming casual game.{% endblock %}
+
+{% block favicon %}
+<link rel="icon" type="image/png" href="{{ url_for('static', filename='images/favicon/cat-clicker-favicon.png') }}">
+<link rel="apple-touch-icon" sizes="180x180" href="{{ url_for('static', filename='images/favicon/cat-clicker-apple-touch-icon.png') }}">
+{% endblock %}
+
+{% block content %}
+<div class="relative overflow-hidden">
+    {% with 
+        gradient_colors="from-red-900 via-red-700 to-black",
+        blob_gradient_1="from-red-900 to-red-700",
+        blob_gradient_2="from-red-700 to-black",
+        title_gradient="from-red-600 via-red-500 to-black",
+        game_url="https://stimulationclicker.com/cat-clicker.embed",
+        title="Cat Clicker",
+        description="Cat Clicker combines adorable felines with addictive idle-clicking mechanics. Tap to collect cats, upgrade their cuteness, and unlock endless incremental rewards in this charming casual game."
+    %}
+        {% include 'components/hero.html' %}
+    {% endwith %}
+
+    <!-- Adsterra Native Banner Ad -->
+    <div class="container mx-auto px-4 py-8">
+        <script async="async" data-cfasync="false" src="//pl25843851.effectiveratecpm.com/0c2452b9123869125fc90f3dbe988f65/invoke.js"></script>
+<div id="container-0c2452b9123869125fc90f3dbe988f65"></div>
+    </div>
+
+    <!-- Trending Games Section -->
+    {% with current_page='cat-clicker' %}
+    {% include 'components/trending_games.html' %}
+    {% endwith %}
+    
+
+    
+   <!-- FAQ Section -->
+{% include 'components/faq_section.html' %}
+</div>
+{% endblock %}

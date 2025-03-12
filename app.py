@@ -267,6 +267,25 @@ def chill_clicker():
                          dynamic_faqs=faq_data['faqs'],
                          conclusion=faq_data['conclusion'],
                          translations=get_translations())                     
+
+@app.route('/cat-clicker')
+def cat_clicker():
+    faq_data = get_faqs_for_page('cat-clicker')
+    return render_template('cat-clicker.html',
+                         page_title='Cat Clicker',
+                         dynamic_faqs=faq_data['faqs'],
+                         conclusion=faq_data['conclusion'],
+                         translations=get_translations())
+
+@app.route('/ice-cream-clicker')
+def ice_cream_clicker():
+    faq_data = get_faqs_for_page('ice-cream-clicker')
+    return render_template('ice-cream-clicker.html',
+                         page_title='Ice Cream Clicker',
+                         dynamic_faqs=faq_data['faqs'],
+                         conclusion=faq_data['conclusion'],
+                         translations=get_translations())
+
 @app.route('/titans-clicker')
 def titans_clicker():
     faq_data = get_faqs_for_page('titans-clicker')
