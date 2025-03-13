@@ -286,6 +286,22 @@ def ice_cream_clicker():
                          conclusion=faq_data['conclusion'],
                          translations=get_translations())
 
+@app.route('/panda-clicker')
+def panda_clicker():
+    faq_data = get_faqs_for_page('panda-clicker')
+    return render_template('panda-clicker.html',
+                         page_title='Panda Clicker',
+                         dynamic_faqs=faq_data['faqs'],
+                         conclusion=faq_data['conclusion'],
+                         translations=get_translations())
+@app.route('/tube-clicker')
+def tube_clicker():
+    faq_data = get_faqs_for_page('tube-clicker')
+    return render_template('tube-clicker.html',
+                         page_title='Tube Clicker',
+                         dynamic_faqs=faq_data['faqs'],
+                         conclusion=faq_data['conclusion'],
+                         translations=get_translations())
 @app.route('/titans-clicker')
 def titans_clicker():
     faq_data = get_faqs_for_page('titans-clicker')

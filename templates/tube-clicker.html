@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+
+{% block title %}Tube Clicker - Play Tube Clicker On Bear Clicker Game{% endblock %}
+
+{% block meta_description %}
+<meta name="description" content="Tube Clicker delivers an addictive simulation-strategy hybrid where players master YouTube's algorithm to grow channels through content optimization and strategic decisions.">
+{% endblock %}
+
+{% block og_title %}Tube Clicker - Play Tube Clicker On Bear Clicker Game{% endblock %}
+{% block og_description %}Tube Clicker delivers an addictive simulation-strategy hybrid where players master YouTube's algorithm to grow channels through content optimization and strategic decisions.{% endblock %}
+
+{% block favicon %}
+<link rel="icon" type="image/png" href="{{ url_for('static', filename='images/favicon/tube-clicker-favicon.png') }}">
+<link rel="apple-touch-icon" sizes="180x180" href="{{ url_for('static', filename='images/favicon/tube-clicker-apple-touch-icon.png') }}">
+{% endblock %}
+
+{% block content %}
+<div class="relative overflow-hidden">
+    {% with 
+        gradient_colors="from-red-900 via-red-700 to-black",
+        blob_gradient_1="from-red-900 to-red-700",
+        blob_gradient_2="from-red-700 to-black",
+        title_gradient="from-red-600 via-red-500 to-black",
+        game_url="https://stimulationclicker.com/tube-clicker.embed",
+        title="Tube Clicker",
+        description="Tube Clicker delivers an addictive simulation-strategy hybrid where players master YouTube's algorithm to grow channels through content optimization and strategic decisions."
+    %}
+        {% include 'components/hero.html' %}
+    {% endwith %}
+
+
+    <!-- Trending Games Section -->
+    {% with current_page='tube-clicker' %}
+    {% include 'components/trending_games.html' %}
+    {% endwith %}
+    
+
+    
+   <!-- FAQ Section -->
+{% include 'components/faq_section.html' %}
+</div>
+{% endblock %}
