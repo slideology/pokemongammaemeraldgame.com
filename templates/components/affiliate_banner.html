@@ -1,0 +1,53 @@
+<!-- Affiliate Program Banner Component -->
+<div id="affiliate-banner" class="w-full bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-white py-3 px-4 shadow-md relative">
+    <div class="container mx-auto flex flex-col sm:flex-row items-center justify-between">
+        <!-- Banner Content -->
+        <div class="flex items-center space-x-2 mb-2 sm:mb-0">
+            <i data-lucide="video" class="w-5 h-5"></i>
+            <p class="font-medium">Free to Generate AI Video Online Now</p>
+        </div>
+        
+        <!-- Call to Action Button -->
+        <a href="https://pollo.ai?ref=ytayndd" 
+           class="bg-white text-purple-600 hover:bg-gray-100 transition-colors duration-300 px-4 py-1.5 rounded-full font-medium text-sm shadow-sm"
+           target="_blank" 
+           rel="noopener noreferrer">
+            Try it Free
+        </a>
+        
+        <!-- Close Button -->
+        <button id="close-affiliate-banner" 
+                class="absolute top-1 right-2 text-white hover:text-gray-200 transition-colors duration-300"
+                aria-label="Close banner">
+            <i data-lucide="x" class="w-4 h-4"></i>
+        </button>
+    </div>
+</div>
+
+<!-- Banner JavaScript -->
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        // Check if banner was previously closed
+        const bannerClosed = localStorage.getItem('affiliate_banner_closed');
+        const banner = document.getElementById('affiliate-banner');
+        
+        // Show banner if it wasn't closed before
+        if (bannerClosed !== 'true') {
+            banner.classList.remove('hidden');
+        } else {
+            banner.classList.add('hidden');
+        }
+        
+        // Add close button functionality
+        document.getElementById('close-affiliate-banner').addEventListener('click', function() {
+            banner.classList.add('hidden');
+            // Store the user's preference
+            localStorage.setItem('affiliate_banner_closed', 'true');
+            
+            // Optional: Reset the preference after 7 days
+            setTimeout(() => {
+                localStorage.removeItem('affiliate_banner_closed');
+            }, 7 * 24 * 60 * 60 * 1000);
+        });
+    });
+</script>
