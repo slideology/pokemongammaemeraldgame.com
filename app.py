@@ -304,6 +304,15 @@ def planet_clicker():
                          conclusion=faq_data['conclusion'],
                          translations=get_translations())
 
+@app.route('/astro-robot-clicker')
+def astro_robot_clicker():
+    faq_data = get_faqs_for_page('astro-robot-clicker')
+    return render_template('astro-robot-clicker.html',
+                         page_title='Astro Robot Clicker',
+                         dynamic_faqs=faq_data['faqs'],
+                         conclusion=faq_data['conclusion'],
+                         translations=get_translations())
+
 @app.route('/tube-clicker')
 def tube_clicker():
     faq_data = get_faqs_for_page('tube-clicker')

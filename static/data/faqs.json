@@ -516,6 +516,35 @@
     ],
     "conclusion": "Ice Cream Clicker is a thrilling incremental game where players tap to grow a frozen dessert empire. Enjoy strategic upgrades, vibrant visuals, and satisfying progression mechanics in this sweet-themed adventure."
   },
+  "astro-robot-clicker": {
+    "faqs": [
+      {
+        "question": "What is Astro Robot Clicker?",
+        "answer": "Astro Robot Clicker is a captivating idle clicker game that combines space exploration with robot-building mechanics. It offers an exciting gaming experience for people of all ages, keeping them engaged through robot upgrades, space missions, and cosmic progress, appealing to both idle game fans and those who like clicker mechanics."
+    },
+    {
+        "question": "What is the gameplay overview of Astro Robot Clicker?",
+        "answer": "In Astro Robot Clicker, players control a team of robots for space exploration. The main goal is to click on robots to earn resources, which are used to enhance the robots' abilities and unlock new technologies. Each robot helps in space exploration and collects resources for game advancement. The gameplay is simple and addictive; more clicks mean more resources. As you progress, you unlock new robots with unique abilities and upgrades that boost resource collection. It follows the idle clicker formula where progress can be made even when not actively playing."
+    },
+    {
+        "question": "What are the features of Astro Robot Clicker?",
+        "answer": "The features of Astro Robot Clicker include idle progression, where robots keep working and collecting resources even when the player is away, advancing space exploration. There are robot upgrades that enhance the robots' abilities and unlock new technologies to increase efficiency and maximize resource collection. It offers space exploration, allowing players to explore new planets with additional challenges and rewards for building a powerful robot team. And it has simple, addictive gameplay where clicking leads to success, steady progression, and a sense of reward at each milestone."
+    },
+    {
+        "question": "Why should one play Astro Robot Clicker?",
+        "answer": "One should play Astro Robot Clicker because it stands out in the clicker game genre with its space-themed setting and continuous upgrades. It provides a relaxing yet rewarding idle clicker experience. With simple mechanics, an accessible design, and endless upgrades, it offers hours of fun, making it a great choice for both idle game fans and those interested in space exploration."
+    },
+    {
+        "question": "How do robot upgrades work in Astro Robot Clicker?",
+        "answer": "In Astro Robot Clicker, robot upgrades are achieved by using the resources earned through clicking on the robots. These upgrades enhance the robots' abilities and unlock new technologies. The improved abilities and new technologies increase the efficiency of the robots and maximize the rate of resource collection, which in turn helps players advance further in the game."
+    },
+    {
+        "question": "What role does space exploration play in Astro Robot Clicker?",
+        "answer": "In Astro Robot Clicker, space exploration is a central element. The robots are tasked with exploring the vast expanse of space. Exploring new planets presents additional challenges and rewards. These rewards and the progress in space exploration help players build a more powerful robot team and advance in the game. It is through space exploration that players can unlock new opportunities and keep the gameplay engaging."
+    } 
+    ],
+    "conclusion": "Astro Robot Clicker blends space exploration with automated robot construction in an addictive idle game featuring planetary conquest and interstellar resource management."
+  },
   "kiwi-clicker": {
     "faqs": [
       {
