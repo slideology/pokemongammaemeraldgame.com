@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+
+{% block title %}Planet Clicker - Play Planet Clicker On Bear Clicker Game{% endblock %}
+
+{% block meta_description %}
+<meta name="description" content="Planet Clicker: Master resource management by boosting energy output and colonizing alien worlds in this addictive strategy clicker game.">
+{% endblock %}
+
+{% block og_title %}Planet Clicker - Play Planet Clicker On Bear Clicker Game{% endblock %}
+{% block og_description %}Planet Clicker: Master resource management by boosting energy output and colonizing alien worlds in this addictive strategy clicker game.{% endblock %}
+
+{% block favicon %}
+<link rel="icon" type="image/png" href="{{ url_for('static', filename='images/favicon/planet-clicker-favicon.png') }}">
+<link rel="apple-touch-icon" sizes="180x180" href="{{ url_for('static', filename='images/favicon/planet-clicker-apple-touch-icon.png') }}">
+{% endblock %}
+
+{% block content %}
+<div class="relative overflow-hidden">
+    {% with 
+        gradient_colors="from-red-900 via-red-700 to-black",
+        blob_gradient_1="from-red-900 to-red-700",
+        blob_gradient_2="from-red-700 to-black",
+        title_gradient="from-red-600 via-red-500 to-black",
+        game_url="https://scratch.mit.edu/projects/377874630/embed",
+        title="Planet Clicker",
+        description="Planet Clicker: Master resource management by boosting energy output and colonizing alien worlds in this addictive strategy clicker game."
+    %}
+        {% include 'components/hero.html' %}
+    {% endwith %}
+
+
+    <!-- Trending Games Section -->
+    {% with current_page='planet-clicker' %}
+    {% include 'components/trending_games.html' %}
+    {% endwith %}
+    
+
+    
+   <!-- FAQ Section -->
+{% include 'components/faq_section.html' %}
+</div>
+{% endblock %}
