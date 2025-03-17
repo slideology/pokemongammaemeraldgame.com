@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+
+{% block title %}Duck Duck Clicker - Play Duck Duck Clicker On Bear Clicker Game{% endblock %}
+
+{% block meta_description %}
+<meta name="description" content="Duck Duck Clicker is a charming idle clicker game by developer Hamdy Elzanqali, inviting players to interact with a cute duck through petting and creative customization.">
+{% endblock %}
+
+{% block og_title %}Duck Duck Clicker - Play Duck Duck Clicker On Bear Clicker Game{% endblock %}
+{% block og_description %}Duck Duck Clicker is a charming idle clicker game by developer Hamdy Elzanqali, inviting players to interact with a cute duck through petting and creative customization.{% endblock %}
+
+{% block favicon %}
+<link rel="icon" type="image/png" href="{{ url_for('static', filename='images/favicon/duck-duck-clicker-favicon.png') }}">
+<link rel="apple-touch-icon" sizes="180x180" href="{{ url_for('static', filename='images/favicon/duck-duck-clicker-apple-touch-icon.png') }}">
+{% endblock %}
+
+{% block content %}
+<div class="relative overflow-hidden">
+    {% with 
+        gradient_colors="from-red-900 via-red-700 to-black",
+        blob_gradient_1="from-red-900 to-red-700",
+        blob_gradient_2="from-red-700 to-black",
+        title_gradient="from-red-600 via-red-500 to-black",
+        game_url="https://stimulationclicker.com/duck-duck-clicker.embed",
+        title="Duck Duck Clicker",
+        description="Duck Duck Clicker is a charming idle clicker game by developer Hamdy Elzanqali, inviting players to interact with a cute duck through petting and creative customization."
+    %}
+        {% include 'components/hero.html' %}
+    {% endwith %}
+
+
+    <!-- Trending Games Section -->
+    {% with current_page='duck-duck-clicker' %}
+    {% include 'components/trending_games.html' %}
+    {% endwith %}
+    
+
+    
+   <!-- FAQ Section -->
+{% include 'components/faq_section.html' %}
+</div>
+{% endblock %}

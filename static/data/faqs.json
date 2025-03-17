@@ -516,6 +516,68 @@
     ],
     "conclusion": "Ice Cream Clicker is a thrilling incremental game where players tap to grow a frozen dessert empire. Enjoy strategic upgrades, vibrant visuals, and satisfying progression mechanics in this sweet-themed adventure."
   },
+  "duck-duck-clicker": {
+    "faqs": [
+      {
+        "question": "What is Duck Duck Clicker?",
+        "answer": "Duck Duck Clicker is an entertaining idle clicker game developed by Hamdy Elzanqali. In this game, players pet a cute duck and style it with fun outfits. They click to earn Ducket$ (in-game currency), and it has an easy-to-understand mechanics and engaging progression system, suitable for casual gamers and those seeking a low-maintenance game to relax."
+    },
+    {
+        "question": "What is the gameplay overview of Duck Duck Clicker?",
+        "answer": "In Duck Duck Clicker, the game begins with clicking on the duck in the center of the screen. Each click rewards players with Ducket$, shown at the top of the screen. Below that, there are two important numbers: Duck Power (indicating how much Ducket$ is earned per click) and Autoducker (showing the passive earnings without clicking). As players progress, they unlock various outfits for the duck at the bottom left of the screen and can choose which ones to equip. On the right side of the screen, there is a list of upgrades that boost Ducket$ earnings, some of which are available initially and others can be bought with enough Ducket$."
+    },
+    {
+        "question": "What are the exciting features of Duck Duck Clicker?",
+        "answer": "The exciting features of Duck Duck Clicker include the presence of yellow duck icons floating across the screen. Clicking on them quickly gives a bonus, adding an extra layer of excitement to the gameplay. It also has an Achievements section where players can track their progress and see their accomplishments, whether it's customizing the duck's outfit or unlocking new upgrades."
+    },
+    {
+        "question": "Why should one play Duck Duck Clicker?",
+        "answer": "One should play Duck Duck Clicker because it has relaxing yet engaging mechanics, offering a great way to unwind while earning Ducket$. It is easy to play but difficult to stop, making it suitable for both short casual gaming sessions and longer playtimes."
+    },
+    {
+        "question": "How do upgrades work in Duck Duck Clicker?",
+        "answer": "In Duck Duck Clicker, upgrades are located on the right side of the screen. Some upgrades are available right away, while others require players to accumulate enough Ducket$ to purchase them. These upgrades help boost the player's Ducket$ earnings, enhancing the overall gameplay experience and progression."
+    },
+    {
+        "question": "What is the role of Duck Power and Autoducker in Duck Duck Clicker?",
+        "answer": "In Duck Duck Clicker, Duck Power indicates how much Ducket$ a player earns with each click on the duck. Autoducker, on the other hand, shows how much Ducket$ the player earns passively, without having to click. Both are important in determining the player's overall earnings and progression in the game."
+    } 
+    ],
+    "conclusion": "Duck Duck Clicker is a charming idle clicker game by developer Hamdy Elzanqali, inviting players to interact with a cute duck through petting and creative customization."
+  },
+  "crusher-clicker": {
+    "faqs": [
+      {
+        "question": "What is Crusher Clicker?",
+        "answer": "Crusher Clicker is a clicker game where players experience the feeling of 'destroying' things. The main task is to click on a stone block to destroy it, and upon complete destruction, players receive resources and points. It has an upgrade system, special skills, and multiple levels to explore."
+    },
+    {
+        "question": "How do you play Crusher Clicker?",
+        "answer": "To play Crusher Clicker, start by clicking on the stone block. Each click reduces the stone block's strength. When it's completely destroyed, you get resources and points. You can use these resources to upgrade weapons or support tools, which can increase the power of each click, the speed of clicking, or unlock more powerful destructive tools. Additionally, activate special skills when eligible to boost resource collection efficiency. As you successfully destroy a block in a level, you unlock the next level with new challenges."
+    },
+    {
+        "question": "What are the ways to increase strength in Crusher Clicker?",
+        "answer": "In Crusher Clicker, you can increase strength by upgrading weapons or support tools. Use the resources collected from destroying stone blocks to purchase these upgrades. Upgrades can include increasing the power of each click, increasing the speed of clicking, or unlocking more powerful destructive tools."
+    },
+    {
+        "question": "What are special skills in Crusher Clicker and how do they help?",
+        "answer": "In Crusher Clicker, special skills are abilities that can be activated when eligible. They contribute significantly to increasing the efficiency of resource collection. By using these skills intelligently, players can improve their efficiency and optimize their time during gameplay."
+    },
+    {
+        "question": "How do you progress through levels in Crusher Clicker?",
+        "answer": "In Crusher Clicker, you progress through levels by successfully destroying a block in the current level. Once you do that, the next level with new challenges is unlocked, allowing you to continue exploring and conquering new levels."
+    },
+    {
+        "question": "What is the appeal of Crusher Clicker?",
+        "answer": "The appeal of Crusher Clicker lies in its easy and intuitive gameplay. The continuous clicking stimulates players to click more. Players can upgrade the power of each click by increasing the clicking speed or unlocking new tools for more effective clicking. It also has an accessible gameplay, a rich upgrade system, and diverse levels, providing hours of entertainment."
+    },
+    {
+        "question": "What are some related games to Crusher Clicker mentioned in the text?",
+        "answer": "Some related games to Crusher Clicker mentioned in the text are Candy Clicker and Capybara Clicker."
+    }  
+    ],
+    "conclusion": "Crusher Clicker: An addictive idle game where you crush rocks and crystals, then upgrade your tools to boost smashing power and speed."
+  },
   "astro-robot-clicker": {
     "faqs": [
       {

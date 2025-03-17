@@ -295,6 +295,24 @@ def panda_clicker():
                          conclusion=faq_data['conclusion'],
                          translations=get_translations())
 
+@app.route('/duck-duck-clicker')
+def duck_duck_clicker():
+    faq_data = get_faqs_for_page('duck-duck-clicker')
+    return render_template('duck-duck-clicker.html',
+                         page_title='Duck Duck Clicker',
+                         dynamic_faqs=faq_data['faqs'],
+                         conclusion=faq_data['conclusion'],
+                         translations=get_translations())
+
+@app.route('/crusher-clicker')
+def crusher_clicker():
+    faq_data = get_faqs_for_page('crusher-clicker')
+    return render_template('crusher-clicker.html',
+                         page_title='Crusher Clicker',
+                         dynamic_faqs=faq_data['faqs'],
+                         conclusion=faq_data['conclusion'],
+                         translations=get_translations())
+
 @app.route('/planet-clicker')
 def planet_clicker():
     faq_data = get_faqs_for_page('planet-clicker')
