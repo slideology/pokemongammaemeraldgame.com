@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+
+{% block title %}Capybara Clicker Pro - Play Capybara Clicker Pro On Bear Clicker Game{% endblock %}
+
+{% block meta_description %}
+<meta name="description" content="Capybara Clicker Pro offers addictive idle gameplay, letting you tap adorable capybaras to earn coins in this FreezeNova creation.">
+{% endblock %}
+
+{% block og_title %}Capybara Clicker Pro - Play Capybara Clicker Pro On Bear Clicker Game{% endblock %}
+{% block og_description %}Capybara Clicker Pro offers addictive idle gameplay, letting you tap adorable capybaras to earn coins in this FreezeNova creation.{% endblock %}
+
+{% block favicon %}
+<link rel="icon" type="image/png" href="{{ url_for('static', filename='images/favicon/capybara-clicker-pro-favicon.png') }}">
+<link rel="apple-touch-icon" sizes="180x180" href="{{ url_for('static', filename='images/favicon/capybara-clicker-pro-apple-touch-icon.png') }}">
+{% endblock %}
+
+{% block content %}
+<div class="relative overflow-hidden">
+    {% with 
+        gradient_colors="from-red-900 via-red-700 to-black",
+        blob_gradient_1="from-red-900 to-red-700",
+        blob_gradient_2="from-red-700 to-black",
+        title_gradient="from-red-600 via-red-500 to-black",
+        game_url="https://stimulationclicker.com/capybara-clicker-pro.embed",
+        title="Capybara Clicker Pro",
+        description="Capybara Clicker Pro offers addictive idle gameplay, letting you tap adorable capybaras to earn coins in this FreezeNova creation."
+    %}
+        {% include 'components/hero.html' %}
+    {% endwith %}
+
+
+    <!-- Trending Games Section -->
+    {% with current_page='capybara-clicker-pro' %}
+    {% include 'components/trending_games.html' %}
+    {% endwith %}
+    
+
+    
+   <!-- FAQ Section -->
+{% include 'components/faq_section.html' %}
+</div>
+{% endblock %}

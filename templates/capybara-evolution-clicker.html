@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+
+{% block title %}Capybara Evolution Clicker - Play Capybara Evolution Clicker On Bear Clicker Game{% endblock %}
+
+{% block meta_description %}
+<meta name="description" content="Capybara Evolution Clicker: An immersive idle adventure game where players nurture adorable rodents through charming evolutionary stages. Collect, upgrade, and unlock capybara habitats!">
+{% endblock %}
+
+{% block og_title %}Capybara Evolution Clicker - Play Capybara Evolution Clicker On Bear Clicker Game{% endblock %}
+{% block og_description %}Capybara Evolution Clicker: An immersive idle adventure game where players nurture adorable rodents through charming evolutionary stages. Collect, upgrade, and unlock capybara habitats! {% endblock %}
+
+{% block favicon %}
+<link rel="icon" type="image/png" href="{{ url_for('static', filename='images/favicon/capybara-evolution-clicker-favicon.png') }}">
+<link rel="apple-touch-icon" sizes="180x180" href="{{ url_for('static', filename='images/favicon/capybara-evolution-clicker-apple-touch-icon.png') }}">
+{% endblock %}
+
+{% block content %}
+<div class="relative overflow-hidden">
+    {% with 
+        gradient_colors="from-red-900 via-red-700 to-black",
+        blob_gradient_1="from-red-900 to-red-700",
+        blob_gradient_2="from-red-700 to-black",
+        title_gradient="from-red-600 via-red-500 to-black",
+        game_url="https://stimulationclicker.com/capybara-evolution-clicker.embed",
+        title="Capybara Evolution Clicker",
+        description="Capybara Evolution Clicker: An immersive idle adventure game where players nurture adorable rodents through charming evolutionary stages. Collect, upgrade, and unlock capybara habitats!"
+    %}
+        {% include 'components/hero.html' %}
+    {% endwith %}
+
+    
+
+    <!-- Trending Games Section -->
+    {% with current_page='capybara-evolution-clicker' %}
+    {% include 'components/trending_games.html' %}
+    {% endwith %}
+    
+
+    
+   <!-- FAQ Section -->
+{% include 'components/faq_section.html' %}
+</div>
+{% endblock %}
