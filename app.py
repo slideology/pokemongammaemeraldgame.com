@@ -304,6 +304,15 @@ def capybara_evolution_clicker():
                          conclusion=faq_data['conclusion'],
                          translations=get_translations())
 
+@app.route('/particle-clicker')
+def particle_clicker():
+    faq_data = get_faqs_for_page('particle-clicker')
+    return render_template('particle-clicker.html',
+                         page_title='Particle Clicker',
+                         dynamic_faqs=faq_data['faqs'],
+                         conclusion=faq_data['conclusion'],
+                         translations=get_translations())
+
 @app.route('/duck-duck-clicker')
 def duck_duck_clicker():
     faq_data = get_faqs_for_page('duck-duck-clicker')
@@ -326,6 +335,15 @@ def crusher_clicker():
     faq_data = get_faqs_for_page('crusher-clicker')
     return render_template('crusher-clicker.html',
                          page_title='Crusher Clicker',
+                         dynamic_faqs=faq_data['faqs'],
+                         conclusion=faq_data['conclusion'],
+                         translations=get_translations())
+
+@app.route('/chill-guy-clicker')
+def chill_guy_clicker():
+    faq_data = get_faqs_for_page('chill-guy-clicker')
+    return render_template('chill-guy-clicker.html',
+                         page_title='Chill Guy Clicker',
                          dynamic_faqs=faq_data['faqs'],
                          conclusion=faq_data['conclusion'],
                          translations=get_translations())
