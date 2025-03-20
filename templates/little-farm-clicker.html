@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+
+{% block title %}Little Farm Clicker - Play Little Farm Clicker On Bear Clicker Game{% endblock %}
+
+{% block meta_description %}
+<meta name="description" content="Little Farm Clicker: A casual farming sim where players cultivate crops, care for animals, and manage their agricultural empire through strategic resource management.">
+{% endblock %}
+
+{% block og_title %}Little Farm Clicker - Play Little Farm Clicker On Bear Clicker Game{% endblock %}
+{% block og_description %}Little Farm Clicker: A casual farming sim where players cultivate crops, care for animals, and manage their agricultural empire through strategic resource management.{% endblock %}
+
+{% block favicon %}
+<link rel="icon" type="image/png" href="{{ url_for('static', filename='images/favicon/little-farm-clicker-favicon.png') }}">
+<link rel="apple-touch-icon" sizes="180x180" href="{{ url_for('static', filename='images/favicon/little-farm-clicker-apple-touch-icon.png') }}">
+{% endblock %}
+
+{% block content %}
+<div class="relative overflow-hidden">
+    {% with 
+        gradient_colors="from-red-900 via-red-700 to-black",
+        blob_gradient_1="from-red-900 to-red-700",
+        blob_gradient_2="from-red-700 to-black",
+        title_gradient="from-red-600 via-red-500 to-black",
+        game_url="https://stimulationclicker.com/little-farm-clicker.embed",
+        title="Little Farm Clicker",
+        description="Little Farm Clicker: A casual farming sim where players cultivate crops, care for animals, and manage their agricultural empire through strategic resource management."
+    %}
+        {% include 'components/hero.html' %}
+    {% endwith %}
+
+
+    <!-- Trending Games Section -->
+    {% with current_page='little-farm-clicker' %}
+    {% include 'components/trending_games.html' %}
+    {% endwith %}
+    
+
+    
+   <!-- FAQ Section -->
+{% include 'components/faq_section.html' %}
+</div>
+{% endblock %}

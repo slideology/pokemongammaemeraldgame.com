@@ -252,6 +252,60 @@
     ],
     "conclusion": "Cookie Clicker is an addictive browser-based clicker game where players strategically click a giant cookie to generate massive cookie production through incremental upgrades."
   },
+  "click-click-clicker": {
+    "faqs": [
+      
+{
+  "question": "What is Click Click Clicker?",
+  "answer": "Click Click Clicker is an engaging idle/clicker game developed by Blacktabb Games. The goal is to click to earn points, money, and level up, while unlocking upgrades, automation features, and customizations for a fun, addictive experience."
+},
+{
+  "question": "How do you play Click Click Clicker?",
+  "answer": "Players rapidly click a button to generate points and money, which are used to level up and unlock upgrades. The experience bar drops when not clicking, so continuous tapping or strategic automation is key to maintaining progress."
+},
+{
+  "question": "What are the key features of Click Click Clicker?",
+  "answer": "Key features include earning points/money through clicks, upgrading to boost passive earnings and click power, unlocking new buttons/cursors/themes, automation options for idle progression, and customizable backgrounds/music/interface."
+},
+{
+  "question": "How does the experience bar work in Click Click Clicker?",
+  "answer": "The experience bar increases with clicks but starts dropping when you stop clicking. Players must maintain active clicks or automate progression to avoid losing progress."
+},
+{
+  "question": "What types of upgrades are available in Click Click Clicker?",
+  "answer": "Upgrades include passive earnings boosts, money-per-click multipliers, additional cursors to multiply results, and automation tools that allow earnings without active clicking."
+},
+{
+  "question": "Can I customize the game's appearance in Click Click Clicker?",
+  "answer": "Yes! Players can personalize backgrounds, music tracks, buttons, and cursors, creating a unique and stylish gaming experience."
+},
+{
+  "question": "What makes Click Click Clicker addictive?",
+  "answer": "The game combines fast-paced clicking mechanics with incremental progression, strategic upgrades, and customization options. The challenge of maintaining progress through clicks or automation keeps players engaged."
+},
+{
+  "question": "Is there a strategy to succeed in Click Click Clicker?",
+  "answer": "Yes! Balance active clicking with purchasing upgrades and automation features. Prioritize upgrades that maximize passive earnings to sustain progress even when not actively playing."
+},
+{
+  "question": "What happens when I unlock new buttons or themes in Click Click Clicker?",
+  "answer": "New buttons and themes add visual variety and excitement to the clicking experience, enhancing the game's appeal as you progress."
+},
+{
+  "question": "Can I play Click Click Clicker passively?",
+  "answer": "Yes! Certain upgrades automate clicks, allowing you to earn points and money even when not actively playing. This strategic element adds depth to the gameplay."
+},
+{
+  "question": "Who developed Click Click Clicker?",
+  "answer": "Click Click Clicker was developed by Blacktabb Games, a studio known for creating engaging idle and clicker games."
+},
+{
+  "question": "What is the objective of Click Click Clicker?",
+  "answer": "The primary objective is to click to earn points and money, level up, and strategically use earnings to unlock upgrades, automation, and customizations for continuous progression."
+}  
+    ],
+    "conclusion": "Click Click Clicker by Blacktabb Games challenges players with rapid tapping in this fast-paced idle clicker, rewarding points for upgrades and leaderboard dominance."
+  },
   "chill-clicker": {
     "faqs": [
         {
@@ -280,6 +334,52 @@
         } 
     ],
     "conclusion": "Chill Clicker: A calming capybara clicker adventure blending cute animal interactions with meditative gameplay for relaxed entertainment."
+  },
+  "little-farm-clicker": {
+    "faqs": [
+        
+{
+  "question": "What is Little Farm Clicker?",
+  "answer": "Little Farm Clicker is a casual farming simulation game where players manage their own farm, grow crops, raise animals, and build a thriving agricultural empire. It offers an easy-to-use, relaxing experience for farming enthusiasts."
+},
+{
+  "question": "How do you grow crops in Little Farm Clicker?",
+  "answer": "Players plant various crops (fruits, vegetables, grains) and nurture them by watering regularly and protecting them from pests. Successful harvests yield resources that can be sold for income."
+},
+{
+  "question": "What animals can you raise in the game?",
+  "answer": "Players can raise cows, chickens, sheep, and other animals. Caring for their needs (food, water, shelter) allows collecting resources like milk, eggs, and wool for profit."
+},
+{
+  "question": "How do upgrades work in Little Farm Clicker?",
+  "answer": "Earned resources can be invested in upgrades like new buildings, tools, and machinery. These upgrades streamline tasks, boost efficiency, and accelerate farm expansion."
+},
+{
+  "question": "What is the role of market prices in the game?",
+  "answer": "Players must strategically sell crops and animal products based on fluctuating market prices. Timing sales correctly maximizes earnings, which can then be reinvested into further upgrades."
+},
+{
+  "question": "What are the main objectives of the game?",
+  "answer": "The primary goals are to grow crops, raise animals, manage resources efficiently, and expand the farm through strategic upgrades and profitable sales."
+},
+{
+  "question": "Is Little Farm Clicker suitable for casual players?",
+  "answer": "Yes! The game features simple mechanics, a relaxed pace, and low-pressure progression, making it ideal for casual gamers looking for a laid-back farming experience."
+},
+{
+  "question": "How do you protect crops from pests?",
+  "answer": "Players must actively monitor and protect their crops from pests to ensure successful harvests. This is a core part of maintaining farm productivity."
+},
+{
+  "question": "Can you automate any farming tasks?",
+  "answer": "Upgrades can automate certain tasks (e.g., irrigation, animal care), reducing manual effort and allowing players to focus on strategic decisions like selling and expanding."
+},
+{
+  "question": "What happens when you expand your farm?",
+  "answer": "Expansion unlocks new areas for planting more crops, raising additional animals, and installing advanced machinery, increasing overall production capacity and profitability."
+} 
+    ],
+    "conclusion": "Little Farm Clicker: A casual farming sim where players cultivate crops, care for animals, and manage their agricultural empire through strategic resource management."
   },
   "sprunki-clicker": {
     "faqs": [

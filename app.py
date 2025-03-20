@@ -339,6 +339,23 @@ def crusher_clicker():
                          conclusion=faq_data['conclusion'],
                          translations=get_translations())
 
+@app.route('/little-farm-clicker')
+def little_farm_clicker():
+    faq_data = get_faqs_for_page('little-farm-clicker')
+    return render_template('little-farm-clicker.html',
+                         page_title='Little Farm Clicker',
+                         dynamic_faqs=faq_data['faqs'],
+                         conclusion=faq_data['conclusion'],
+                         translations=get_translations())
+@app.route('/click-click-clicker')
+def click_click_clicker():
+    faq_data = get_faqs_for_page('click-click-clicker')
+    return render_template('click-click-clicker.html',
+                         page_title='Click Click Clicker',
+                         dynamic_faqs=faq_data['faqs'],
+                         conclusion=faq_data['conclusion'],
+                         translations=get_translations())
+
 @app.route('/chill-guy-clicker')
 def chill_guy_clicker():
     faq_data = get_faqs_for_page('chill-guy-clicker')
