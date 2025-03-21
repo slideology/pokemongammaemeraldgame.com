@@ -1,13 +1,6 @@
 User-agent: *
 Allow: /
 
-# 主要游戏页面
-Allow: /game
-Allow: /about
-Allow: /faq
-Allow: /contact
-Allow: /introduction
-
 # 静态资源
 Allow: /static/
 

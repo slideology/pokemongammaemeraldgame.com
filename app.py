@@ -330,11 +330,28 @@ def capybara_clicker_pro():
                          dynamic_faqs=faq_data['faqs'],
                          conclusion=faq_data['conclusion'],
                          translations=get_translations())
+@app.route('/clicker-heroes')
+def clicker_heroes():
+    faq_data = get_faqs_for_page('clicker-heroes')
+    return render_template('clicker-heroes.html',
+                         page_title='Clicker Heroes',
+                         dynamic_faqs=faq_data['faqs'],
+                         conclusion=faq_data['conclusion'],
+                         translations=get_translations())
 @app.route('/crusher-clicker')
 def crusher_clicker():
     faq_data = get_faqs_for_page('crusher-clicker')
     return render_template('crusher-clicker.html',
                          page_title='Crusher Clicker',
+                         dynamic_faqs=faq_data['faqs'],
+                         conclusion=faq_data['conclusion'],
+                         translations=get_translations())
+
+@app.route('/minetap-merge-clicker')
+def minetap_merge_clicker():
+    faq_data = get_faqs_for_page('minetap-merge-clicker')
+    return render_template('minetap-merge-clicker.html',
+                         page_title='MineTap Merge Clicker',
                          dynamic_faqs=faq_data['faqs'],
                          conclusion=faq_data['conclusion'],
                          translations=get_translations())

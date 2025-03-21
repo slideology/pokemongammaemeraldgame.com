@@ -381,6 +381,106 @@
     ],
     "conclusion": "Little Farm Clicker: A casual farming sim where players cultivate crops, care for animals, and manage their agricultural empire through strategic resource management."
   },
+  "clicker-heroes": {
+    "faqs": [
+        
+
+      {
+        "question": "What is Clicker Heroes?",
+        "answer": "Clicker Heroes is an idle clicker game where players click to defeat monsters, earn gold, and hire/upgrade heroes that automatically deal damage. Progress through zones with increasingly tough enemies and bosses, combining active clicking with strategic upgrades for incremental growth."
+    },
+    {
+        "question": "How do you play Clicker Heroes?",
+        "answer": "Players click to attack monsters, earn gold, and use it to hire heroes who auto-fight. Gold upgrades heroes' damage, and progression unlocks abilities and zones. The game balances active clicking with idle mechanics, allowing passive gold accumulation."
+    },
+    {
+        "question": "What strategies maximize progress in Clicker Heroes?",
+        "answer": "Focus on upgrading heroes with the best damage-to-gold ratio, recruit new heroes for higher zones, use abilities strategically (activating all at once), take breaks for idle gold gains, and eventually ascend to reset progress for permanent bonuses (hero souls)."
+    },
+    {
+        "question": "How do you save your progress in Clicker Heroes?",
+        "answer": "Click the wrench icon (top right), press 'Save,' and save the .txt file to your computer. Manual saves ensure you don't lose progress between sessions."
+    },
+    {
+        "question": "What is Ascension in Clicker Heroes?",
+        "answer": "Ascension resets your progress but grants hero souls, which permanently boost hero damage and unlock advanced upgrades. It's a key strategy for accelerating long-term growth."
+    },
+    {
+        "question": "How do you handle difficult zones or bosses?",
+        "answer": "Grind at your highest unlocked monster to earn gold for upgrades. If stuck, activate all abilities simultaneously during boss fights for maximum damage. Use idle time to accumulate resources."
+    },
+    {
+        "question": "What's the role of abilities in Clicker Heroes?",
+        "answer": "Abilities (e.g., critical strikes, area damage) are unlocked as you level up. Using them together during tough fights or boss battles maximizes damage output, but be mindful of cooldowns."
+    },
+    {
+        "question": "Why should players take breaks in Clicker Heroes?",
+        "answer": "The game's idle mechanics allow heroes to earn gold and progress even when not actively playing. Returning later often yields significant rewards, making breaks part of the strategy."
+    },
+    {
+        "question": "How do you spend gold efficiently in Clicker Heroes?",
+        "answer": "Prioritize heroes that offer the highest damage increase per gold spent. Avoid spreading upgrades too thinly; focus on a few key heroes for optimal damage output."
+    },
+    {
+        "question": "What happens every 5 levels in Clicker Heroes?",
+        "answer": "Every 5 levels introduces a new zone with tougher monsters and a boss fight. These milestones require strategic upgrades and hero progression to overcome."
+    } 
+    ],
+    "conclusion": "Clicker Heroes is a popular idle clicker game blending incremental progression with addictive tapping mechanics, hero upgrades, and endless strategic gameplay for casual players."
+  },
+  "minetap-merge-clicker": {
+    "faqs": [    
+{
+  "question": "What is MineTap Merge Clicker?",
+  "answer": "MineTap Merge Clicker is a Minecraft-inspired idle clicker game combining crafting, combat, and exploration. Players merge items to create powerful tools, battle monsters, build towns, and embark on quests in an immersive, blocky world."
+},
+{
+  "question": "What are the core mechanics of MineTap Merge Clicker?",
+  "answer": "The game revolves around merging resources to craft weapons/gear and tapping to earn materials. Players use these items to fight monsters, build towns, and progress through quests, with upgrades enhancing efficiency and combat strength."
+},
+{
+  "question": "How does the crafting and merging system work?",
+  "answer": "Players combine basic resources (e.g., wood, stone) to craft higher-tier items. Merging items unlocks better tools and weapons, which boost combat effectiveness and allow progression through tougher challenges."
+},
+{
+  "question": "What types of monsters do players face in MineTap Merge Clicker?",
+  "answer": "Players battle zombies, menacing creatures, and bosses across various zones. Defeating them rewards loot, experience, and resources needed for crafting and upgrades."
+},
+{
+  "question": "Can players build and manage towns in the game?",
+  "answer": "Yes! Players construct towns by gathering resources and expanding infrastructure. A growing town enhances influence and provides benefits like passive resource generation."
+},
+{
+  "question": "What role do treasure hunts play in MineTap Merge Clicker?",
+  "answer": "Treasure hunts and special tasks reward rare items that boost character abilities. These items are crucial for advancing strength and overcoming difficult challenges."
+},
+{
+  "question": "How do players progress in MineTap Merge Clicker?",
+  "answer": "Progress is achieved by merging items, defeating monsters, completing quests, and upgrading gear. Each advancement unlocks new areas, stronger enemies, and better crafting opportunities."
+},
+{
+  "question": "What makes MineTap Merge Clicker unique compared to other clicker games?",
+  "answer": "Its blend of Minecraft-style blocky visuals, crafting depth, town-building, and combat creates a more immersive experience than typical clickers. The merge mechanics add strategic depth to resource management."
+},
+{
+  "question": "Is MineTap Merge Clicker free to play?",
+  "answer": "The overview doesn’t specify monetization, but many similar games offer free-to-play models with optional in-app purchases. Check the official store page for details."
+},
+{
+  "question": "Who is MineTap Merge Clicker suitable for?",
+  "answer": "Fans of Minecraft, clicker games, crafting, and incremental progression will enjoy this title. It’s also ideal for players seeking a mix of combat, strategy, and exploration in a casual format."
+},
+{
+  "question": "What is the ultimate goal of MineTap Merge Clicker?",
+  "answer": "Players aim to become crafting legends by building thriving towns, defeating powerful monsters, and crafting legendary gear. The game emphasizes continuous progression and strategic merging."
+},
+{
+  "question": "Can players play MineTap Merge Clicker offline?",
+  "answer": "The overview doesn’t mention offline play, but many idle clickers offer passive earnings when not active. Check the game’s features for specifics."
+} 
+    ],
+    "conclusion": "MineTap Merge Clicker's block-building universe, combining strategic merging mechanics with thrilling combat challenges and expansive exploration quests."
+  },
   "sprunki-clicker": {
     "faqs": [
       {

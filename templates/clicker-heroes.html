@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+
+{% block title %}Clicker Heroes - Play Clicker Heroes On Bear Clicker Game{% endblock %}
+
+{% block meta_description %}
+<meta name="description" content="Clicker Heroes is a popular idle clicker game blending incremental progression with addictive tapping mechanics, hero upgrades, and endless strategic gameplay for casual players.">
+{% endblock %}
+
+{% block og_title %}Clicker Heroes - Play Clicker Heroes On Bear Clicker Game{% endblock %}
+{% block og_description %}Clicker Heroes is a popular idle clicker game blending incremental progression with addictive tapping mechanics, hero upgrades, and endless strategic gameplay for casual players.{% endblock %}
+
+{% block favicon %}
+<link rel="icon" type="image/png" href="{{ url_for('static', filename='images/favicon/clicker-heroes-favicon.png') }}">
+<link rel="apple-touch-icon" sizes="180x180" href="{{ url_for('static', filename='images/favicon/clicker-heroes-apple-touch-icon.png') }}">
+{% endblock %}
+
+{% block content %}
+<div class="relative overflow-hidden">
+    {% with 
+        gradient_colors="from-red-900 via-red-700 to-black",
+        blob_gradient_1="from-red-900 to-red-700",
+        blob_gradient_2="from-red-700 to-black",
+        title_gradient="from-red-600 via-red-500 to-black",
+        game_url="https://stimulationclicker.com/clicker-heroes.embed",
+        title="Clicker Heroes",
+        description="Clicker Heroes is a popular idle clicker game blending incremental progression with addictive tapping mechanics, hero upgrades, and endless strategic gameplay for casual players."
+    %}
+        {% include 'components/hero.html' %}
+    {% endwith %}
+
+
+    <!-- Trending Games Section -->
+    {% with current_page='clicker-heroes' %}
+    {% include 'components/trending_games.html' %}
+    {% endwith %}
+    
+
+    
+   <!-- FAQ Section -->
+{% include 'components/faq_section.html' %}
+</div>
+{% endblock %}
