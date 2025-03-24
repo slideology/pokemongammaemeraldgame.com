@@ -428,6 +428,41 @@
     ],
     "conclusion": "Clicker Heroes is a popular idle clicker game blending incremental progression with addictive tapping mechanics, hero upgrades, and endless strategic gameplay for casual players."
   },
+  "clock-clicker": {
+    "faqs": [
+        
+
+      {
+        "question": "What is Clock Clicker?",
+        "answer": "Clock Clicker is a simple yet addictive clicker game where players click on a clock to earn 'timebucks,' which are used to buy watches and upgrades that boost earning efficiency. The game also includes competitive elements to challenge friends."
+        },
+        {
+        "question": "How do you play Clock Clicker?",
+        "answer": "Players click the clock to earn timebucks. Accumulated currency is spent on watches (e.g., analog, smartwatches) and upgrades like faster mice or accurate cursors to increase timebucks per click."
+        },
+        {
+        "question": "What types of upgrades are available in Clock Clicker?",
+        "answer": "Upgrades include watch types that enhance earning rates and tools like faster mice or precise cursors to boost clicking power. These upgrades become available as players progress."
+        },
+        {
+        "question": "Can you compete with friends in Clock Clicker?",
+        "answer": "Yes! The game supports competitive features like time-based challenges or click-offs, allowing players to compare timebucks earnings with friends."
+        },
+        {
+        "question": "What is the objective of Clock Clicker?",
+        "answer": "The goal is to maximize timebucks earnings through strategic clicking, upgrading, and competing with friends. Progress is driven by unlocking better watches and improving efficiency."
+        },
+        {
+        "question": "How does the progression system work in Clock Clicker?",
+        "answer": "Players earn timebucks to purchase upgrades, which in turn increase their earning potential. Advancing unlocks higher-tier watches and tools, creating a loop of incremental growth."
+        },
+        {
+        "question": "What makes Clock Clicker engaging?",
+        "answer": "The game combines instant gratification from clicking with strategic upgrades and social competition. The variety of watches and tools, along with competitive challenges, keeps gameplay fresh and rewarding."
+        } 
+    ],
+    "conclusion": "Clock Clicker is an addictive idle clicker game where tapping the clock earns timebucks, letting you unlock stylish watches and strategic upgrades to enhance your time-management empire."
+  },
   "duck-clicker": {
     "faqs": [
         

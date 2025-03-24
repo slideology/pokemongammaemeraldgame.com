@@ -268,6 +268,15 @@ def chill_clicker():
                          conclusion=faq_data['conclusion'],
                          translations=get_translations())                     
 
+@app.route('/clock-clicker')
+def clock_clicker():
+    faq_data = get_faqs_for_page('clock-clicker')
+    return render_template('clock-clicker.html',
+                         page_title='Clock Clicker',
+                         dynamic_faqs=faq_data['faqs'],
+                         conclusion=faq_data['conclusion'],
+                         translations=get_translations())
+
 @app.route('/cat-clicker')
 def cat_clicker():
     faq_data = get_faqs_for_page('cat-clicker')
