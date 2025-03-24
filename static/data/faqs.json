@@ -428,6 +428,37 @@
     ],
     "conclusion": "Clicker Heroes is a popular idle clicker game blending incremental progression with addictive tapping mechanics, hero upgrades, and endless strategic gameplay for casual players."
   },
+  "duck-clicker": {
+    "faqs": [
+        
+
+      {
+        "question": "What is the core gameplay loop of Duck Clicker?",
+        "answer": "The gameplay revolves around clicking to earn points, hatching ducks, and strategically upgrading abilities to grow your duck empire. Clicks generate resources for upgrades, automation, and unlocking new ducks."
+        },
+        {
+        "question": "How do upgrades contribute to progression in Duck Clicker?",
+        "answer": "Upgrades boost clicking efficiency (e.g., click power, auto-clickers) and unlock passive income, allowing faster growth. Early investments in automation enable idle progress even when not actively playing."
+        },
+        {
+        "question": "What role do collectible ducks play in Duck Clicker?",
+        "answer": "Collectible ducks offer visual variety and special abilities that enhance earnings. Unlocking unique ducks (e.g., rare breeds) adds excitement and incentivizes exploration."
+        },
+        {
+        "question": "How do challenges and achievements enhance gameplay?",
+        "answer": "Challenges and achievements provide bonuses like speed boosts or multipliers, accelerating progression. Completing milestones adds a sense of accomplishment and keeps players engaged."
+        },
+        {
+        "question": "What visual elements make Duck Clicker appealing?",
+        "answer": "The game features vibrant, cartoon-style graphics and smooth animations. Each duck's design and the playful art style create an immersive, visually rewarding experience."
+        },
+        {
+        "question": "How does Duck Clicker balance active and idle play?",
+        "answer": "Players must balance manual clicking for immediate gains with strategic automation (e.g., auto-clickers) for long-term growth. This balance adds depth to the otherwise simple mechanics."
+        } 
+    ],
+    "conclusion": "Duck Clicker - Build a quacking empire in this idle game! Hatch ducks, upgrade farms, and expand your feathery domain through addictive clicker mechanics."
+  },
   "minetap-merge-clicker": {
     "faqs": [    
 {

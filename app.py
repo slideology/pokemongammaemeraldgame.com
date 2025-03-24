@@ -322,6 +322,15 @@ def duck_duck_clicker():
                          conclusion=faq_data['conclusion'],
                          translations=get_translations())
 
+@app.route('/duck-clicker')
+def duck_clicker():
+    faq_data = get_faqs_for_page('duck-clicker')
+    return render_template('duck-clicker.html',
+                         page_title='Duck Clicker',
+                         dynamic_faqs=faq_data['faqs'],
+                         conclusion=faq_data['conclusion'],
+                         translations=get_translations())
+
 @app.route('/capybara-clicker-pro')
 def capybara_clicker_pro():
     faq_data = get_faqs_for_page('capybara-clicker-pro')
