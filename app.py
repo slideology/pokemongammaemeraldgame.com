@@ -259,6 +259,25 @@ def chill_girl_clicker():
                          dynamic_faqs=faq_data['faqs'],
                          conclusion=faq_data['conclusion'],
                          translations=get_translations()) 
+
+@app.route('/bitcoin-clicker')
+def bitcoin_clicker():
+    faq_data = get_faqs_for_page('bitcoin-clicker')
+    return render_template('bitcoin-clicker.html',
+                         page_title='Bitcoin Clicker',
+                         dynamic_faqs=faq_data['faqs'],
+                         conclusion=faq_data['conclusion'],
+                         translations=get_translations())
+
+@app.route('/chill-guy-clicker-3d')
+def chill_guy_clicker_3d():
+    faq_data = get_faqs_for_page('chill-guy-clicker-3d')
+    return render_template('chill-guy-clicker-3d.html',
+                         page_title='Chill Guy Clicker 3D',
+                         dynamic_faqs=faq_data['faqs'],
+                         conclusion=faq_data['conclusion'],
+                         translations=get_translations())
+
 @app.route('/chill-clicker')
 def chill_clicker():
     faq_data = get_faqs_for_page('chill-clicker')
