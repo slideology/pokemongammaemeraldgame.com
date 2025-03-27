@@ -296,6 +296,15 @@ def poop_clicker_2():
                          conclusion=faq_data['conclusion'],
                          translations=get_translations())
 
+@app.route('/banana-clicker-unblocked')
+def banana_clicker_unblocked():
+    faq_data = get_faqs_for_page('banana-clicker-unblocked')
+    return render_template('banana-clicker-unblocked.html',
+                         page_title='Banana Clicker Unblocked',
+                         dynamic_faqs=faq_data['faqs'],
+                         conclusion=faq_data['conclusion'],
+                         translations=get_translations())
+
 @app.route('/chill-clicker')
 def chill_clicker():
     faq_data = get_faqs_for_page('chill-clicker')
