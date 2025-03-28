@@ -838,6 +838,62 @@
     ],
     "conclusion": "Duck Clicker - Build a quacking empire in this idle game! Hatch ducks, upgrade farms, and expand your feathery domain through addictive clicker mechanics."
   },
+  "doggo-clicker": {
+    "faqs": [
+        
+
+      
+{
+  "question": "What is Doggo Clicker?",
+  "answer": "Doggo Clicker is a clicker game where players click to make a doggo happy, earn money for upgrades/accessories, build a house, and prestige to reach max level. It combines idle progression with strategic stat boosts and customization."
+  },
+  {
+  "question": "What are the core objectives of Doggo Clicker?",
+  "answer": "1. **Click to make the doggo happy**.\n2. **Earn money** to buy upgrades/accessories.\n3. **Build a house** to increase happiness caps.\n4. **Prestige twice** to reset progress and earn prestige points for permanent boosts."
+  },
+  {
+  "question": "How does gameplay work in Doggo Clicker?",
+  "answer": "Click the doggo to generate happiness and income. Use money to:\n- **Upgrades**: Boost click power.\n- **Accessories**: Increase happiness and income.\n- **Level Up**: Allocate stat points to click power, happiness gain, and income.\n- **Prestige**: Reset for prestige points that enhance earnings."
+  },
+  {
+  "question": "What strategies maximize progress in Doggo Clicker?",
+  "answer": "1. **Prioritize early click power upgrades** for faster earnings.\n2. **Buy happiness-boosting accessories** to increase income.\n3. **Prestige when progress stalls** to earn multiplicative boosts.\n4. **Participate in events** and collect golden bones for bonuses."
+  },
+  {
+  "question": "How do prestige mechanics work in Doggo Clicker?",
+  "answer": "Prestiging resets progress but grants prestige points, which permanently boost income and happiness gain. Players must prestige twice to reach the max level."
+  },
+  {
+  "question": "What customization options are available?",
+  "answer": "Players can unlock accessories to customize the doggo’s appearance and bonuses. Accessories improve happiness, income, or click power."
+  },
+  {
+  "question": "What are golden bones and special events in Doggo Clicker?",
+  "answer": "Golden bones appear randomly on-screen for extra money. Special events offer temporary bonuses or rewards, encouraging active play."
+  },
+  {
+  "question": "Is Doggo Clicker free to play?",
+  "answer": "Yes! The game is free on PC and mobile devices, with optional in-app purchases (not specified in the prompt)."
+  },
+  {
+  "question": "How does the community aspect enhance the game?",
+  "answer": "Players can join Doggo Clicker communities to share tips, strategies, and participate in collaborative events, fostering a supportive environment."
+  },
+  {
+  "question": "What is the long-term goal of Doggo Clicker?",
+  "answer": "The ultimate goal is to maximize income and happiness through strategic upgrades, prestiges, and customization, becoming the top doggo tycoon."
+  },
+  {
+  "question": "Can players play Doggo Clicker on mobile devices?",
+  "answer": "Yes! The game is available on both PC and mobile platforms, offering cross-device progression and accessibility."
+  },
+  {
+  "question": "What makes Doggo Clicker addictive?",
+  "answer": "The satisfying click-feedback loop, incremental progression, and collectible accessories create a rewarding experience. Prestige mechanics and events add replayability and strategic depth."
+  } 
+    ],
+    "conclusion": "Doggo Clicker offers addictive, easy-to-learn gameplay with deceptively deep challenges, providing endless fun and replayability for hours of casual enjoyment."
+  },
   "minetap-merge-clicker": {
     "faqs": [    
 {
