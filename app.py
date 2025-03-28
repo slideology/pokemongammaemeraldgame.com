@@ -278,6 +278,15 @@ def business_clicker():
                          conclusion=faq_data['conclusion'],
                          translations=get_translations())
 
+@app.route('/capybara-clicker-2')
+def capybara_clicker_2():
+    faq_data = get_faqs_for_page('capybara-clicker-2')
+    return render_template('capybara-clicker-2.html',
+                         page_title='Capybara Clicker 2',
+                         dynamic_faqs=faq_data['faqs'],
+                         conclusion=faq_data['conclusion'],
+                         translations=get_translations())
+
 @app.route('/chill-guy-clicker-3d')
 def chill_guy_clicker_3d():
     faq_data = get_faqs_for_page('chill-guy-clicker-3d')
