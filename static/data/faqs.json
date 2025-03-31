@@ -839,10 +839,7 @@
     "conclusion": "Duck Clicker - Build a quacking empire in this idle game! Hatch ducks, upgrade farms, and expand your feathery domain through addictive clicker mechanics."
   },
   "doggo-clicker": {
-    "faqs": [
-        
-
-      
+    "faqs": [     
 {
   "question": "What is Doggo Clicker?",
   "answer": "Doggo Clicker is a clicker game where players click to make a doggo happy, earn money for upgrades/accessories, build a house, and prestige to reach max level. It combines idle progression with strategic stat boosts and customization."
@@ -893,6 +890,115 @@
   } 
     ],
     "conclusion": "Doggo Clicker offers addictive, easy-to-learn gameplay with deceptively deep challenges, providing endless fun and replayability for hours of casual enjoyment."
+  },
+  "monster-clicker": {
+    "faqs": [     
+
+    {
+      "question": "What is Monster Clicker?",
+      "answer": "Monster Clicker is an idle game where players train immortal creatures called Lanias by clicking to earn resources, buying buildings/monsters, and strategically upgrading stats. Rebirth cycles allow Lanias to grow stronger indefinitely."
+      },
+      {
+      "question": "How do you start playing Monster Clicker?",
+      "answer": "Begin with a single egg and click to earn EXP/gold. Use resources to buy buildings (gold generation) and monsters (EXP boosts), then upgrade Lanias' stats (STR/INT/AGI) for better earnings."
+      },
+      {
+      "question": "What defines the core gameplay loop?",
+      "answer": "Click to generate resources → buy buildings/monsters → upgrade stats → rebirth Lanias for stronger cycles. The idle mechanics allow progress even when away."
+      },
+      {
+      "question": "How do Lanias evolve in Monster Clicker?",
+      "answer": "Lanias rebirth into eggs after reaching max level, retaining boosted stats for stronger iterations. Each cycle increases their base power and unlocks new abilities."
+      },
+      {
+      "question": "What are the key stats for Lanias?",
+      "answer": "Stats include:\n- **STR**: 0.2% EXP multiplier.\n- **INT**: 0.2% gold multiplier.\n- **AGI**: +0.5 gold/EXP per click, +0.5% per click."
+      },
+      {
+      "question": "What features enhance replayability?",
+      "answer": "Key features include:\n- **Idle Progression**: Background resource generation.\n- **Real-Time Syncing**: In-game time matches real-world time.\n- **Achievements**: Milestones unlock rewards and new content.\n- **Collectible Lanias**: Over 100 unique creatures to discover."
+      },
+      {
+      "question": "How do buildings and monsters work?",
+      "answer": "Buildings generate passive gold, while monsters boost EXP gain. Both can be upgraded to increase efficiency, creating a synergy between active clicking and idle income."
+      },
+      {
+      "question": "What strategies maximize progress?",
+      "answer": "1. **Prioritize AGI upgrades** for faster click earnings.\n2. **Rebirth strategically** when earnings plateau.\n3. **Balance building investments** to maintain gold/EXP growth.\n4. **Use real-time syncing** to optimize timed bonuses."
+      },
+      {
+      "question": "Is Monster Clicker suitable for casual players?",
+      "answer": "Yes! The idle mechanics and simple interface make it perfect for casual play, while deep progression systems cater to dedicated players."
+      },
+      {
+      "question": "What long-term goals exist in Monster Clicker?",
+      "answer": "The game offers endless progression through rebirth cycles, with the ultimate goal of maximizing Lanias' power and collecting all creature types."
+      },
+      {
+      "question": "Can players play Monster Clicker on mobile devices?",
+      "answer": "Assuming it’s browser-based, yes. The game’s idle nature and touch-friendly interface make it ideal for mobile play."
+      },
+      {
+      "question": "How does real-time syncing impact gameplay?",
+      "answer": "The game’s time matches real-world time (e.g., night/day cycles), adding immersion and potentially triggering time-sensitive events or bonuses."
+      } 
+    ],
+    "conclusion": "Monster Clicker is a captivating idle clicker game where you start as a Lania trainer hatching eggs, nurturing unique creatures, and evolving your collection through strategic upgrades."
+  },
+  "muscle-clicker-2": {
+    "faqs": [     
+
+    
+{
+  "question": "What is Muscle Clicker 2?",
+  "answer": "Muscle Clicker 2 is an addictive click-based simulation game where players build strength by clicking to perform exercises, earn muscle points, and unlock upgrades. It combines fitness-themed progression with idle mechanics for continuous growth."
+  },
+  {
+  "question": "How does gameplay work in Muscle Clicker 2?",
+  "answer": "Players click to perform exercises (e.g., lifting weights, running) to earn muscle points. These points unlock new exercises, equipment, and trainers, increasing workout efficiency. Idle mode allows passive muscle gain when not actively playing."
+  },
+  {
+  "question": "What core features define Muscle Clicker 2?",
+  "answer": "Key features include:\n- **Click-Based Mechanics**: Simple clicks represent workouts.\n- **Upgrades**: Purchase equipment and trainers for faster progress.\n- **Idle Mode**: Passive muscle gain during breaks.\n- **Customization**: Personalize character appearance."
+  },
+  {
+  "question": "How do upgrades enhance gameplay?",
+  "answer": "Upgrades like better equipment (e.g., barbells, treadmills) and trainers boost workout efficiency, increasing muscle points per click. They reduce manual effort and accelerate progression."
+  },
+  {
+  "question": "What is the idle mode in Muscle Clicker 2?",
+  "answer": "Idle mode allows your character to automatically work out and gain muscle even when you’re not clicking. This balances active play with passive progression, ideal for casual gaming."
+  },
+  {
+  "question": "Can players customize their character?",
+  "answer": "Yes! Customization options let you personalize your character’s appearance, adding a fun, personal touch to the workout journey."
+  },
+  {
+  "question": "What strategies maximize progress in Muscle Clicker 2?",
+  "answer": "1. **Focus on early upgrades** to boost efficiency.\n2. **Use idle mode** during breaks to maintain progress.\n3. **Prioritize trainers** for multiplicative bonuses.\n4. **Balance clicks** with automation for optimal growth."
+  },
+  {
+  "question": "Is Muscle Clicker 2 suitable for casual players?",
+  "answer": "Yes! The game’s simple controls, idle mechanics, and incremental progression make it accessible to casual gamers while offering depth for engaged players."
+  },
+  {
+  "question": "What is the long-term goal of Muscle Clicker 2?",
+  "answer": "The ultimate goal is to maximize your character’s strength through strategic upgrades, idle growth, and customization, becoming the最强肌肉王者 (strongest muscle king)."
+  },
+  {
+  "question": "How does Muscle Clicker 2 compare to other clicker games?",
+  "answer": "It uniquely combines fitness-themed progression with idle mechanics, offering a satisfying blend of active clicking and passive growth, unlike pure idle or non-themed clickers."
+  },
+  {
+  "question": "Can players play Muscle Clicker 2 on mobile devices?",
+  "answer": "Assuming it’s browser-based, yes. The click-friendly interface and idle mode make it ideal for mobile play."
+  },
+  {
+  "question": "What makes Muscle Clicker 2 addictive?",
+  "answer": "The satisfying click-feedback loop, incremental upgrades, and visual transformation of your character create a rewarding experience that encourages continuous play."
+  } 
+    ],
+    "conclusion": "Muscle Clicker 2 is a captivating click-based simulation game where you build strength by clicking to perform exercises, earn muscle points, and unlock upgrades."
   },
   "minetap-merge-clicker": {
     "faqs": [    

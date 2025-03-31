@@ -350,6 +350,14 @@ def cat_clicker():
                          conclusion=faq_data['conclusion'],
                          translations=get_translations())
 
+@app.route('/muscle-clicker-2')
+def muscle_clicker_2():
+    faq_data = get_faqs_for_page('muscle-clicker-2')
+    return render_template('muscle-clicker-2.html',
+                         page_title='Muscle Clicker 2',
+                         dynamic_faqs=faq_data['faqs'],
+                         conclusion=faq_data['conclusion'],
+                         translations=get_translations())
 @app.route('/ice-cream-clicker')
 def ice_cream_clicker():
     faq_data = get_faqs_for_page('ice-cream-clicker')
@@ -364,6 +372,15 @@ def doggo_clicker():
     faq_data = get_faqs_for_page('doggo-clicker')
     return render_template('doggo-clicker.html',
                          page_title='Doggo Clicker',
+                         dynamic_faqs=faq_data['faqs'],
+                         conclusion=faq_data['conclusion'],
+                         translations=get_translations())
+
+@app.route('/monster-clicker')
+def monster_clicker():
+    faq_data = get_faqs_for_page('monster-clicker')
+    return render_template('monster-clicker.html',
+                         page_title='Monster Clicker',
                          dynamic_faqs=faq_data['faqs'],
                          conclusion=faq_data['conclusion'],
                          translations=get_translations())
