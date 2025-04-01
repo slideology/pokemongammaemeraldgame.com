@@ -358,11 +358,28 @@ def muscle_clicker_2():
                          dynamic_faqs=faq_data['faqs'],
                          conclusion=faq_data['conclusion'],
                          translations=get_translations())
+@app.route('/big-dig-treasure-clickers')
+def big_dig_treasure_clickers():
+    faq_data = get_faqs_for_page('big-dig-treasure-clickers')
+    return render_template('big-dig-treasure-clickers.html',
+                         page_title='Big Dig Treasure Clickers',
+                         dynamic_faqs=faq_data['faqs'],
+                         conclusion=faq_data['conclusion'],
+                         translations=get_translations())
 @app.route('/ice-cream-clicker')
 def ice_cream_clicker():
     faq_data = get_faqs_for_page('ice-cream-clicker')
     return render_template('ice-cream-clicker.html',
                          page_title='Ice Cream Clicker',
+                         dynamic_faqs=faq_data['faqs'],
+                         conclusion=faq_data['conclusion'],
+                         translations=get_translations())
+
+@app.route('/noob-basketball-clicker')
+def noob_basketball_clicker():
+    faq_data = get_faqs_for_page('noob-basketball-clicker')
+    return render_template('noob-basketball-clicker.html',
+                         page_title='Noob Basketball Clicker',
                          dynamic_faqs=faq_data['faqs'],
                          conclusion=faq_data['conclusion'],
                          translations=get_translations())
