@@ -375,6 +375,24 @@ def ice_cream_clicker():
                          conclusion=faq_data['conclusion'],
                          translations=get_translations())
 
+@app.route('/whopper-clicker')
+def whopper_clicker():
+    faq_data = get_faqs_for_page('whopper-clicker')
+    return render_template('whopper-clicker.html',
+                         page_title='Whopper Clicker',
+                         dynamic_faqs=faq_data['faqs'],
+                         conclusion=faq_data['conclusion'],
+                         translations=get_translations())
+
+@app.route('/cat-clicker-mlg')
+def cat_clicker_mlg():
+    faq_data = get_faqs_for_page('cat-clicker-mlg')
+    return render_template('cat-clicker-mlg.html',
+                         page_title='Cat Clicker MLG',
+                         dynamic_faqs=faq_data['faqs'],
+                         conclusion=faq_data['conclusion'],
+                         translations=get_translations())
+
 @app.route('/noob-basketball-clicker')
 def noob_basketball_clicker():
     faq_data = get_faqs_for_page('noob-basketball-clicker')
