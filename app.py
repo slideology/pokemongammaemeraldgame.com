@@ -393,6 +393,24 @@ def cat_clicker_mlg():
                          conclusion=faq_data['conclusion'],
                          translations=get_translations())
 
+@app.route('/loot-heroes-clicker')
+def loot_heroes_clicker():
+    faq_data = get_faqs_for_page('loot-heroes-clicker')
+    return render_template('loot-heroes-clicker.html',
+                         page_title='Loot Heroes Clicker',
+                         dynamic_faqs=faq_data['faqs'],
+                         conclusion=faq_data['conclusion'],
+                         translations=get_translations())
+
+@app.route('/my-cupcake-clicker')
+def my_cupcake_clicker():
+    faq_data = get_faqs_for_page('my-cupcake-clicker')
+    return render_template('my-cupcake-clicker.html',
+                         page_title='My Cupcake Clicker',
+                         dynamic_faqs=faq_data['faqs'],
+                         conclusion=faq_data['conclusion'],
+                         translations=get_translations())
+
 @app.route('/noob-basketball-clicker')
 def noob_basketball_clicker():
     faq_data = get_faqs_for_page('noob-basketball-clicker')
