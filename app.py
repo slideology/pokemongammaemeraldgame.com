@@ -250,6 +250,14 @@ def unchill_guy_clicker():
                          dynamic_faqs=faq_data['faqs'],
                          conclusion=faq_data['conclusion'],
                          translations=get_translations()) 
+@app.route('/the-ultimate-clicker-squad')
+def the_ultimate_clicker_squad():
+    faq_data = get_faqs_for_page('the-ultimate-clicker-squad')
+    return render_template('the-ultimate-clicker-squad.html',
+                         page_title='The Ultimate Clicker Squad',
+                         dynamic_faqs=faq_data['faqs'],
+                         conclusion=faq_data['conclusion'],
+                         translations=get_translations()) 
 
 @app.route('/chill-girl-clicker')
 def chill_girl_clicker():
