@@ -1,4 +1,7 @@
 {
+  "domain": "game.bearclicker.net",
+  "brandName": "Bear Clicker",
+  "brandUrl": "https://bearclicker.net",
   "games": [
     {
       "id": "astro-robot-clicker",
