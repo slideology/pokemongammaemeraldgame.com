@@ -68,13 +68,8 @@ module.exports = (req, res) => {
     if (isEmbedRequest) {
       console.log(`处理embed请求，重定向到: ${gameConfig.url}`);
       res.setHeader('Location', gameConfig.url);
-      return res.status(302).end();
-    }
-    
-    // 如果是.embed请求，直接重定向到游戏URL
-    if (isEmbedRequest) {
-      console.log(`处理embed请求，重定向到: ${gameConfig.url}`);
-      res.setHeader('Location', gameConfig.url);
+      // 添加CORS头部，允许跨域访问
+      res.setHeader('Access-Control-Allow-Origin', '*');
       return res.status(302).end();
     }
     
