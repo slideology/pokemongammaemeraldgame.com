@@ -44,8 +44,12 @@ module.exports = (req, res) => {
     const { gameId } = req.query;
     console.log(`原始游戏ID: ${gameId}`);
     
-    // 清理游戏ID，移除.html后缀和非法字符
-    const gameIdClean = gameId ? gameId.replace(/\.html$/, '').replace(/[^a-zA-Z0-9-_]/g, '') : '';
+    // 检查是否是.embed格式的请求
+    const isEmbedRequest = gameId && gameId.endsWith('.embed');
+    console.log(`是否为embed请求: ${isEmbedRequest}`);
+    
+    // 清理游戏ID，移除.html或.embed后缀和非法字符
+    const gameIdClean = gameId ? gameId.replace(/\.(html|embed)$/, '').replace(/[^a-zA-Z0-9-_]/g, '') : '';
     console.log(`清理后的游戏ID: ${gameIdClean}`);
     
     // 查找游戏配置
@@ -59,6 +63,13 @@ module.exports = (req, res) => {
     
     console.log(`找到游戏: ${gameConfig.title}`);
     console.log(`游戏URL: ${gameConfig.url}`);
+    
+    // 如果是.embed请求，直接重定向到游戏URL
+    if (isEmbedRequest) {
+      console.log(`处理embed请求，重定向到: ${gameConfig.url}`);
+      res.setHeader('Location', gameConfig.url);
+      return res.status(302).end();
+    }
     
     // 替换模板中的占位符
     let html = templateContent
