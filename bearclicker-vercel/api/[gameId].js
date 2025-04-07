@@ -71,6 +71,13 @@ module.exports = (req, res) => {
       return res.status(302).end();
     }
     
+    // 如果是.embed请求，直接重定向到游戏URL
+    if (isEmbedRequest) {
+      console.log(`处理embed请求，重定向到: ${gameConfig.url}`);
+      res.setHeader('Location', gameConfig.url);
+      return res.status(302).end();
+    }
+    
     // 替换模板中的占位符
     let html = templateContent
       .replace(/{{GAME_TITLE}}/g, gameConfig.title)
@@ -78,20 +85,18 @@ module.exports = (req, res) => {
       .replace(/{{DOMAIN_DISPLAY}}/g, config.brandName || 'Bear Clicker')
       .replace(/{{DOMAIN_LINK}}/g, config.brandUrl || 'https://bearclicker.net');
     
-    // 添加调试信息到HTML（仅在开发环境）
-    if (process.env.NODE_ENV !== 'production') {
-      const debugInfo = `
-        <!-- Debug Info:
-        Request URL: ${req.url}
-        Game ID: ${gameIdClean}
-        Game Title: ${gameConfig.title}
-        Game URL: ${gameConfig.url}
-        Host: ${req.headers.host}
-        Timestamp: ${new Date().toISOString()}
-        -->
-      `;
-      html = html.replace('</head>', `${debugInfo}</head>`);
-    }
+    // 添加调试信息到HTML（始终添加，便于诊断问题）
+    const debugInfo = `
+      <!-- Debug Info:
+      Request URL: ${req.url}
+      Game ID: ${gameIdClean}
+      Game Title: ${gameConfig.title}
+      Game URL: ${gameConfig.url}
+      Host: ${req.headers.host}
+      Timestamp: ${new Date().toISOString()}
+      -->
+    `;
+    html = html.replace('</head>', `${debugInfo}</head>`);
     
     // 设置响应头部
     res.setHeader('Content-Type', 'text/html; charset=utf-8');
