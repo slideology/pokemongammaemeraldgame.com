@@ -56,11 +56,11 @@
         },
         {
             "src": "/game/(.*)\\.html",
-            "dest": "/api/game-api?gameId=$1"
+            "dest": "wsgi.py"
         },
         {
             "src": "/game/(.*)",
-            "dest": "/api/game-api?gameId=$1"
+            "dest": "wsgi.py"
         },
         {
             "src": "/(.*)",
