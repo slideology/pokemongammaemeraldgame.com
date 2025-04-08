@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{GAME_TITLE}} - Bear Clicker</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body, html {
+            height: 100%;
+            width: 100%;
+            overflow: hidden;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
+        
+        .game-container {
+            position: relative;
+            width: 100%;
+            height: 100vh;
+            overflow: hidden;
+        }
+        
+        iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+        
+        /* 顶部导航栏样式已移除 */
+        
+        .bottom-bar {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background-color: rgba(0, 0, 0, 0.85);
+            color: white;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            z-index: 1000;
+        }
+        
+        .game-link-container {
+            display: flex;
+            align-items: center;
+        }
+        
+        .game-icon {
+            width: 24px;
+            height: 24px;
+            margin-right: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .game-icon svg {
+            width: 100%;
+            height: 100%;
+        }
+        
+        .link-button {
+            display: flex;
+            align-items: center;
+            background-color: transparent;
+            padding: 4px 0;
+            font-weight: bold;
+            font-size: 16px;
+            color: #FFD700;
+            transition: opacity 0.2s;
+        }
+        
+        .link-button:hover {
+            opacity: 0.8;
+        }
+        
+        @media (max-width: 768px) {
+            .game-icon {
+                width: 20px;
+                height: 20px;
+                margin-right: 8px;
+            }
+            
+            .link-button {
+                font-size: 14px;
+            }
+            
+            .bottom-bar {
+                padding: 8px 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="game-container">
+        <iframe src="{{GAME_URL}}" allowfullscreen></iframe>
+        
+        <div id="bottom-link-bar" class="bottom-bar">
+            <div class="game-link-container">
+                <div style="display: flex; align-items: center;">
+                    <div class="game-icon">
+                        <svg viewBox="0 0 24 24" fill="#ffd700">
+                            <path d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"/>
+                        </svg>
+                    </div>
+                    <a href="{{DOMAIN_LINK}}" class="link-button" target="_blank">
+                        More Games on BearClicker.net
+                        <span style="margin-left: 12px; display: inline-flex; align-items: center;">
+                            <svg viewBox="0 0 24 24" fill="#ffd700" width="24" height="24">
+                                <path d="M8,5.14V19.14L19,12.14L8,5.14Z" />
+                            </svg>
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        // 检测当前域名，如果是bearclicker.net则隐藏底部栏
+        document.addEventListener('DOMContentLoaded', function() {
+            var hostname = window.location.hostname;
+            var bottomBar = document.getElementById('bottom-link-bar');
+            
+            // 检查域名是否包含bearclicker.net
+            if (hostname.indexOf('bearclicker.net') !== -1) {
+                // 在bearclicker.net域名下，隐藏底部栏
+                if (bottomBar) {
+                    bottomBar.style.display = 'none';
+                }
+            }
+        });
+    </script>
+</body>
+</html>
