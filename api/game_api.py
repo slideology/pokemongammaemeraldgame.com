@@ -10,18 +10,22 @@ logger = logging.getLogger(__name__)
 # 读取游戏配置文件
 def load_game_config():
     try:
-        # 首先尝试从新路径加载
+        # 直接从新路径加载配置文件
         config_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'static', 'game-config', 'games.json')
-        logger.info(f"尝试从新路径读取配置文件: {config_path}")
+        logger.info(f"从新路径读取配置文件: {config_path}")
         
-        # 如果新路径不存在，尝试从原始路径加载
+        # 检查文件是否存在
         if not os.path.exists(config_path):
-            config_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'bearclicker-vercel', 'config', 'games.json')
-            logger.info(f"尝试从原始路径读取配置文件: {config_path}")
+            logger.error(f"配置文件不存在: {config_path}")
+            return {"games": [], "brandName": "Bear Clicker", "brandUrl": "https://bearclicker.net"}
         
+        # 读取并解析配置文件
         with open(config_path, 'r', encoding='utf-8') as f:
             config = json.load(f)
-        logger.info(f"配置加载成功, 包含 {len(config['games'])} 个游戏")
+        
+        # 记录游戏列表
+        game_ids = [game['id'] for game in config['games']]
+        logger.info(f"配置加载成功, 包含 {len(config['games'])} 个游戏: {', '.join(game_ids[:5])}...等")
         return config
     except Exception as e:
         logger.error(f"加载配置文件失败: {str(e)}")
