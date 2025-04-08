@@ -533,6 +533,16 @@ def little_farm_clicker():
                          dynamic_faqs=faq_data['faqs'],
                          conclusion=faq_data['conclusion'],
                          translations=get_translations())
+
+@app.route('/poop-clicker')
+def poop_clicker():
+    faq_data = get_faqs_for_page('poop-clicker')
+    return render_template('poop-clicker.html',
+                         page_title='Poop Clicker',
+                         dynamic_faqs=faq_data['faqs'],
+                         conclusion=faq_data['conclusion'],
+                         translations=get_translations())
+
 @app.route('/click-click-clicker')
 def click_click_clicker():
     faq_data = get_faqs_for_page('click-click-clicker')

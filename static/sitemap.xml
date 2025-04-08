@@ -314,7 +314,13 @@
     </url>
     <url>
         <loc>https://bearclicker.net/the-ultimate-clicker-squad</loc>
-        <lastmod>2025-04-03</lastmod>
+        <lastmod>2025-04-07</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://bearclicker.net/poop-clicker</loc>
+        <lastmod>2025-04-08</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
