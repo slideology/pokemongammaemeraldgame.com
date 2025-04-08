@@ -74,7 +74,14 @@ const server = http.createServer((req, res) => {
   // 处理API路由
   if (pathname !== '/' && pathname !== '/favicon.ico') {
     // 提取游戏ID
-    const gameId = pathname.substring(1); // 移除开头的斜杠
+    let gameId = pathname.substring(1); // 移除开头的斜杠
+    
+    // 处理新的URL格式（/game/game-name）
+    if (gameId.startsWith('game/')) {
+      // 从路径中提取游戏名称
+      gameId = gameId.substring(5); // 移除 'game/' 前缀
+      console.log(`检测到新URL格式，提取游戏ID: ${gameId}`);
+    }
     
     // 模拟Vercel的API路由请求
     req.query = { gameId };

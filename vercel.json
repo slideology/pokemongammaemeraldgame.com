@@ -55,6 +55,18 @@
             "dest": "/static/robots.txt"
         },
         {
+            "src": "/game/(.*)\\.embed",
+            "dest": "/bearclicker-vercel/api/$1"
+        },
+        {
+            "src": "/game/(.*)\\.html",
+            "dest": "/bearclicker-vercel/api/$1"
+        },
+        {
+            "src": "/game/(.*)",
+            "dest": "/bearclicker-vercel/api/$1"
+        },
+        {
             "src": "/(.*)",
             "dest": "wsgi.py"
         }

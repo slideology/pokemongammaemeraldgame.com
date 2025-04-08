@@ -2,12 +2,20 @@
   "version": 2,
   "routes": [
     {
+      "src": "/(.*)\\.embed",
+      "dest": "/api/$1"
+    },
+    {
       "src": "/(.*)\\.html",
       "dest": "/api/$1"
     },
     {
       "src": "/(.+)",
       "dest": "/api/$1"
+    },
+    {
+      "src": "/",
+      "dest": "/api/index"
     }
   ],
   "headers": [

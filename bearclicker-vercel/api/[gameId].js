@@ -37,8 +37,14 @@ module.exports = (req, res) => {
     console.log(`请求URL: ${req.url}`);
     console.log(`请求方法: ${req.method}`);
     console.log(`请求域名: ${req.headers.host}`);
+    console.log(`配置域名: ${config.domain}`);
     console.log(`Referer: ${req.headers.referer || 'none'}`);
     console.log(`User-Agent: ${req.headers['user-agent']}`);
+    
+    // 添加CORS头部，允许跨域访问
+    res.setHeader('Access-Control-Allow-Origin', '*');
+    res.setHeader('Access-Control-Allow-Methods', 'GET, OPTIONS');
+    res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
     
     // 获取请求的游戏ID
     const { gameId } = req.query;
@@ -70,6 +76,27 @@ module.exports = (req, res) => {
       res.setHeader('Location', gameConfig.url);
       // 添加CORS头部，允许跨域访问
       res.setHeader('Access-Control-Allow-Origin', '*');
+      return res.status(302).end();
+    }
+    
+    // 检查请求类型
+    // 在新的URL格式下，我们使用路径而非域名来区分游戏请求
+    // 所有游戏请求都会使用 /game/ 前缀
+    console.log(`请求路径: ${req.url}`);
+    
+    // 检查是否是本地测试环境
+    const isLocalTesting = ['localhost:3007', '127.0.0.1:3007'].includes(req.headers.host);
+    console.log(`是否本地测试: ${isLocalTesting}`);
+    
+    // 如果是本地测试环境，使用游戏模板
+    // 如果是线上环境，则根据路径判断：/game/前缀的请求使用游戏模板
+    const isGameRequest = isLocalTesting || req.url.startsWith('/game/');
+    console.log(`是否游戏请求: ${isGameRequest}`);
+    
+    // 如果不是游戏请求，重定向到主站对应的页面
+    if (!isGameRequest && !isLocalTesting) {
+      console.log(`非游戏请求，重定向到主站: ${config.brandUrl}/${gameIdClean}`);
+      res.setHeader('Location', `${config.brandUrl}/${gameIdClean}`);
       return res.status(302).end();
     }
     
