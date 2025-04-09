@@ -552,6 +552,24 @@ def click_click_clicker():
                          conclusion=faq_data['conclusion'],
                          translations=get_translations())
 
+@app.route('/babe-clicker')
+def babe_clicker():
+    faq_data = get_faqs_for_page('babe-clicker')
+    return render_template('babe-clicker.html',
+                         page_title='Babe Clicker',
+                         dynamic_faqs=faq_data['faqs'],
+                         conclusion=faq_data['conclusion'],
+                         translations=get_translations())
+
+@app.route('/clicker-royale')
+def clicker_royale():
+    faq_data = get_faqs_for_page('clicker-royale')
+    return render_template('clicker-royale.html',
+                         page_title='Clicker Royale',
+                         dynamic_faqs=faq_data['faqs'],
+                         conclusion=faq_data['conclusion'],
+                         translations=get_translations())
+
 @app.route('/chill-guy-clicker')
 def chill_guy_clicker():
     faq_data = get_faqs_for_page('chill-guy-clicker')
