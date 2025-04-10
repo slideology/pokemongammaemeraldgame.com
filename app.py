@@ -543,6 +543,24 @@ def poop_clicker():
                          conclusion=faq_data['conclusion'],
                          translations=get_translations())
 
+@app.route('/clicker-sprunki-2')
+def clicker_sprunki_2():
+    faq_data = get_faqs_for_page('clicker-sprunki-2')
+    return render_template('clicker-sprunki-2.html',
+                         page_title='Clicker Sprunki 2',
+                         dynamic_faqs=faq_data['faqs'],
+                         conclusion=faq_data['conclusion'],
+                         translations=get_translations())
+
+@app.route('/cookie-clicker-save-the-world')
+def cookie_clicker_save_the_world():
+    faq_data = get_faqs_for_page('cookie-clicker-save-the-world')
+    return render_template('cookie-clicker-save-the-world.html',
+                         page_title='Cookie Clicker Save the World',
+                         dynamic_faqs=faq_data['faqs'],
+                         conclusion=faq_data['conclusion'],
+                         translations=get_translations())
+
 @app.route('/click-click-clicker')
 def click_click_clicker():
     faq_data = get_faqs_for_page('click-click-clicker')
