@@ -543,6 +543,24 @@ def poop_clicker():
                          conclusion=faq_data['conclusion'],
                          translations=get_translations())
 
+@app.route('/gift-clicker')
+def gift_clicker():
+    faq_data = get_faqs_for_page('gift-clicker')
+    return render_template('gift-clicker.html',
+                         page_title='Gift Clicker',
+                         dynamic_faqs=faq_data['faqs'],
+                         conclusion=faq_data['conclusion'],
+                         translations=get_translations())
+
+@app.route('/css-clicker')
+def css_clicker():
+    faq_data = get_faqs_for_page('css-clicker')
+    return render_template('css-clicker.html',
+                         page_title='Css Clicker',
+                         dynamic_faqs=faq_data['faqs'],
+                         conclusion=faq_data['conclusion'],
+                         translations=get_translations())
+
 @app.route('/clicker-sprunki-2')
 def clicker_sprunki_2():
     faq_data = get_faqs_for_page('clicker-sprunki-2')
