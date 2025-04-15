@@ -534,6 +534,24 @@ def little_farm_clicker():
                          conclusion=faq_data['conclusion'],
                          translations=get_translations())
 
+@app.route('/military-capitalist-idle-clicker')
+def military_capitalist_idle_clicker():
+    faq_data = get_faqs_for_page('military-capitalist-idle-clicker')
+    return render_template('military-capitalist-idle-clicker.html',
+                         page_title='Military Capitalist Idle Clicker',
+                         dynamic_faqs=faq_data['faqs'],
+                         conclusion=faq_data['conclusion'],
+                         translations=get_translations())
+
+@app.route('/race-clicker')
+def race_clicker():
+    faq_data = get_faqs_for_page('race-clicker')
+    return render_template('race-clicker.html',
+                         page_title='Race Clicker',
+                         dynamic_faqs=faq_data['faqs'],
+                         conclusion=faq_data['conclusion'],
+                         translations=get_translations())
+
 @app.route('/poop-clicker')
 def poop_clicker():
     faq_data = get_faqs_for_page('poop-clicker')
