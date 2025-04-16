@@ -534,6 +534,15 @@ def little_farm_clicker():
                          conclusion=faq_data['conclusion'],
                          translations=get_translations())
 
+@app.route('/smash-car-clicker')
+def smash_car_clicker():
+    faq_data = get_faqs_for_page('smash-car-clicker')
+    return render_template('smash-car-clicker.html',
+                         page_title='Smash Car Clicker',
+                         dynamic_faqs=faq_data['faqs'],
+                         conclusion=faq_data['conclusion'],
+                         translations=get_translations())
+
 @app.route('/military-capitalist-idle-clicker')
 def military_capitalist_idle_clicker():
     faq_data = get_faqs_for_page('military-capitalist-idle-clicker')
@@ -548,6 +557,15 @@ def race_clicker():
     faq_data = get_faqs_for_page('race-clicker')
     return render_template('race-clicker.html',
                          page_title='Race Clicker',
+                         dynamic_faqs=faq_data['faqs'],
+                         conclusion=faq_data['conclusion'],
+                         translations=get_translations())
+
+@app.route('/smash-car-clicker-2')
+def smash_car_clicker_2():
+    faq_data = get_faqs_for_page('smash-car-clicker-2')
+    return render_template('smash-car-clicker-2.html',
+                         page_title='Smash Car Clicker 2',
                          dynamic_faqs=faq_data['faqs'],
                          conclusion=faq_data['conclusion'],
                          translations=get_translations())

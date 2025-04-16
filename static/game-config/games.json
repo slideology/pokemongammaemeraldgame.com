@@ -224,6 +224,11 @@
       "url": "https://stimulationclicker.com/titans-clicker.embed"
     },
     {
+      "id": "smash-car-clicker",
+      "title": "Smash Car Clicker",
+      "url": "https://f.kbhgames.com/RS/game.php?r=//f.kbhgames.com/2015/03/smash-car-clicker.swf&w=800&h=450&warnsupport=true"
+    },
+    {
       "id": "css-clicker",
       "title": "CSS Clicker",
       "url": "https://lyra.horse/css-clicker/"
@@ -237,6 +242,11 @@
       "id": "race-clicker",
       "title": "Race Clicker",
       "url": "https://cdn.raceclickergame.com/"
+    },
+    {
+      "id": "smash-car-clicker-2",
+      "title": "Smash Car Clicker 2",
+      "url": "https://f.kbhgames.com/RS/game.php?r=//f.kbhgames.com/2016/12/SmashCarClicker2.swf&w=800&h=450&warnsupport=true"
     },
     {
       "id": "military-capitalist-idle-clicker",
