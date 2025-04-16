@@ -543,6 +543,15 @@ def smash_car_clicker():
                          conclusion=faq_data['conclusion'],
                          translations=get_translations())
 
+@app.route('/omega-nuggets-clicker')
+def omega_nuggets_clicker():
+    faq_data = get_faqs_for_page('omega-nuggets-clicker')
+    return render_template('omega-nuggets-clicker.html',
+                         page_title='Omega Nugget Clicker',
+                         dynamic_faqs=faq_data['faqs'],
+                         conclusion=faq_data['conclusion'],
+                         translations=get_translations())
+
 @app.route('/military-capitalist-idle-clicker')
 def military_capitalist_idle_clicker():
     faq_data = get_faqs_for_page('military-capitalist-idle-clicker')
