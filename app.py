@@ -552,6 +552,24 @@ def omega_nuggets_clicker():
                          conclusion=faq_data['conclusion'],
                          translations=get_translations())
 
+@app.route('/italian-brainrot-clicker')
+def italian_brainrot_clicker():
+    faq_data = get_faqs_for_page('italian-brainrot-clicker')
+    return render_template('italian-brainrot-clicker.html',
+                         page_title='Italian Brainrot Clicker',
+                         dynamic_faqs=faq_data['faqs'],
+                         conclusion=faq_data['conclusion'],
+                         translations=get_translations())
+
+@app.route('/robux-clicker')
+def robux_clicker():
+    faq_data = get_faqs_for_page('robux-clicker')
+    return render_template('robux-clicker.html',
+                         page_title='Robux Clicker',
+                         dynamic_faqs=faq_data['faqs'],
+                         conclusion=faq_data['conclusion'],
+                         translations=get_translations())
+
 @app.route('/military-capitalist-idle-clicker')
 def military_capitalist_idle_clicker():
     faq_data = get_faqs_for_page('military-capitalist-idle-clicker')
