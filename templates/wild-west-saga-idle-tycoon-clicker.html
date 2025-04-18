@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+
+{% block title %}Wild West Saga: Idle Tycoon Clicker - Play On Bear Clicker Game{% endblock %}
+
+{% block meta_description %}
+<meta name="description" content="Wild West Saga: Idle Tycoon Clicker is an exciting incremental game letting players dive into the Wild West heart. Build your empire in this idle clicker!">
+{% endblock %}
+
+{% block og_title %}Wild West Saga: Idle Tycoon Clicker - Play Wild West Saga: Idle Tycoon Clicker On Bear Clicker Game{% endblock %}
+{% block og_description %}Wild West Saga: Idle Tycoon Clicker: An exciting incremental game letting players dive into the Wild West heart. Build your empire in this idle clicker!{% endblock %}
+
+{% block favicon %}
+<link rel="icon" type="image/png" href="{{ url_for('static', filename='images/favicon/wild-west-saga-idle-tycoon-clicker-favicon.png') }}">
+<link rel="apple-touch-icon" sizes="180x180" href="{{ url_for('static', filename='images/favicon/wild-west-saga-idle-tycoon-clicker-apple-touch-icon.png') }}">
+{% endblock %}
+
+{% block content %}
+<div class="relative overflow-hidden">
+    {% with 
+        gradient_colors="from-pink-400 via-purple-500 to-indigo-600",
+        blob_gradient_1="from-pink-500 to-purple-500",
+        blob_gradient_2="from-purple-500 to-indigo-500",
+        title_gradient="from-pink-500 via-purple-500 to-indigo-500",
+        game_url="https://bearclicker.net/game/wild-west-saga-idle-tycoon-clicker",
+        title="Wild West Saga: Idle Tycoon Clicker",
+        description="Wild West Saga: Idle Tycoon Clicker: An exciting incremental game letting players dive into the Wild West heart. Build your empire in this idle clicker!"
+    %}
+        {% include 'components/hero.html' %}
+    {% endwith %}
+
+
+    <!-- Trending Games Section -->
+    {% with current_page='wild-west-saga-idle-tycoon-clicker' %}
+    {% include 'components/trending_games.html' %}
+    {% endwith %}
+    
+
+    
+   <!-- FAQ Section -->
+{% include 'components/faq_section.html' %}
+</div>
+{% endblock %}

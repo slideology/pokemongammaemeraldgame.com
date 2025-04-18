@@ -552,6 +552,24 @@ def omega_nuggets_clicker():
                          conclusion=faq_data['conclusion'],
                          translations=get_translations())
 
+@app.route('/wild-west-saga-idle-tycoon-clicker')
+def wild_west_saga_idle_tycoon_clicker():
+    faq_data = get_faqs_for_page('wild-west-saga-idle-tycoon-clicker')
+    return render_template('wild-west-saga-idle-tycoon-clicker.html',
+                         page_title='Wild West Saga: Idle Tycoon Clicker',
+                         dynamic_faqs=faq_data['faqs'],
+                         conclusion=faq_data['conclusion'],
+                         translations=get_translations())
+
+@app.route('/twitchie-clicker')
+def twitchie_clicker():
+    faq_data = get_faqs_for_page('twitchie-clicker')
+    return render_template('twitchie-clicker.html',
+                         page_title='Twitchie Clicker',
+                         dynamic_faqs=faq_data['faqs'],
+                         conclusion=faq_data['conclusion'],
+                         translations=get_translations())
+
 @app.route('/italian-brainrot-clicker')
 def italian_brainrot_clicker():
     faq_data = get_faqs_for_page('italian-brainrot-clicker')
