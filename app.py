@@ -428,6 +428,33 @@ def noob_basketball_clicker():
                          conclusion=faq_data['conclusion'],
                          translations=get_translations())
 
+@app.route('/cookie-clicker-4')
+def cookie_clicker_4():
+    faq_data = get_faqs_for_page('cookie-clicker-4')
+    return render_template('cookie-clicker-4.html',
+                         page_title='Cookie Clicker 4',
+                         dynamic_faqs=faq_data['faqs'],
+                         conclusion=faq_data['conclusion'],
+                         translations=get_translations())
+
+@app.route('/cookie-clicker-5')
+def cookie_clicker_5():
+    faq_data = get_faqs_for_page('cookie-clicker-5')
+    return render_template('cookie-clicker-5.html',
+                         page_title='Cookie Clicker 5',
+                         dynamic_faqs=faq_data['faqs'],
+                         conclusion=faq_data['conclusion'],
+                         translations=get_translations())
+
+@app.route('/cookie-clicker-3')
+def cookie_clicker_3():
+    faq_data = get_faqs_for_page('cookie-clicker-3')
+    return render_template('cookie-clicker-3.html',
+                         page_title='Cookie Clicker 3',
+                         dynamic_faqs=faq_data['faqs'],
+                         conclusion=faq_data['conclusion'],
+                         translations=get_translations())
+
 @app.route('/doggo-clicker')
 def doggo_clicker():
     faq_data = get_faqs_for_page('doggo-clicker')
@@ -548,6 +575,15 @@ def omega_nuggets_clicker():
     faq_data = get_faqs_for_page('omega-nuggets-clicker')
     return render_template('omega-nuggets-clicker.html',
                          page_title='Omega Nugget Clicker',
+                         dynamic_faqs=faq_data['faqs'],
+                         conclusion=faq_data['conclusion'],
+                         translations=get_translations())
+
+@app.route('/cookie-clicker-1')
+def cookie_clicker_1():
+    faq_data = get_faqs_for_page('cookie-clicker-1')
+    return render_template('cookie-clicker-1.html',
+                         page_title='Cookie Clicker 1',
                          dynamic_faqs=faq_data['faqs'],
                          conclusion=faq_data['conclusion'],
                          translations=get_translations())
