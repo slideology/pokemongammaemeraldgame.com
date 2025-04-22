@@ -455,6 +455,24 @@ def cookie_clicker_3():
                          conclusion=faq_data['conclusion'],
                          translations=get_translations())
 
+@app.route('/cookie-clicker-evolution')
+def cookie_clicker_evolution():
+    faq_data = get_faqs_for_page('cookie-clicker-evolution')
+    return render_template('cookie-clicker-evolution.html',
+                         page_title='Cookie Clicker Evolution',
+                         dynamic_faqs=faq_data['faqs'],
+                         conclusion=faq_data['conclusion'],
+                         translations=get_translations())
+
+@app.route('/cookie-clicker-city')
+def cookie_clicker_city():
+    faq_data = get_faqs_for_page('cookie-clicker-city')
+    return render_template('cookie-clicker-city.html',
+                         page_title='Cookie Clicker City',
+                         dynamic_faqs=faq_data['faqs'],
+                         conclusion=faq_data['conclusion'],
+                         translations=get_translations())
+
 @app.route('/doggo-clicker')
 def doggo_clicker():
     faq_data = get_faqs_for_page('doggo-clicker')
