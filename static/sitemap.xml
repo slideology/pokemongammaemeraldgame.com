@@ -450,4 +450,16 @@
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
+    <url>
+        <loc>https://bearclicker.net/doge-miner</loc>
+        <lastmod>2025-04-23</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://bearclicker.net/doge-miner-2</loc>
+        <lastmod>2025-04-23</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
 </urlset>

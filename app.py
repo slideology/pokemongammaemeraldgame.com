@@ -455,6 +455,24 @@ def cookie_clicker_3():
                          conclusion=faq_data['conclusion'],
                          translations=get_translations())
 
+@app.route('/doge-miner')
+def doge_miner():
+    faq_data = get_faqs_for_page('doge-miner')
+    return render_template('doge-miner.html',
+                         page_title='Doge Miner',
+                         dynamic_faqs=faq_data['faqs'],
+                         conclusion=faq_data['conclusion'],
+                         translations=get_translations())
+
+@app.route('/doge-miner-2')
+def doge_miner_2():
+    faq_data = get_faqs_for_page('doge-miner-2')
+    return render_template('doge-miner-2.html',
+                         page_title='Doge Miner 2',
+                         dynamic_faqs=faq_data['faqs'],
+                         conclusion=faq_data['conclusion'],
+                         translations=get_translations())
+
 @app.route('/cookie-clicker-evolution')
 def cookie_clicker_evolution():
     faq_data = get_faqs_for_page('cookie-clicker-evolution')
