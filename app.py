@@ -455,6 +455,15 @@ def cookie_clicker_3():
                          conclusion=faq_data['conclusion'],
                          translations=get_translations())
 
+@app.route('/cheese-chompers-3d')
+def cheese_chompers_3d():
+    faq_data = get_faqs_for_page('cheese-chompers-3d')
+    return render_template('cheese-chompers-3d.html',
+                         page_title='Cheese Chompers 3D',
+                         dynamic_faqs=faq_data['faqs'],
+                         conclusion=faq_data['conclusion'],
+                         translations=get_translations())
+
 @app.route('/doge-miner')
 def doge_miner():
     faq_data = get_faqs_for_page('doge-miner')

@@ -2163,6 +2163,52 @@
     ],
     "conclusion":  "Doge Miner 2: An engaging idle game with the mission to take the golden Shiba Inu to the moon! Builds on the original with exciting new features."
   },
+  "cheese-chompers-3d": {
+    "faqs": [ 
+      
+    {
+      "question": "What is Cheese Chompers 3D?",
+      "answer": "Cheese Chompers 3D is a wild, browser-based knockout game where you control a goofy rat in a crazy arena! It's a physics-based game all about pushing and bumping other rats off the map."
+    },
+    {
+      "question": "How do you play Cheese Chompers 3D?",
+      "answer": "It's simple and chaotic fun! You move your rat around the arena using WASD, and hold Space to jump. The goal is to survive and knock other rats off the edge using movement, momentum, and clever timing. Doing flips (holding Space mid-air) gives you a temporary speed boost!"
+    },
+    {
+      "question": "Is Cheese Chompers 3D a mod of another game?",
+      "answer": "Yes, Cheese Chompers 3D was originally modded from 'Crazy Cattle 3D'. This version swaps the sheep for funny rats and has a brand new look and sound design to match the cheesy, rodent theme."
+    },
+    {
+      "question": "What kind of features does Cheese Chompers 3D have?",
+      "answer": "It offers fast, energetic action with wobbly 3D rats and a remastered interface and sound. A cool feature is the explosion effect when you knock another rat off! You can also use mid-air flips for speed boosts to help you knock out rivals or escape."
+    },
+    {
+      "question": "What are the graphics and feel of Cheese Chompers 3D like?",
+      "answer": "Built in Unity, the game has a high-tech rhythmic universe. It offers fast-paced gameplay with fun twists, featuring pyramid-inspired geometric animations, neon circuitry, and shifting digital landscapes for a bold, futuristic look."
+    },
+    {
+      "question": "Is Cheese Chompers 3D completely finished?",
+      "answer": "Currently, Cheese Chompers 3D is still in alpha-beta. It includes one main map for the chaotic arena action, but it doesn't show you how many opponents you're up against right now."
+    },
+    {
+      "question": "What are the controls for Cheese Chompers 3D?",
+      "answer": "Controls are easy: Use WASD to move your rat around the arena, and hold the Space bar to jump. Remember to do flips (hold Space mid-jump) for a quick speed burst!"
+    },
+    {
+      "question": "Where can I play Cheese Chompers 3D?",
+      "answer": "Cheese Chompers 3D is a browser-based game, built in Unity using HTML5/WebGL. It's currently optimized for desktop browser play, so you can jump in and play instantly online!"
+    },
+    {
+      "question": "Are there other games similar to Cheese Chompers 3D?",
+      "answer": "Yes! If you like the funny physics and animal chaos, check out games like Crazy Cattle 3D+ (the original), Crazy Chicken 3D, and Crazy Sheep 3D. They offer similar fast-paced, physics-driven arena fun right in your browser."
+    },
+    {
+      "question": "What's the main objective in Cheese Chompers 3D?",
+      "answer": "The goal is cheesy glory! Survive the chaos, knock out other rats by pushing or boosting into them, and basically chomp your way to being the last rat standing on the arena."
+    }
+    ],
+    "conclusion":  "Cheese Chompers 3D: High-res browser game! Battle as rats in wild 3D arenas, knock off rivals, trigger explosions, and flip for speed boosts."
+  },
   "wild-west-saga-idle-tycoon-clicker": {
     "faqs": [ 
     
