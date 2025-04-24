@@ -464,6 +464,15 @@ def cheese_chompers_3d():
                          conclusion=faq_data['conclusion'],
                          translations=get_translations())
 
+@app.route('/crazy-cattle-3d')
+def crazy_cattle_3d():
+    faq_data = get_faqs_for_page('crazy-cattle-3d')
+    return render_template('crazy-cattle-3d.html',
+                         page_title='Crazy Cattle 3D',
+                         dynamic_faqs=faq_data['faqs'],
+                         conclusion=faq_data['conclusion'],
+                         translations=get_translations())
+
 @app.route('/doge-miner')
 def doge_miner():
     faq_data = get_faqs_for_page('doge-miner')
