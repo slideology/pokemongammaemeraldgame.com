@@ -473,6 +473,15 @@ def crazy_cattle_3d():
                          conclusion=faq_data['conclusion'],
                          translations=get_translations())
 
+@app.route('/tung-tung-sahur-gta-miami')
+def tung_tung_sahur_gta_miami():
+    faq_data = get_faqs_for_page('tung-tung-sahur-gta-miami')
+    return render_template('tung-tung-sahur-gta-miami.html',
+                         page_title='Tung Tung Sahur: GTA Miami',
+                         dynamic_faqs=faq_data['faqs'],
+                         conclusion=faq_data['conclusion'],
+                         translations=get_translations())
+
 @app.route('/doge-miner')
 def doge_miner():
     faq_data = get_faqs_for_page('doge-miner')
