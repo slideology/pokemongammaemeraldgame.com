@@ -732,6 +732,14 @@ def gift_clicker():
                          conclusion=faq_data['conclusion'],
                          translations=get_translations())
 
+@app.route('/crazy-chicken-3d')
+def crazy_chicken_3d():
+    faq_data = get_faqs_for_page('crazy-chicken-3d')
+    return render_template('crazy-chicken-3d.html',
+                         page_title='Crazy Chicken 3D',
+                         dynamic_faqs=faq_data['faqs'],
+                         conclusion=faq_data['conclusion'],
+                         translations=get_translations())
 @app.route('/css-clicker')
 def css_clicker():
     faq_data = get_faqs_for_page('css-clicker')

@@ -62,6 +62,43 @@
     ],
     "conclusion": "Dive into Chill Girl Clicker, a laid - back idle game! Collect & upgrade irresistibly charming chill girls, each boasting unique animations and styles."
   },
+  "crazy-chicken-3d": {
+    "faqs": [
+      {
+        "question": "What is Crazy Chicken 3D?",
+        "answer": "Crazy Chicken 3D is a hilarious, action-packed spin-off of the popular Crazy Cattle 3D! It's a physics-based battle royale game, but instead of sheep, you get to play as a chicken and try to be the last one clucking in chaotic arenas."
+      },
+      {
+        "question": "How is Crazy Chicken 3D different from Crazy Cattle 3D?",
+        "answer": "Crazy Chicken 3D keeps the core fun gameplay, physics, and absurd mechanics of Crazy Cattle 3D. The main difference is the style, animations, and personality – you're now a chicken, bringing a new level of hilarity with flapping wings and funny tumbles!"
+      },
+      {
+        "question": "How do you play Crazy Chicken 3D? What are the controls?",
+        "answer": "Controls are familiar if you've played the original! Use WASD or Arrow Keys to move your chicken, Mouse to aim, Left Click for a targeted peck-ram attack, and Spacebar for special abilities or to restart. Mastering momentum and angles with the physics is key!"
+      },
+      {
+        "question": "What's the goal in Crazy Chicken 3D?",
+        "answer": "Just like in Crazy Cattle, the goal in Crazy Chicken 3D is to be the last one standing! You battle other chickens by ramming, dodging, and using the arena to your advantage."
+      },
+      {
+        "question": "Does Crazy Chicken 3D have new maps?",
+        "answer": "Yes! Crazy Chicken 3D introduces brand new arenas inspired by barnyards and the countryside. Expect fun challenges like spinning windmills, slippery mud, and bouncing hay bales that add new tactics to the game."
+      },
+      {
+        "question": "Can I customize my chicken in Crazy Chicken 3D?",
+        "answer": "Absolutely! As you win battles and move up, you can unlock new skins, accessories, and even hats for your chicken. Customization adds a silly and personal touch to the feathered chaos!"
+      },
+      {
+        "question": "Why should I play Crazy Chicken 3D?",
+        "answer": "If you enjoyed Crazy Cattle 3D, this is a must-play spin-off! It has the same addictive physics-driven chaos, fun combat, and unpredictable arenas, but with a hilarious feathered twist. It's an 'egg-cellent' experience full of laughs, whether you play solo or with friends."
+      },
+      {
+        "question": "What kind of movement does Crazy Chicken 3D have?",
+        "answer": "The movement is physics-based, meaning momentum, timing, and the angle of your collisions are super important, more so than just how fast you move."
+      }
+    ],
+    "conclusion": "Crazy Chicken 3D: A survival scramble where your wits are all you have to avoid becoming a fried snack. Escape danger in this wild game!"
+  },
   "index": {
     "faqs": [
       {
