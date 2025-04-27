@@ -130,19 +130,20 @@
     <!-- Game Loading Script -->
     <script>
         function loadGame(buttonElement, gameUrl) {
+            // 找到游戏容器和内容容器
             const container = buttonElement.closest('.game-container');
-            const iframe = document.createElement('iframe');
+            const contentDiv = buttonElement.closest('.content');
             
+            // 创建iframe
+            const iframe = document.createElement('iframe');
             iframe.src = gameUrl;
-            iframe.className = 'w-full h-full border-0 rounded-lg';
-            iframe.style = 'min-height: 400px; max-height: 700px; aspect-ratio: 16/9;';
+            iframe.className = 'w-full h-full border-0';
             iframe.scrolling = 'no';
             iframe.allowFullscreen = true;
             
-            // 移除封面和按钮
-            container.innerHTML = '';
-            container.classList.add('p-0'); // 移除内边距
-            container.appendChild(iframe);
+            // 清空内容容器并添加iframe
+            contentDiv.innerHTML = '';
+            contentDiv.appendChild(iframe);
         }
     </script>
 </head>
