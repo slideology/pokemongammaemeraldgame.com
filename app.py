@@ -473,6 +473,15 @@ def crazy_cattle_3d():
                          conclusion=faq_data['conclusion'],
                          translations=get_translations())
 
+@app.route('/crazy-kitty-3d')
+def crazy_kitty_3d():
+    faq_data = get_faqs_for_page('crazy-kitty-3d')
+    return render_template('crazy-kitty-3d.html',
+                         page_title='Crazy Kitty 3D',
+                         dynamic_faqs=faq_data['faqs'],
+                         conclusion=faq_data['conclusion'],
+                         translations=get_translations())
+
 @app.route('/tung-tung-sahur-gta-miami')
 def tung_tung_sahur_gta_miami():
     faq_data = get_faqs_for_page('tung-tung-sahur-gta-miami')
@@ -740,6 +749,16 @@ def crazy_chicken_3d():
                          dynamic_faqs=faq_data['faqs'],
                          conclusion=faq_data['conclusion'],
                          translations=get_translations())
+
+@app.route('/crazy-animal-city')
+def crazy_animal_city():
+    faq_data = get_faqs_for_page('crazy-animal-city')
+    return render_template('crazy-animal-city.html',
+                         page_title='Crazy Animal City',
+                         dynamic_faqs=faq_data['faqs'],
+                         conclusion=faq_data['conclusion'],
+                         translations=get_translations())
+
 @app.route('/css-clicker')
 def css_clicker():
     faq_data = get_faqs_for_page('css-clicker')
