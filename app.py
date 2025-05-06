@@ -401,6 +401,15 @@ def chicken_jockey_clicker():
                          conclusion=faq_data['conclusion'],
                          translations=get_translations())
 
+@app.route('/duck-duck-clicker-3d')
+def duck_duck_clicker_3d():
+    faq_data = get_faqs_for_page('duck-duck-clicker-3d')
+    return render_template('duck-duck-clicker-3d.html',
+                         page_title='Duck Duck Clicker 3D',
+                         dynamic_faqs=faq_data['faqs'],
+                         conclusion=faq_data['conclusion'],
+                         translations=get_translations())
+
 @app.route('/cat-clicker-mlg')
 def cat_clicker_mlg():
     faq_data = get_faqs_for_page('cat-clicker-mlg')
