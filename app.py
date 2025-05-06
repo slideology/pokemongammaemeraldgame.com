@@ -392,6 +392,15 @@ def whopper_clicker():
                          conclusion=faq_data['conclusion'],
                          translations=get_translations())
 
+@app.route('/chicken-jockey-clicker')
+def chicken_jockey_clicker():
+    faq_data = get_faqs_for_page('chicken-jockey-clicker')
+    return render_template('chicken-jockey-clicker.html',
+                         page_title='Chicken Jockey Clicker',
+                         dynamic_faqs=faq_data['faqs'],
+                         conclusion=faq_data['conclusion'],
+                         translations=get_translations())
+
 @app.route('/cat-clicker-mlg')
 def cat_clicker_mlg():
     faq_data = get_faqs_for_page('cat-clicker-mlg')
