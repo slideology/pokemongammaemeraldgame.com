@@ -27,7 +27,7 @@
                                 
                                 <!-- 开始游戏按钮 -->
                                 <button 
-                                   onclick="loadGame(this, '{{ game_url }}')"
+                                onclick="{% if open_in_new_tab %}window.open('{{ game_url }}', '_blank'){% else %}loadGame(this, '{{ game_url }}'){% endif %}"
                                    class="group relative px-8 py-3 bg-blue-500 hover:bg-blue-600 text-white rounded-full transform transition-all duration-300 hover:scale-105 flex items-center space-x-2 shadow-md cursor-pointer">
                                     <span class="relative z-10 font-medium text-lg">Play Now</span>
                                     <svg class="w-5 h-5 relative z-10 transform transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">

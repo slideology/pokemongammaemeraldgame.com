@@ -741,7 +741,14 @@ def race_clicker():
                          dynamic_faqs=faq_data['faqs'],
                          conclusion=faq_data['conclusion'],
                          translations=get_translations())
-
+@app.route('/internet-roadtrip')
+def internet_roadtrip():
+    faq_data = get_faqs_for_page('internet-roadtrip')
+    return render_template('internet-roadtrip.html',
+                         page_title='Internet Roadtrip',
+                         dynamic_faqs=faq_data['faqs'],
+                         conclusion=faq_data['conclusion'],
+                         translations=get_translations())
 @app.route('/smash-car-clicker-2')
 def smash_car_clicker_2():
     faq_data = get_faqs_for_page('smash-car-clicker-2')
