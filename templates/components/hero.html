@@ -22,7 +22,7 @@
                                     <img src="{{ url_for('static', filename='images/games/' + title|lower|replace(' ', '-') + '-preview.png') }}" 
                                          alt="{{ title }}" 
                                          class="w-full h-auto rounded-[8px] shadow-md"
-                                         onerror="this.onerror=null; this.src='{{ url_for('static', filename='images/favicon/' + game_name + '-apple-touch-icon.png') }}';">
+                                         onerror="this.onerror=null; this.src='{{ url_for('static', filename='images/favicon/' + game_name + '-apple-touch-icon.png') }}'">
                                 </div>
                                 
                                 <!-- 开始游戏按钮 -->
