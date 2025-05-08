@@ -678,6 +678,14 @@ def omega_nuggets_clicker():
                          dynamic_faqs=faq_data['faqs'],
                          conclusion=faq_data['conclusion'],
                          translations=get_translations())
+@app.route('/bear-clicker-girl')
+def bear_clicker_girl():
+    faq_data = get_faqs_for_page('bear-clicker-girl')
+    return render_template('bear-clicker-girl.html',
+                         page_title='Bear Clicker Girl',
+                         dynamic_faqs=faq_data['faqs'],
+                         conclusion=faq_data['conclusion'],
+                         translations=get_translations())
 
 @app.route('/cookie-clicker-1')
 def cookie_clicker_1():
