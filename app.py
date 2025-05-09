@@ -702,6 +702,14 @@ def merge_fellas_brainrot():
                          dynamic_faqs=faq_data['faqs'],
                          conclusion=faq_data['conclusion'],
                          translations=get_translations())
+@app.route('/crazy-mouse-battle')
+def crazy_mouse_battle():
+    faq_data = get_faqs_for_page('merge-fellas-brainrot')
+    return render_template('crazy-mouse-battle.html',
+                         page_title='Crazy Mouse Battle',
+                         dynamic_faqs=faq_data['faqs'],
+                         conclusion=faq_data['conclusion'],
+                         translations=get_translations())
 @app.route('/brainrot-clicker')
 def brainrot_clicker():
     faq_data = get_faqs_for_page('brainrot-clicker')
