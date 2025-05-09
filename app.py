@@ -686,6 +686,14 @@ def bear_clicker_girl():
                          dynamic_faqs=faq_data['faqs'],
                          conclusion=faq_data['conclusion'],
                          translations=get_translations())
+@app.route('/brainrot-clicker')
+def brainrot_clicker():
+    faq_data = get_faqs_for_page('brainrot-clicker')
+    return render_template('brainrot-clicker.html',
+                         page_title='Brainrot Clicker',
+                         dynamic_faqs=faq_data['faqs'],
+                         conclusion=faq_data['conclusion'],
+                         translations=get_translations())
 @app.route('/bear-clicker-female')
 def bear_clicker_female():
     faq_data = get_faqs_for_page('bear-clicker-female')
