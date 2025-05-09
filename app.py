@@ -694,6 +694,14 @@ def italian_brainrot_playground():
                          dynamic_faqs=faq_data['faqs'],
                          conclusion=faq_data['conclusion'],
                          translations=get_translations())
+@app.route('/merge-fellas-brainrot')
+def merge_fellas_brainrot():
+    faq_data = get_faqs_for_page('merge-fellas-brainrot')
+    return render_template('merge-fellas-brainrot.html',
+                         page_title='Merge Fellas Brainrot',
+                         dynamic_faqs=faq_data['faqs'],
+                         conclusion=faq_data['conclusion'],
+                         translations=get_translations())
 @app.route('/brainrot-clicker')
 def brainrot_clicker():
     faq_data = get_faqs_for_page('brainrot-clicker')
