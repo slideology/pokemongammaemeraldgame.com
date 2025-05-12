@@ -750,6 +750,14 @@ def dreamy_room():
                          dynamic_faqs=faq_data['faqs'],
                          conclusion=faq_data['conclusion'],
                          translations=get_translations())
+@app.route('/drive-beyond-horizons')
+def drive_beyond_horizons():
+    faq_data = get_faqs_for_page('drive-beyond-horizons')
+    return render_template('drive-beyond-horizons.html',
+                         page_title='Drive Beyond Horizons',
+                         dynamic_faqs=faq_data['faqs'],
+                         conclusion=faq_data['conclusion'],
+                         translations=get_translations())
 
 @app.route('/cookie-clicker-1')
 def cookie_clicker_1():
