@@ -742,6 +742,14 @@ def cat_paw_taba_clicker():
                          dynamic_faqs=faq_data['faqs'],
                          conclusion=faq_data['conclusion'],
                          translations=get_translations())
+@app.route('/dreamy-room')
+def dreamy_room():
+    faq_data = get_faqs_for_page('dreamy-room')
+    return render_template('dreamy-room.html',
+                         page_title='Dreamy Room',
+                         dynamic_faqs=faq_data['faqs'],
+                         conclusion=faq_data['conclusion'],
+                         translations=get_translations())
 
 @app.route('/cookie-clicker-1')
 def cookie_clicker_1():

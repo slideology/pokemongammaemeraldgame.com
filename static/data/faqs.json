@@ -418,6 +418,7 @@
     ],
     "conclusion": "Sprunki Idle Clicker: Tap your way to fun! Collect points to unlock cute Sprunkies and build your collection in this addictive clicking adventure."
   },
+  
   "italian-brainrot-clicker-2": {
     "faqs": [
       {
@@ -446,6 +447,35 @@
       }
     ],
     "conclusion": "Italian Brainrot Clicker 2: A hilarious clicker game featuring bizarre characters like Tralalero Tralala and Tung Tung Tung Sahur. Click to encounter the meme madness!"
+  },
+  "dreamy-room": {
+    "faqs": [
+      {
+        "question": "What is Dreamy Room?",
+        "answer": "Dreamy Room is an entrancing, heartfelt home-design game where you get to unpack the chapters of a virtual life, one box at a time. Your main goal is to organize cherished belongings and decorate dreamy interiors to reveal emotional stories through the objects themselves."
+      },
+      {
+        "question": "How do you play Dreamy Room?",
+        "answer": "In Dreamy Room, each level is a new chapter in a virtual life. You'll sort through boxes filled with meaningful items, then click, drag, and place them into beautifully hand-drawn rooms, from cozy dorms to grown-up homes, all at your own pace."
+      },
+      {
+        "question": "What makes Dreamy Room a relaxing game?",
+        "answer": "Dreamy Room is designed for peace and reflection, with no timers or pressure. It's a cozy playground where you can unwind, relax, and enjoy a peaceful, emotionally resonant experience at your own calming moment."
+      },
+      {
+        "question": "Who would love to play Dreamy Room?",
+        "answer": "This game is perfect for mindful decorators who enjoy cozy aesthetics, peaceful environments, and creative tasks (especially girls). It's also great for organizing enthusiasts who find calm in sorting, decluttering, and arranging items carefully."
+      },
+      {
+        "question": "Does Dreamy Room have a story?",
+        "answer": "Yes, it has a deeply emotional story that unfolds through the objects you organize. As you manage the decoration, quiet stories emerge about growing up, life transitions, and cherished memories, all told through the items themselves."
+      },
+      {
+        "question": "What kind of items do you organize?",
+        "answer": "You'll sort through boxes filled with meaningful belongings, such as old photo frames, vintage mugs, and nostalgic childhood toys, each contributing to the story of the virtual life."
+      }
+    ],
+    "conclusion": "Design your cozy tiny home in Dreamy Room! This interior game is packed with stylish choices and arrangements, letting you build beauty in every compact corner."
   },
   "index": {
     "faqs": [
