@@ -750,6 +750,14 @@ def dreamy_room():
                          dynamic_faqs=faq_data['faqs'],
                          conclusion=faq_data['conclusion'],
                          translations=get_translations())
+@app.route('/wacky-flip')
+def wacky_flip():
+    faq_data = get_faqs_for_page('wacky-flip')
+    return render_template('wacky-flip.html',
+                         page_title='Wacky Flip',
+                         dynamic_faqs=faq_data['faqs'],
+                         conclusion=faq_data['conclusion'],
+                         translations=get_translations())
 @app.route('/drive-beyond-horizons')
 def drive_beyond_horizons():
     faq_data = get_faqs_for_page('drive-beyond-horizons')
