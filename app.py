@@ -750,6 +750,14 @@ def speed_stars():
                          dynamic_faqs=faq_data['faqs'],
                          conclusion=faq_data['conclusion'],
                          translations=get_translations())
+@app.route('/italian-brainrot-2048')
+def italian_brainrot_2048():
+    faq_data = get_faqs_for_page('italian-brainrot-2048')
+    return render_template('italian-brainrot-2048.html',
+                         page_title='Italian Brainrot 2048',
+                         dynamic_faqs=faq_data['faqs'],
+                         conclusion=faq_data['conclusion'],
+                         translations=get_translations())
 @app.route('/multi-theme-clicker-game')
 def multi_theme_clicker_game():
     faq_data = get_faqs_for_page('multi-theme-clicker-game')
