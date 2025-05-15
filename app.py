@@ -10,7 +10,7 @@ import logging
 load_dotenv()
 
 app = Flask(__name__)
-app.secret_key = os.getenv('SECRET_KEY', 'bearclicker-secret-key-2024')
+app.secret_key = os.getenv('SECRET_KEY', 'pokemongammaemeraldgame-secret-key-2024')
 
 # 导入日志配置
 from config.logging_config import setup_logging
@@ -40,12 +40,12 @@ def get_translations():
             "hero": {
                 "title_highlight": "Create Music",
                 "title_regular": "Like Never Before",
-                "description": "Transform your musical ideas into reality with Bear Clicker. Mix beats, create melodies, and share your music with the world."
+                "description": "Pokémon Gamma Emerald: Crash-land on an island, battle Team Magma, and explore ancient ruins. Uncover secrets to become the ultimate trainer!"
             },
             "game": {
-                "title": "Bear Clicker",
-                "subtitle": "The Ultimate Bear Clicker Game",
-                "description": "Unleash haunting melodies with our special glitch music system. Stack sounds, witness their digital distortion transformation. Embrace Horror Aesthetics."
+                "title": "Pokemon Gamma Emerald Game",
+                "subtitle": "Pokemon Gamma Emerald Game",
+                "description": "Pokémon Gamma Emerald: Crash-land on an island, battle Team Magma, and explore ancient ruins. Uncover secrets to become the ultimate trainer!"
             },
             "trending": {
                 "title": "Trending Games",
@@ -98,9 +98,9 @@ def home():
     translations_data = get_translations()
     faq_data = get_faqs_for_page('index')  
     return render_template('index.html',
-                         page_title='Bear Clicker',
-                         title='Bear Clicker - Interactive Music Experience',
-                         description='Create amazing music with Bear Clicker! Mix beats, compose tunes, and share your musical creations.',
+                         page_title='Pokemon Gamma Emerald',
+                         title='Pokemon Gamma Emerald Game | Best Game for Pokemon Lovers',
+                         description='Pokémon Gamma Emerald: Crash-land on an island, battle Team Magma, and explore ancient ruins. Uncover secrets to become the ultimate trainer!',
                          translations=translations_data,
                          dynamic_faqs=faq_data['faqs'],
                          conclusion=faq_data['conclusion'])
@@ -110,18 +110,18 @@ def about():
     try:
         trans = get_translations()
         return render_template('about.html', 
-                         title='About Bear Clicker',
+                         title='About Pokemon Gamma Emerald',
                          translations=trans)
     except Exception as e:
         app.logger.error(f"Error in about route: {e}")
         return render_template('about.html',
-                         title='About Bear Clicker',
+                         title='About Pokemon Gamma Emerald',
                          translations={
                              "nav": {"home": "Home", "faq": "FAQ"},
                              "hero": {
                                  "title_highlight": "Create Music",
                                  "title_regular": "Like Never Before",
-                                 "description": "Transform your musical ideas into reality with Bear Clicker. Mix beats, create melodies, and share your music with the world."
+                                 "description": "Pokémon Gamma Emerald: Crash-land on an island, battle Team Magma, and explore ancient ruins. Uncover secrets to become the ultimate trainer!"
                              }
                          })
 
@@ -130,18 +130,18 @@ def game():
     try:
         trans = get_translations()
         return render_template('game.html',
-                         title='Play Bear Clicker',
+                         title='Play Pokemon Gamma Emerald Game',
                          translations=trans)
     except Exception as e:
         app.logger.error(f"Error in game route: {e}")
         return render_template('game.html',
-                         title='Play Bear Clicker',
+                         title='Play BPokemon Gamma Emerald Game',
                          translations={
                              "nav": {"home": "Home", "faq": "FAQ"},
                              "hero": {
                                  "title_highlight": "Create Music",
                                  "title_regular": "Like Never Before",
-                                 "description": "Transform your musical ideas into reality with Bear Clicker. Mix beats, create melodies, and share your music with the world."
+                                 "description": "Pokémon Gamma Emerald: Crash-land on an island, battle Team Magma, and explore ancient ruins. Uncover secrets to become the ultimate trainer!"
                              }
                          })
 
@@ -150,18 +150,18 @@ def introduction():
     try:
         trans = get_translations()
         return render_template('introduction.html',
-                         title='Game Guide - Bear Clicker',
+                         title='Game Guide - Pokemon Gamma Emerald Game',
                          translations=trans)
     except Exception as e:
         app.logger.error(f"Error in introduction route: {e}")
         return render_template('introduction.html',
-                         title='Game Guide - Bear Clicker',
+                         title='Game Guide - Pokemon Gamma Emerald Game',
                          translations={
                              "nav": {"home": "Home", "faq": "FAQ"},
                              "hero": {
                                  "title_highlight": "Create Music",
                                  "title_regular": "Like Never Before",
-                                 "description": "Transform your musical ideas into reality with Bear Clicker. Mix beats, create melodies, and share your music with the world."
+                                 "description": "Pokémon Gamma Emerald: Crash-land on an island, battle Team Magma, and explore ancient ruins. Uncover secrets to become the ultimate trainer!"
                              }
                          })
 
@@ -172,18 +172,18 @@ def contact():
         if request.method == 'POST':
             return send_message()
         return render_template('contact.html',
-                         title='Contact Bear Clicker',
+                         title='Contact Pokemon Gamma Emerald Game',
                          translations=trans)
     except Exception as e:
         app.logger.error(f"Error in contact route: {e}")
         return render_template('contact.html',
-                         title='Contact Bear Clicker',
+                         title='Contact Pokemon Gamma Emerald Game',
                          translations={
                              "nav": {"home": "Home", "faq": "FAQ"},
                              "hero": {
                                  "title_highlight": "Create Music",
                                  "title_regular": "Like Never Before",
-                                 "description": "Transform your musical ideas into reality with Bear Clicker. Mix beats, create melodies, and share your music with the world."
+                                 "description": "Pokémon Gamma Emerald: Crash-land on an island, battle Team Magma, and explore ancient ruins. Uncover secrets to become the ultimate trainer!"
                              }
                          })
 
@@ -193,22 +193,22 @@ def faq():
         trans = get_translations()
         faq_data = get_faqs_for_page('index')  # 使用index页面的FAQ数据
         return render_template('faq.html',
-                         title='FAQ - Bear Clicker',
-                         page_title='Bear Clicker',
+                         title='FAQ - Pokemon Gamma Emerald',
+                         page_title='Pokemon Gamma Emerald',
                          translations=trans,
                          dynamic_faqs=faq_data['faqs'],
                          conclusion=faq_data['conclusion'])
     except Exception as e:
         app.logger.error(f"Error in faq route: {e}")
         return render_template('faq.html',
-                         title='FAQ - Bear Clicker',
-                         page_title='Bear Clicker',
+                         title='FAQ - Pokemon Gamma Emerald',
+                         page_title='Pokemon Gamma Emerald',
                          translations={
                              "nav": {"home": "Home", "faq": "FAQ"},
                              "hero": {
                                  "title_highlight": "Create Music",
                                  "title_regular": "Like Never Before",
-                                 "description": "Transform your musical ideas into reality with Bear Clicker. Mix beats, create melodies, and share your music with the world."
+                                 "description": "Pokémon Gamma Emerald: Crash-land on an island, battle Team Magma, and explore ancient ruins. Uncover secrets to become the ultimate trainer!"
                              }
                          },
                          dynamic_faqs=[],

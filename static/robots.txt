@@ -15,4 +15,4 @@ Disallow: /_next/static/
 Crawl-delay: 1
 
 # 站点地图
-Sitemap: https://bearclicker.net/sitemap.xml
+Sitemap: https://pokemongammaemeraldgame.com/sitemap.xml

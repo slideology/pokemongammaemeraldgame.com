@@ -26,7 +26,7 @@
             ],
             "status": 301,
             "headers": { 
-                "Location": "https://bearclicker.net/$1"
+                "Location": "https://pokemongammaemeraldgame.com/$1"
             }
         },
         {
@@ -34,12 +34,12 @@
             "has": [
                 {
                     "type": "host",
-                    "value": "www.bearclicker.net"
+                    "value": "www.pokemongammaemeraldgame.com"
                 }
             ],
             "status": 301,
             "headers": { 
-                "Location": "https://bearclicker.net/$1"
+                "Location": "https://pokemongammaemeraldgame.com/$1"
             }
         },
         {

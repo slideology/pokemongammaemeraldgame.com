@@ -17,7 +17,7 @@ def load_game_config():
         # 检查文件是否存在
         if not os.path.exists(config_path):
             logger.error(f"配置文件不存在: {config_path}")
-            return {"games": [], "brandName": "Bear Clicker", "brandUrl": "https://bearclicker.net"}
+            return {"games": [], "brandName": "Pokemon Gamma Emerald Game", "brandUrl": "https://pokemongammaemeraldgame.com"}
         
         # 读取并解析配置文件
         with open(config_path, 'r', encoding='utf-8') as f:
@@ -29,7 +29,7 @@ def load_game_config():
         return config
     except Exception as e:
         logger.error(f"加载配置文件失败: {str(e)}")
-        return {"games": [], "brandName": "Bear Clicker", "brandUrl": "https://bearclicker.net"}
+        return {"games": [], "brandName": "Pokemon Gamma Emerald Game", "brandUrl": "https://pokemongammaemeraldgame.com"}
 
 # 读取游戏模板文件
 def load_template():
@@ -64,7 +64,7 @@ def game_api(game_id=None):
         config = load_game_config()
         template_content = load_template()
         
-        logger.info(f"配置域名: {config.get('domain', 'game.bearclicker.net')}")
+        logger.info(f"配置域名: {config.get('domain', 'game.pokemongammaemeraldgame.com')}")
         logger.info(f"Referer: {request.referrer or 'none'}")
         logger.info(f"User-Agent: {request.user_agent.string}")
         
@@ -109,7 +109,7 @@ def game_api(game_id=None):
         
         # 如果不是游戏请求，重定向到主站对应的页面
         if not is_game_request and not is_local_testing:
-            redirect_url = f"{config.get('brandUrl', 'https://bearclicker.net')}/{game_id_clean}"
+            redirect_url = f"{config.get('brandUrl', 'https://pokemongammaemeraldgame.com')}/{game_id_clean}"
             logger.info(f"非游戏请求，重定向到主站: {redirect_url}")
             return redirect(redirect_url, code=302)
         
@@ -117,8 +117,8 @@ def game_api(game_id=None):
         html = template_content
         html = html.replace('{{GAME_TITLE}}', game_config['title'])
         html = html.replace('{{GAME_URL}}', game_config['url'])
-        html = html.replace('{{DOMAIN_DISPLAY}}', config.get('brandName', 'Bear Clicker'))
-        html = html.replace('{{DOMAIN_LINK}}', config.get('brandUrl', 'https://bearclicker.net'))
+        html = html.replace('{{DOMAIN_DISPLAY}}', config.get('brandName', 'Pokemon Gamma Emerald Game'))
+        html = html.replace('{{DOMAIN_LINK}}', config.get('brandUrl', 'https://pokemongammaemeraldgame.com'))
         
         # 添加调试信息到HTML
         debug_info = f"""
