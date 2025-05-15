@@ -1146,23 +1146,5 @@ def not_found_error(error):
                          error_message="Page Not Found",
                          translations=get_translations()), 404
 
-# 导入游戏API处理函数
-from api.game_api import game_api
-
-# 添加游戏API路由
-@app.route('/game/<path:game_id>', methods=['GET'])
-def game_route(game_id):
-    app.logger.info(f"处理游戏请求: /game/{game_id}")
-    # 将game_id作为查询参数传递给game_api函数
-    return game_api(game_id=game_id)
-
-# 添加游戏API路由（用于处理直接的API请求）
-@app.route('/api/game-api', methods=['GET'])
-def game_api_route():
-    app.logger.info(f"处理游戏API请求: {request.url}")
-    # 从查询参数中获取game_id
-    game_id = request.args.get('gameId')
-    return game_api(game_id=game_id)
-
 if __name__ == '__main__':
-    app.run(debug=True, port=5002)
+    app.run(debug=True, port=5007)
