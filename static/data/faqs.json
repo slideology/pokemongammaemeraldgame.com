@@ -654,31 +654,55 @@
   "index": {
     "faqs": [
       {
-        "question": "What is Pokémon Gamma Emerald?",
-        "answer": "Pokémon Gamma Emerald is an exciting Pokémon adventure that starts with a dramatic twist! After your boat is shipwrecked in a storm, you find yourself stranded on a mysterious island located somewhere between the Hoenn and Sinnoh regions. It's a game about survival and discovery in an isolated, untamed world."
+        "question": "What is Pokemon Gamma Emerald?",
+        "answer": "Pokemon Gamma Emerald is an exciting Pokémon adventure that starts with a dramatic twist! After your boat is shipwrecked in a storm, you find yourself stranded on a mysterious island located somewhere between the Hoenn and Sinnoh regions. It's a game about survival and discovery in an isolated, untamed world."
       },
       {
         "question": "What is the main story or mission?",
         "answer": "Your peaceful journey turns into a fight for survival after being shipwrecked on a mysterious island. You need to explore unknown lands, tame wild Pokémon, uncover ancient mysteries, and eventually become the hero the island needs to confront dangerous threats."
       },
       {
-        "question": "Who are the enemies you face in Pokémon Gamma Emerald?",
+        "question": "Who are the enemies you face in Pokemon Gamma Emerald?",
         "answer": "The island isn't empty – you'll face Team Magma and their hired ruthless mercenaries! They have their own sinister agenda to extract the island's hidden power, and you'll cross paths with them in places like deep jungles and forgotten ruins."
       },
       {
         "question": "What kinds of places can you explore?",
-        "answer": "The uncharted island in Pokémon Gamma Emerald is a vibrant yet dangerous world to explore. You'll journey through lush jungles, ancient ruins, crumbling temples, and war-torn landscapes, with every step revealing new challenges and secrets."
+        "answer": "The uncharted island in Pokemon Gamma Emerald is a vibrant yet dangerous world to explore. You'll journey through lush jungles, ancient ruins, crumbling temples, and war-torn landscapes, with every step revealing new challenges and secrets."
       },
       {
-        "question": "Is it a typical Pokémon game?",
-        "answer": "No, it's described as no ordinary Pokémon journey! It's a fight for survival and discovery in an isolated setting, challenging you to evolve stronger Pokémon and build smarter strategies to handle high-stakes situations."
+        "question": "Is it a typical Pokemon game?",
+        "answer": "No, it's described as no ordinary Pokemon journey! It's a fight for survival and discovery in an isolated setting, challenging you to evolve stronger Pokémon and build smarter strategies to handle high-stakes situations."
       },
       {
-        "question": "Why is Pokémon Gamma Emerald a must-play?",
+        "question": "Why is Pokemon Gamma Emerald a must-play?",
         "answer": "If you're ready for an unpredictable, high-stakes adventure in a mysterious Pokémon setting, Pokémon Gamma Emerald is a must-play. It combines the familiar fun of taming Pokémon with a thrilling story of survival and confronting powerful foes."
+      },
+      {
+        "question": "What's included in the Pokemon Gamma Emerald update?",
+        "answer": "The Pokemon Gamma Emerald update includes various fixes and improvements. Key changes include resolving issues with saving after picking a starter, fixing the move list to show only 4 moves (with relearning options), addressing an infinite EXP loop glitch with EXP Share, fixing shiny odds to be 1/2046, and a hotfix for battle stability."
+      },
+      {
+        "question": "Were there any major bugs fixed in Pokemon Gamma Emerald",
+        "answer": "Yes, several bugs were resolved in Pokemon Gamma Emerald. This includes fixing an infinite EXP loop glitch related to the EXP Share, resolving an issue where players could fall through the floor after fighting Larry, and a hotfix aimed at fixing Pokémon not appearing or soft locking randomly during battles."
+      },
+      {
+        "question": "Did anything change about moves or learning moves?",
+        "answer": "Yes, in Pokemon Gamma Emerald, the move list is fixed to show only the first 4 moves. Any moves learned beyond that are deleted but can be relearned later in the TM shop. Also, Pokémon with full moves now get prompted before learning new moves with EXP Share on, instead of learning them instantly."
+      },
+      {
+        "question": "Were Shiny Pokémon odds changed?",
+        "answer": "Yes, the shiny odds were fixed and locked at 1/2046 in Pokemon Gamma Emerald. The developer noted that it seemed too easy to find shinies before this update (without shiny ping)."
+      },
+      {
+        "question": "Is there a thank you gift for players in Pokemon Gamma Emerald?",
+        "answer": "Yes! As a thank you for patience with fixes, a Pokémon will be waiting for players back at the first camp. It will only appear after beating Larry & Sherry for the first time, and you *can* shiny farm it using Soft Resets."
+      },
+      {
+        "question": "Are there any known bugs that are not fixed yet?",
+        "answer": "Yes, some known bugs without current fixes include the player moving off the grid and potentially passing through walls, and an issue when accessing the Pause Menu from the Pokémon screen (though a workaround using the mouse and keyboard exit is provided)."
       }
     ],
-    "conclusion": "Pokémon Gamma Emerald: Crash-land on an island, battle Team Magma, and explore ancient ruins. Uncover secrets to become the ultimate trainer!"
+    "conclusion": "Pokemon Gamma Emerald: Crash-land on an island, battle Team Magma, and explore ancient ruins. Uncover secrets to become the ultimate trainer!"
   },
   "capybara-clicker": {
     "faqs": [
