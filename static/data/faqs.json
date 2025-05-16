@@ -729,6 +729,64 @@
     ],
     "conclusion": "Capybara Clicker: Simple clicks, instant joy of growing a capybara family!"
   },
+  "poor-bunny": {
+    "faqs": [
+      {
+        "question": "What is the Poor Bunny game?",
+        "answer": "The Poor Bunny game is a fun, simple game set in a hazard-filled arena! Your main mission is to collect as many carrots as you can while surviving an endless wave of dangerous traps like lasers, spikes, and saw blades."
+      },
+      {
+        "question": "How do you play Poor Bunny?",
+        "answer": "Gameplay in Poor Bunny involves jumping and dodging. You control a bunny character and move around the arena using simple controls to collect carrots and avoid randomly appearing traps. It's a test of your reflexes and timing!"
+      },
+      {
+        "question": "What kind of traps are in the game?",
+        "answer": "The Poor Bunny game features an endless wave of unpredictable dangers and traps that appear at random. This includes hazards like lasers, spikes, and saw blades, all trying to stop you from collecting carrots and surviving."
+      },
+      {
+        "question": "Are the controls easy in Poor Bunny?",
+        "answer": "Yes, the controls are simple, making it quick to get started. Player 1 uses the arrow keys to move and jump, and Player 2 uses W, A, and D keys for movement in split-screen multiplayer. The challenge is mastering the timing to survive the chaos!"
+      },
+      {
+        "question": "Can you play Poor Bunny with a friend?",
+        "answer": "Yes! Poor Bunny has multiplayer. In this mode, you and a friend are trying to survive longer than each other in the arena. The rule is, if one of you gets splattered, you both lose!"
+      },
+      {
+        "question": "What is the goal besides surviving?",
+        "answer": "Besides avoiding traps to stay alive, a key objective in the Poor Bunny game is to collect carrots. Collecting as many carrots as possible helps you earn high scores."
+      }
+    ],
+    "conclusion": "If you think cute means easy, think again! Poor Bunny is a fast-paced platformer where a second of hesitation can spell instant failure in a challenging world."
+  },
+  "lemon-clicker": {
+    "faqs": [
+      {
+        "question": "What is Lemon Clicker?",
+        "answer": "Lemon Clicker is a simple but really fun clicker game where your main job is to click on lemons to earn points! It's an enjoyable game designed to be easy to understand and play for people of all ages."
+      },
+      {
+        "question": "How do you play Lemon Clicker?",
+        "answer": "Playing Lemon Clicker is as easy as it gets! You just click on the lemon on the screen, and your point counter goes up with every click. There's no complicated planning or controls needed – just click and have fun getting points."
+      },
+      {
+        "question": "Is there anything unique about Lemon Clicker besides clicking?",
+        "answer": "Yes! A unique and fun part of Lemon Clicker is the surprise 'drops'. These are special things that show up in your inventory with unique, sometimes silly, designs like cherry blossoms or men's clothes. Collecting these makes the game even better!"
+      },
+      {
+        "question": "What are the benefits of playing Lemon Clicker?",
+        "answer": "Besides being enjoyable, playing Lemon Clicker can actually help improve your speed and patience. The simple clicking mechanic and the thrill of surprise drops keep it engaging."
+      },
+      {
+        "question": "Are there tips for playing Lemon Clicker well?",
+        "answer": "Yes, some tips include clicking the lemon over and over to get points quickly, playing every day to practice and get better speed, and planning how to play well to achieve the highest score. Remember to enjoy the surprise drops too!"
+      },
+      {
+        "question": "Is Lemon Clicker suitable for people of all ages?",
+        "answer": "Yes, the game is easy enough that people of all ages can enjoy it. Its simple mechanics make it very accessible."
+      }
+    ],
+    "conclusion": "Lemon Clicker is a simple but fun clicker game! Click lemons for points, enjoy the game, and improve your clicking speed and patience."
+  },
   "unchill-guy-clicker": {
     "faqs": [
         {
