@@ -222,6 +222,10 @@ def sitemap():
 def robots():
     return send_from_directory('static', 'robots.txt')
 
+@app.route('/1097d5a190b24fcb941eacf89b4911b0.txt')
+def indexnow_txt():
+    return send_from_directory('static', '1097d5a190b24fcb941eacf89b4911b0.txt')
+
 @app.route('/ads.txt')
 def ads_txt():
     return send_from_directory('static', 'ads.txt')
