@@ -4,19 +4,26 @@ import os
 
 SITEMAP_URL = "https://pokemongammaemeraldgame.com/sitemap.xml"  # 替换为你自己的 sitemap 地址
 KEY = "1097d5a190b24fcb941eacf89b4911b0"  # 替换为你的 IndexNow key
-KEY_LOCATION = "https://pokemongammaemeraldgame.com/你的key.txt"  # 替换为你的 key 文件地址
+KEY_LOCATION = "https://pokemongammaemeraldgame.com/1097d5a190b24fcb941eacf89b4911b0.txt"  # 替换为你的 key 文件地址
 HOST = "www.pokemongammaemeraldgame.com"  # 替换为你的域名
 HISTORY_FILE = "last_sitemap_urls.txt"
 
 def fetch_sitemap_urls():
-    resp = requests.get(SITEMAP_URL)
+    """从自定义格式 sitemap 获取所有页面 URL"""
+    try:
+        resp = requests.get(SITEMAP_URL, timeout=10)
+        resp.raise_for_status()
+    except Exception as e:
+        print(f"获取 sitemap 失败: {e}")
+        return []
     urls = []
-    if resp.status_code == 200:
-        root = ET.fromstring(resp.content)
-        for url in root.findall(".//{http://www.sitemaps.org/schemas/sitemap/0.9}url"):
-            loc = url.find("{http://www.sitemaps.org/schemas/sitemap/0.9}loc")
-            if loc is not None:
-                urls.append(loc.text.strip())
+    for line in resp.text.splitlines():
+        line = line.strip()
+        if not line or line.startswith('#'):
+            continue
+        url = line.split()[0]
+        if url.startswith('http'):
+            urls.append(url)
     return urls
 
 def load_last_urls():
