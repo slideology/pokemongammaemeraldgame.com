@@ -246,6 +246,14 @@ def stimulation_clicker():
                          dynamic_faqs=faq_data['faqs'],
                          conclusion=faq_data['conclusion'],
                          translations=get_translations()) 
+@app.route('/bombardino-crocodilo-clicker')
+def bombardino_crocodilo_clicker():
+    faq_data = get_faqs_for_page('bombardino-crocodilo-clicker')
+    return render_template('bombardino-crocodilo-clicker.html',
+                         page_title='Bombardino Crocodilo Clicker',
+                         dynamic_faqs=faq_data['faqs'],
+                         conclusion=faq_data['conclusion'],
+                         translations=get_translations()) 
 @app.route('/tung-tung-sahur-obby-challenge')
 def tung_tung_sahur_obby_challenge():
     faq_data = get_faqs_for_page('tung-tung-sahur-obby-challenge')
