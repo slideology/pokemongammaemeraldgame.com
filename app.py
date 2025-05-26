@@ -279,6 +279,14 @@ def the_ultimate_clicker_squad():
                          dynamic_faqs=faq_data['faqs'],
                          conclusion=faq_data['conclusion'],
                          translations=get_translations()) 
+@app.route('/white-horizon')
+def white_horizon():
+    faq_data = get_faqs_for_page('white-horizon')
+    return render_template('white-horizon.html',
+                         page_title='White Horizon',
+                         dynamic_faqs=faq_data['faqs'],
+                         conclusion=faq_data['conclusion'],
+                         translations=get_translations()) 
 
 @app.route('/chill-girl-clicker')
 def chill_girl_clicker():
