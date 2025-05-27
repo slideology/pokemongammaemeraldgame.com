@@ -738,6 +738,35 @@
     ],
     "conclusion": "White Horizon: A serene, visually stunning snowboarding game! Guide a young snowboarder through breathtaking landscapes and complete challenging tasks."
   },
+  "terradome": {
+    "faqs": [
+      {
+        "question": "Ready to ignite evolution? What is Terradome?",
+        "answer": "Terradome is a **simulation driving game** that puts you in command of the last surviving dome on a lifeless planet. Your mission is to **fire up your core**, **expand your reach**, and **ignite evolution** by building and upgrading an oxygen-fueled dome to revive the galaxy."
+      },
+      {
+        "question": "How do you craft your survival in Terradome?",
+        "answer": "You start from nothing! You must **gather oxygen** and **mine vital resources** to survive. Your dome is everything: you upgrade it to expand your control and engineer life, strategically reshaping a dead world into a thriving biosphere."
+      },
+      {
+        "question": "What happens as your dome expands?",
+        "answer": "As your zone expands, **mysterious life forms** will emerge to challenge you. You'll need to use your **blaster for defense**, and also to grind and boost material collection. The game also involves discovering new planets with unique layouts and increasing threats."
+      },
+      {
+        "question": "What kind of upgrades can you get?",
+        "answer": "You can upgrade your **speed, dome stretch range, and resource output** for peak efficiency. The game features **incremental gameplay with persistent upgrades**, meaning every improvement you make helps you grow stronger over time."
+      },
+      {
+        "question": "What's the ultimate goal in Terradome?",
+        "answer": "Your ultimate goal is to **revive the galaxy**! Every conquered world opens the door to a greater frontier, pushing you to adapt to each new challenge and spread life across the cosmos."
+      },
+      {
+        "question": "How do you control your actions in Terradome?",
+        "answer": "You control the game by moving a virtual cursor. Building, collecting, and crafting are designed to be automatic, allowing you to focus on strategic decisions and expansion."
+      }
+    ],
+    "conclusion": "Terradome: A simulation driving game where you build an oxygen-fueled dome to revive the galaxy! Fire up your core, expand your reach, and ignite evolution."
+  },
   "dreamy-room": {
     "faqs": [
       {

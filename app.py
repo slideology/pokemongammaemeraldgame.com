@@ -262,7 +262,14 @@ def tung_tung_sahur_obby_challenge():
                          dynamic_faqs=faq_data['faqs'],
                          conclusion=faq_data['conclusion'],
                          translations=get_translations()) 
-
+@app.route('/terradome')
+def terradome():
+    faq_data = get_faqs_for_page('terradome')
+    return render_template('terradome.html',
+                         page_title='Terradome',
+                         dynamic_faqs=faq_data['faqs'],
+                         conclusion=faq_data['conclusion'],
+                         translations=get_translations()) 
 @app.route('/unchill-guy-clicker')
 def unchill_guy_clicker():
     faq_data = get_faqs_for_page('unchill-guy-clicker')
