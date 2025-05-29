@@ -394,6 +394,15 @@ def cat_clicker():
                          conclusion=faq_data['conclusion'],
                          translations=get_translations())
 
+@app.route('/golf-hit')
+def golf_hit():
+    faq_data = get_faqs_for_page('golf-hit')
+    return render_template('golf-hit.html',
+                         page_title='Golf Hit',
+                         dynamic_faqs=faq_data['faqs'],
+                         conclusion=faq_data['conclusion'],
+                         translations=get_translations())
+
 @app.route('/muscle-clicker-2')
 def muscle_clicker_2():
     faq_data = get_faqs_for_page('muscle-clicker-2')
