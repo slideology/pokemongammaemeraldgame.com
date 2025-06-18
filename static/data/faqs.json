@@ -767,6 +767,35 @@
     ],
     "conclusion": "Terradome: A simulation driving game where you build an oxygen-fueled dome to revive the galaxy! Fire up your core, expand your reach, and ignite evolution."
   },
+  "stonecraft": {
+    "faqs": [
+      {
+        "question": "What's the main objective in Stonecraft?",
+        "answer": "The main objective in Stonecraft is to thrive by mining and creating! You gather resources by clicking and breaking stones, then use those resources to manufacture more efficient tools and powerful instruments. The goal is to hunt for even rarer riches as you progress."
+      },
+      {
+        "question": "How does resource gathering work?",
+        "answer": "You gather resources by wielding a pick and breaking huge stones. When a stone splits, valuable items may be inside. You can then choose to sell these findings for money or store them in your warehouse. You can also craft new tools from specific materials to improve your mining speed."
+      },
+      {
+        "question": "Are there survival elements in Stonecraft?",
+        "answer": "Yes, survival is a factor! A key tip is to get enough food before winter, as temperature greatly affects your ability to survive in the game. This adds a strategic layer beyond just clicking and crafting."
+      },
+      {
+        "question": "What are some strategic tips for efficient play?",
+        "answer": "For fast collecting, focus on axes and picks. It's also advised to improve 'Fire Mastery' and 'Hunting' early to unlock important technologies. Don't forget to explore caves for rare materials and ancient secrets, and leverage tribal members for automatic assembly and building."
+      },
+      {
+        "question": "What makes the game enjoyable?",
+        "answer": "Stonecraft is enjoyable and rewarding because it combines the thrill of mining with the satisfaction of creation. As you continually gather resources and master the art of crafting, your progress becomes very rewarding."
+      },
+      {
+        "question": "Can I automate tasks in Stonecraft?",
+        "answer": "Yes, a tip mentions that you can 'Let more tribal members automatically assemble and build,' suggesting that automation is a feature to help you expand and gather resources more efficiently as your tribe grows."
+      }
+    ],
+    "conclusion": "Stonecraft: A mining and crafting game where you gather resources and build powerful instruments! Thrive by mining, crafting, and exploring caves."
+  },
   "dreamy-room": {
     "faqs": [
       {

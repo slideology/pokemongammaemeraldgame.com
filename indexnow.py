@@ -5,7 +5,7 @@ data = {
     "key": "7131a90bb91549d1b7a242c187b40516",
     "keyLocation": "https://pokemongammaemeraldgame.com/7131a90bb91549d1b7a242c187b40516.txt",
     "urlList": [
-       "https://pokemongammaemeraldgame.com/golf-hit"
+       "https://pokemongammaemeraldgame.com/stonecraft"
 
     ]
 }
