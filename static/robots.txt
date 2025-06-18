@@ -1,8 +1,6 @@
 User-agent: *
 Allow: /
 
-# 静态资源
-Allow: /static/
 
 # 禁止访问的目录
 Disallow: /api/
